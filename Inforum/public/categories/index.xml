@@ -1,0 +1,111 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>Categories · No Borders, No Limits</title>
+    
+    <link>/categories/</link>
+    <description>Recent content in Categories · No Borders, No Limits</description>
+    
+    <language>en-us</language>
+    
+    
+    <managingEditor>example@example.com</managingEditor>
+    <webMaster>example@example.com</webMaster>
+    
+    
+    <copyright>© Inforum 2023</copyright>
+    
+    
+    <lastBuildDate>Wed, 07 Sep 2022 12:45:03 -0700</lastBuildDate>
+    
+    
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml"/>
+    
+    
+    <item>
+      
+      <title>bluth</title>
+      
+      
+      <link>/categories/bluth/</link>
+      <guid>/categories/bluth/</guid>
+      
+      
+      <pubDate>Wed, 07 Sep 2022 12:45:03 -0700</pubDate>
+      
+      
+      <author>example@example.com</author>
+      
+      
+    </item>
+    
+    <item>
+      
+      <title>ipsum</title>
+      
+      
+      <link>/categories/ipsum/</link>
+      <guid>/categories/ipsum/</guid>
+      
+      
+      <pubDate>Wed, 07 Sep 2022 12:45:03 -0700</pubDate>
+      
+      
+      <author>example@example.com</author>
+      
+      
+    </item>
+    
+    <item>
+      
+      <title>syntax</title>
+      
+      
+      <link>/categories/syntax/</link>
+      <guid>/categories/syntax/</guid>
+      
+      
+      <pubDate>Mon, 11 Mar 2019 00:00:00 -0700</pubDate>
+      
+      
+      <author>example@example.com</author>
+      
+      
+    </item>
+    
+    <item>
+      
+      <title>themes</title>
+      
+      
+      <link>/categories/themes/</link>
+      <guid>/categories/themes/</guid>
+      
+      
+      <pubDate>Mon, 11 Mar 2019 00:00:00 -0700</pubDate>
+      
+      
+      <author>example@example.com</author>
+      
+      
+    </item>
+    
+  </channel>
+</rss>
