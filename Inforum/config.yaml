@@ -1,7 +1,7 @@
 author:
   email: example@example.com
   name: Michael Bluth
-baseurl: https://example.com
+  baseurl: https://inforum2023-ylfd.vercel.app/
 copyright: © Inforum 2023
 languagecode: en-us
 enablerobotstxt: true
