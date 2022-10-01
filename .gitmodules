@@ -1,0 +1,3 @@
+[submodule "Inforum/themes/paige"]
+	path = Inforum/themes/paige
+	url = https://github.com/willfaught/paige.git
