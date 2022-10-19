@@ -16,6 +16,9 @@ import {
 import { useEffect, useReducer, useState } from 'react'
 import { Initial } from './Intro';
 import { Location } from './Location';
+import { People } from './People';
+import { Keynote } from './Keynote';
+import { Dates } from './Dates';
 
 export function Login(this: any, props: any) {
         
@@ -76,7 +79,7 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <Link to="/Interests">            
+                <Link to="/Dates">            
 
                 <button>Datas</button>
 
@@ -100,14 +103,24 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <Link to="/Education">            
+                <Link to="/People">            
 
-                <button> Convidados</button>
+                <button> Pessoas</button>
 
                 </Link>
 
+                <Link to="/Keynote">            
 
+                <button> Keynote</button>
+
+                </Link>
                 
+
+                <Link to="/Keynote">            
+
+                <button> O que fazer no Porto</button>
+
+                </Link>
 
                 </div>
 
@@ -130,6 +143,12 @@ export function Login(this: any, props: any) {
                 <Route path="Publications" element={<Initial />} />
 
                 <Route path="Education" element={<Initial />} />
+
+                <Route path="People" element={<People />} />
+
+                <Route path="Keynote" element={<Keynote />} />
+
+                <Route path="Dates" element={<Dates />} />
 
                 </Routes>
 
