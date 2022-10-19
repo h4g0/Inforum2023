@@ -160,10 +160,20 @@
 
 
 .Timer {
-    font-size: 50px;
-    
+    font-size: 100px;
+
 }
 
+.TimerClock {
+    color: #8B4513;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.TimerClock:hover {
+    color: #8B4513;
+}
 
 .Menu button {
 
@@ -191,6 +201,22 @@
     border-style: hidden;
 }
 
+.Location {
+    color: #8B4513;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    font-family: serif;
+    font-size: 20px;
+
+    border-style: hidden;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.Location h3{
+    margin-top: 20px;
+}
 .Options {
     margin-left: 200px;
 }
