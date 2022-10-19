@@ -1,3 +1,6 @@
+* {
+    font-family: Helvetica;
+  }
 
 .login-div-external {
     border-radius: 25px;
@@ -118,7 +121,6 @@
 
 .Menu  h1 {
     color: burlywood;
-    font-family: serif;
 
 }
 
@@ -138,7 +140,6 @@
     padding-right: 15%;
     padding-left: 15%;
     align-items: center;
-    font-family: serif;
     display: table;
 
 }
@@ -146,14 +147,12 @@
 
 .ButtonContainer a{
     
-    font-family: serif;
     color: burlywood;
 
 }
 
 .ButtonContainer a:hover{
     
-    font-family: serif;
     color: #800000;
 
 }
@@ -177,11 +176,10 @@
 
 .Menu button {
 
-    color: #8B4513;
+    color: white;
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
-    font-family: serif;
     font-size: 20px;
 
     border-style: hidden;
@@ -195,7 +193,6 @@
     margin-left: 20px;
     margin-top: 30px;
     
-    font-family: serif;
     font-size: 20px;
 
     border-style: hidden;
@@ -206,7 +203,6 @@
     margin-left: 20px;
     margin-top: 30px;
     
-    font-family: serif;
     font-size: 20px;
 
     border-style: hidden;
@@ -218,7 +214,6 @@
     color: #8B4513;
     margin-left: 20px;
     margin-top: 30px;
-    font-family: serif;
     font-size: 20px;
     display: flex;
     border-style: hidden;

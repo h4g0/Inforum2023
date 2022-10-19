@@ -97,24 +97,31 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <Link to="/Location">            
-
-                <button>Localização</button>
-
-                </Link>
 
                 <Link to="/People">            
 
-                <button> Pessoas</button>
+                <button>Pessoas</button>
 
                 </Link>
 
                 <Link to="/Keynote">            
 
-                <button> Keynote</button>
+                <button>Keynote</button>
+
+                </Link>
+
+                
+                <Link to="/Location">            
+
+                <button>Como chegar</button>
 
                 </Link>
                 
+                <Link to="/Keynote">            
+
+                <button>Alojamento</button>
+
+                </Link>
 
                 <Link to="/Keynote">            
 
@@ -124,9 +131,6 @@ export function Login(this: any, props: any) {
 
                 </div>
 
-
-         
-             
 
                 </div>
 
