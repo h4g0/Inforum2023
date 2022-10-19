@@ -20,7 +20,7 @@ function Timer(props: any) {
                 return <>
                     <div className="Timer">
                 
-                            <p><a className='TimerClock'>{days}</a> : <a className='TimerClock'>{hours}</a> : <a className='TimerClock'>{minutes}</a>  : <a className='TimerClock'>{seconds}</a> </p>
+                            <p><a className='TimerClock'>{days} dias</a>: <a className='TimerClock'>{hours} horas</a>: <a className='TimerClock'>{minutes} minutos</a>: <a className='TimerClock'>{seconds} segundos</a></p>
                     </div>
                 
                 </>
