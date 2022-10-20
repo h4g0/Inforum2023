@@ -332,7 +332,7 @@
     border-style: none;
     border-width: 2px;
     width: 1000px;
-    background-color: lightgreen;
+    background-color: rgb(239, 237, 245);
     margin-bottom: 5px;
 }
 
@@ -389,6 +389,10 @@
 
 .agora{
     color: gold;
+}
+
+.dentro{
+    color: silver;
 }
 
 .RegistrationTable{
