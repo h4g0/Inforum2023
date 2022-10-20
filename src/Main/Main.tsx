@@ -22,6 +22,7 @@ import { Dates } from './Dates';
 import { Accommodation } from './Accommodation';
 import { Previous } from './Previous';
 import { Program } from './Program';
+import { Registration } from './Registration';
 
 const inforumTime = '20 Sep 2023 00:00:00 GMT'
 
@@ -90,7 +91,7 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <Link to="/Publications">            
+                <Link to="/Registration">            
 
                 <button>Inscrições</button>
 
@@ -167,6 +168,8 @@ export function Login(this: any, props: any) {
                 <Route path="Accommodation" element={<Accommodation />} />
 
                 <Route path="Previous" element={<Previous />} />
+
+                <Route path="Registration" element={<Registration/>}/>
 
                 </Routes>
 

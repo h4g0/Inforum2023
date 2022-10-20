@@ -295,6 +295,14 @@
     margin-top: 20px;
 }
 
+.Person {
+    display: flex;
+    font-size: medium;
+}
+
+.Person img{
+    margin-right: 50px;
+}
 .ImportantDates {
     margin-left: 100px;
     display: inline;
@@ -313,4 +321,100 @@
 
 .Menu button:hover {
     color: #800000	;
+}
+
+.day {
+    background-color: rgb(28, 28, 218);
+    width: 1000px;
+}
+
+.now{
+    border-style: none;
+    border-width: 2px;
+    width: 1000px;
+    background-color: lightgreen;
+    margin-bottom: 5px;
+}
+
+.now p{
+    margin-left: 20px;
+}
+
+.past{
+    border-style: none;
+    width: 1000px;
+    background-color: lightgray;
+    border-width: 2px;
+    margin-bottom: 5px;
+}
+
+.past p{
+    margin-left: 20px;
+}
+
+.future{
+    border-style: none;
+    width: 1000px;
+    border-width: 2px;
+    background-color: white;
+    margin-bottom: 5px;
+
+}
+
+.future p{
+    margin-left: 20px;
+}
+
+
+.itemInfo {
+    background-color: #0c4fed;
+    display: flex;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.itemInfo p{
+    display: flex;
+    margin-bottom: 0px;
+}
+
+
+.itemAbstract{
+    font-size: small;
+}
+
+.itemAuthor{
+    color: lightgray;
+}
+
+.agora{
+    color: gold;
+}
+
+.RegistrationTable{
+    border-style: solid;
+    border-color: white;
+}
+
+.RegistrationTable th{
+    background-color: #0c4fed;
+    color: white;
+    padding: 10px;
+    border: 2px solid white;
+
+    padding-bottom: 20px;
+}
+
+.RegistrationTable td{
+    border: 2px solid #8B4513;
+    background-color: lavender;
+    padding: 10px;
+}
+
+.ProgramDay{
+    border-style: none;
+    border-top: solid;
+    margin-bottom: 40px;
+    margin-top: 40px;
+
 }
