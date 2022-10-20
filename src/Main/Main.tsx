@@ -19,6 +19,11 @@ import { Location } from './Location';
 import { People } from './People';
 import { Keynote } from './Keynote';
 import { Dates } from './Dates';
+import { Accommodation } from './Accommodation';
+import { Previous } from './Previous';
+import { Program } from './Program';
+
+const inforumTime = '20 Sep 2023 00:00:00 GMT'
 
 export function Login(this: any, props: any) {
         
@@ -73,7 +78,7 @@ export function Login(this: any, props: any) {
                 <div className="Options">
 
 
-                <Link to="/Bio">            
+                <Link to="/Program">            
 
                 <button>Programa</button>
 
@@ -91,11 +96,11 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <Link to="/Education">            
-
+                <a href="https://inforum.org.pt/sites/default/files/2022-09/Actas_INForum.pdf">
                 <button>Atas Inforum</button>
+                </a>
 
-                </Link>
+
 
 
                 <Link to="/People">            
@@ -110,6 +115,12 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
+                <Link to="/Previous">            
+
+                <button>Versões anteriores</button>
+
+                </Link>
+
                 
                 <Link to="/Location">            
 
@@ -117,7 +128,7 @@ export function Login(this: any, props: any) {
 
                 </Link>
                 
-                <Link to="/Keynote">            
+                <Link to="/Accommodation">            
 
                 <button>Alojamento</button>
 
@@ -128,7 +139,7 @@ export function Login(this: any, props: any) {
                 <button> O que fazer no Porto</button>
 
                 </Link>
-
+            
                 </div>
 
 
@@ -137,22 +148,25 @@ export function Login(this: any, props: any) {
                 <Routes>        
 
             
-                <Route path="/" element={<Initial />} />
+                <Route path="/" element={<Initial time={inforumTime} />} />
 
-                <Route path="Bio" element={<Initial />} />
+                <Route path="Program" element={<Program />} />
 
                 <Route path="Location" element={<Location />} />
 
+                <Route path="Publications" element={<Initial time={inforumTime}/>} />
 
-                <Route path="Publications" element={<Initial />} />
-
-                <Route path="Education" element={<Initial />} />
+                <Route path="Education" element={<Initial time={inforumTime} />} />
 
                 <Route path="People" element={<People />} />
 
                 <Route path="Keynote" element={<Keynote />} />
 
                 <Route path="Dates" element={<Dates />} />
+
+                <Route path="Accommodation" element={<Accommodation />} />
+
+                <Route path="Previous" element={<Previous />} />
 
                 </Routes>
 

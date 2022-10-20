@@ -106,7 +106,9 @@
     cursor: pointer;
 }
 
-
+.Patreons {
+    margin-right: 50px;
+}
 
 .Menu {
     display: flex;
@@ -204,11 +206,27 @@
     margin-top: 30px;
     
     font-size: 20px;
+    display: flex;
 
     border-style: hidden;
     margin-right: 100px;
     margin-left: 20px;
 }
+
+
+.Keynote {
+    color: #8B4513;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    font-size: 20px;
+    display: flex;
+
+    border-style: hidden;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
 
 .Dates {
     color: #8B4513;
@@ -221,8 +239,69 @@
     margin-left: 20px;
 }
 
+.Previous {
+    color: #8B4513;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    border-style: hidden;
+    margin-right: 100px;
+    margin-left: 20px; 
+}
+
+.Program {
+    color: #8B4513;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    border-style: hidden;
+    margin-right: 100px;
+    margin-left: 20px; 
+}
+
+.Previous a {
+    color: #8B4513;
+
+}
+
+.Previous a:hover {
+    color: #800000;  
+}
+
+.Accommodation {
+    color: #8B4513;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    display: flex;
+    border-style: hidden;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.Accommodation a{
+    color: #8B4513;
+
+}
+
+.Accommodation a:hover{
+    color: #800000;
+
+}
+
+.Accommodation h3 {
+    margin-top: 20px;
+}
+
 .ImportantDates {
     margin-left: 100px;
+    display: inline;
+}
+
+.ImportantDates h2 {
+    margin-bottom: 20px;
 }
 
 .Location h3{

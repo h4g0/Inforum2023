@@ -1,25 +1,25 @@
 import './Main.css'
+import { Patreons } from './Patreons'
 
 export function Keynote(props: any){
-    return <><div className="Location">
+    return <><div className="Keynote">
         
+        <div>
+            <Patreons></Patreons>
+        </div>
+        <div>
         <h2>
         First keynote
         </h2>
 
-        <div>
 
             <p>Bio</p>
-        </div>
         <h2>
         Second keynote
         </h2>
-
-
-        <div>
-
             <p>Bio</p>
-        </div>
+       
+       </div>
         </div>
         </>
 

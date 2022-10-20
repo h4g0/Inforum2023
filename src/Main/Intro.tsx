@@ -1,7 +1,8 @@
 import './Main.css'
      
 function Timer(props: any) {
-                const inforumDate = Date.parse('20 Sep 2023 00:00:00 GMT')
+
+                const inforumDate = Date.parse(props.time)
                 const now = ( new Date() ).getTime()
 
                 const oneDay = 1000*60*60*24
@@ -34,7 +35,7 @@ export function Initial(props: any) {
         <h2>FEUP - Faculdade de Engenharia da Universidade do Porto</h2>
         <p>Consulte o programa do Inforum 2023</p>
         <p>O INForum começa em</p>
-        <Timer></Timer>
+        <Timer time={props.time}></Timer>
         </div>
         </>
 }

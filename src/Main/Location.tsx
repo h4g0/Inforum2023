@@ -1,10 +1,17 @@
 import './Main.css'
 import satelite from "./../ComoChegar2.png"
 import metro from "./../mapa-metro-oporto.png"
+import { Patreons } from './Patreons'
 
 export function Location(props: any) {
     return <><div className="Location">
-        
+
+    <div>
+        <Patreons></Patreons>
+    </div>
+    
+      <div>
+
         <p>A maioria de informação nesta pagina foi retirada do website da <a href="https://sigarra.up.pt/feup/pt/web_base.gera_pagina?p_pagina=*localiza%c3%a7%c3%a3o#:~:text=A%20FEUP%20%C3%A9%20servida%20por,)%20e%20C%20(verde).">FEUP</a>.</p>
         <h2>Como chegar a FEUP</h2>
         
@@ -46,8 +53,11 @@ De forma a escolher qual o autocarro que se adequa melhor ao seu percurso, visit
 
         <h3>De avião (Aeroporto Sá Carneiro)</h3>
         <p>A maneira mais rápida de chegar à FEUP, caso não tenha veículo próprio à espera ou não pretenda ir de táxi, é apanhar o metro, linha E (roxa). Deverá efetuar transbordo na estação da Trindade e apanhar a linha D (amarela). Depois, deverá seguir as indicações dadas na opção “De Metro”.</p>
-        </div>
+       
+    </div>  
 
+    </div>
+    	
     </>
     }
     
