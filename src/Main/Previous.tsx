@@ -10,7 +10,7 @@ export function Previous(props: any){
            <Patreons></Patreons>
             </div>
             <div>
-                <h2>Versões anteriores do INForum:</h2>
+                <h2>Edições anteriores do INForum:</h2>
 
                 <ul>
 

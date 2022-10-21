@@ -81,7 +81,7 @@ export function Login(this: any, props: any) {
 
                 <Link to="/Program">            
 
-                <button>Programa</button>
+                {/*<button>Programa</button>*/}
 
                 </Link>
 
@@ -93,32 +93,32 @@ export function Login(this: any, props: any) {
 
                 <Link to="/Registration">            
 
-                <button>Inscrições</button>
+               {/*<button>Inscrições</button>*/}
 
                 </Link>
 
-                <a href="https://inforum.org.pt/sites/default/files/2022-09/Actas_INForum.pdf">
+                {/*<a target="_blank" rel="noopener noreferrer" href="https://inforum.org.pt/sites/default/files/2022-09/Actas_INForum.pdf">
                 <button>Atas Inforum</button>
-                </a>
+                </a>*/}
 
 
 
 
                 <Link to="/People">            
 
-                <button>Pessoas</button>
+                <button>Organização</button>
 
                 </Link>
 
                 <Link to="/Keynote">            
 
-                <button>Keynote</button>
+                {/*<button>Keynote</button>*/}
 
                 </Link>
 
                 <Link to="/Previous">            
 
-                <button>Versões anteriores</button>
+                <button>Edições anteriores</button>
 
                 </Link>
 

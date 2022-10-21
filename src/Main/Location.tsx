@@ -12,7 +12,6 @@ export function Location(props: any) {
     
       <div>
 
-        <p>A maioria de informação nesta pagina foi retirada do website da <a href="https://sigarra.up.pt/feup/pt/web_base.gera_pagina?p_pagina=*localiza%c3%a7%c3%a3o#:~:text=A%20FEUP%20%C3%A9%20servida%20por,)%20e%20C%20(verde).">FEUP</a>.</p>
         <h2>Como chegar a FEUP</h2>
         
         <p>A FEUP localiza-se em Portugal, no limite norte da cidade do Porto, perto da Estrada da Circunvalação (EN12) e junto ao Hospital de São João.</p>

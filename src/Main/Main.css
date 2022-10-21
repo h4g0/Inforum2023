@@ -214,6 +214,29 @@
 }
 
 
+.People {
+    color: #8B4513;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+    font-size: 20px;
+    display: flex;
+
+    border-style: hidden;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.People h2{
+    margin-top: 40px;
+    border-top: solid;
+}
+
+
+.People h4{
+    margin-top: 20px;
+}
+
 .Keynote {
     color: #8B4513;
     margin-left: 20px;

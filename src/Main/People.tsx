@@ -3,6 +3,10 @@ import { Patreons } from './Patreons'
 import hugo from "./../hugo.jpg"
 import lazaro from "./../lazaro.jpg"
 import jacome from "./../jacome.jpg"
+import jas from "./../jas.jpg"
+import jpf from "./../jpf.png"
+import jl from "./../jl.jpg"
+import lv from "./../lv.png"
 
 function Person(props: any){
     
@@ -10,15 +14,19 @@ function Person(props: any){
         <div >
             <h4>{props.name}</h4>
             <div className="Person">
-            <img width="150" height="100"src={props.picture}></img>
-            <p>{props.description}</p>
+            <img width="120" height="100"src={props.picture}></img>
+            <div>
+            <p><b>Afiliação:</b> {props.afiliation}</p>
+            <p><a target="_blank" rel="noopener noreferrer" href={props.page}>{props.page}</a></p>
+
+            </div>
             </div>
         </div>
     </>
 }
 
 export function People(props: any){
-    return <><div className="Location">
+    return <><div className="People">
         
         <div>
             <Patreons></Patreons>
@@ -26,21 +34,20 @@ export function People(props: any){
 
         <div>
         <h2>
-        Program committee:
+        Organização Local:
                 </h2>
 
-        <Person name="Jácome Cunha" picture={jacome} description="Currently, I'm an Associate Professor at the Faculty of Engineering at University of Porto and an integrated member of the research center HASLab/INESC TEC.
+        <Person name="Jácome Cunha" picture={jacome} afiliation="FEUP & HASLab/INESC TEC" page="https://web.fe.up.pt/~jacome/"></Person>
+        <Person name="João Paulo Fernandes" picture={jpf} afiliation="University of Coimbra & HASLab/INESC TEC" page="https://alfa.di.uminho.pt/~jpaulo/Site/Home.html"></Person>
+        <Person name="João Saraiva" picture={jas} afiliation="University of Minho & HASLab/INESC TEC" page="https://haslab.uminho.pt/jas/"></Person>
 
-My research is mainly focused on aiding end users being more effective and efficient when developing their software systems. In particular, I've made several contributions to improve the effectiveness and efficiency of spreadsheet users/developers. More recently I've also worked on improving software energy consumption through the analysis and transformation of its source code. Currently I'm focused on making data science more accessible for (end) users. Moreover, I'm also studying how to improve the development of software applications based on the microservices architectural style.
-I obtained my PhD degree in Computer Science from the University of Minho in 2011. Afterward, I was a postdoctoral fellow jointly at University of Minho and Oregon State University, and was also an Invited Professor at School of Management and Technology of Polytechnic Institute of Porto, Assistant Professor at NOVA University of Lisbon and Assistant Professor at University of Minho."></Person>
-        <h2>Webshares:</h2>
-        <Person name="Hugo da Gião" picture={hugo} description='Hi, my name is Hugo da Gião, I am currently doing research at the intersection of DevOps and Model-driven engineering, and i am a researcher at HASLab/INESC TEC. I am also a Ph.D. student in Informatics Engineering at FEUP working on a thesis titled "A Model-driven approach to DevOps" whose end goal is to research methodologies and tools that would allow developers to create different DevOps pipelines without resorting to the use of specific tools. I also did research in the field of visual languages where I worked on creating a visual language to allow non-technical users to solve optimization problems.'></Person>
-        <Person name="Lazaro Costa" picture={lazaro} description='
-I have completed my Master’s degree in Informatics Engineering in 2019 at Faculty of Engineering at University of Porto (FEUP). During my Masters degree, I developed a plugin for the Dendro Platform improving the data management, share and reuse of research data.
+        <h2>Comissão de programa</h2>
+        <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA Laboratory for Computer Science and Informatics"  page="https://alfa.di.uminho.pt/~jpaulo/Site/Home.html"></Person>
+        <Person name="Luís Antunes Veiga" picture={lv} afiliation="IST & INESC ID Lisboa" page="https://www.gsd.inesc-id.pt/~lveiga/"></Person>
 
-Since then I have conducted research related to storage, share, reproducibility, and data representation. During the following two years, I was part of the research team of the “EPISA - Entity and Property Inference for Semantic Archives” (DSAIPA/DS/0023/2018) project, where I was responsible for implementing the representations of the digital archives of the “Torre do Tombo”. Since 2019 I am also an Invited Assistant Professor at FEUP teaching courses on databases and compiler construction.
-
-Currently, I am a PhD student at the Faculty of Engineering at University of Porto and a member of the research center HASLab/INESC TEC. The goal of my PhD is to improve reproducibility, reusability and collaboration in the research domain.'></Person>
+        <h2>Divulgação e Web</h2>
+        <Person name="Hugo da Gião" picture={hugo} afiliation="FEUP & HASLab/INESC TEC" page="https://h4g0.vercel.app/"></Person>
+        <Person name="Lazaro Costa" picture={lazaro} afiliation="FEUP & HASLab/INESC TEC" page="https://lazarocosta.github.io/"></Person>
         </div>
 
        
