@@ -38,11 +38,11 @@ export function People(props: any){
                 </h2>
 
         <Person name="Jácome Cunha" picture={jacome} afiliation="FEUP & HASLab/INESC TEC" page="https://web.fe.up.pt/~jacome/"></Person>
-        <Person name="João Paulo Fernandes" picture={jpf} afiliation="University of Coimbra & HASLab/INESC TEC" page="https://alfa.di.uminho.pt/~jpaulo/Site/Home.html"></Person>
+        <Person name="João Paulo Fernandes" picture={jpf} afiliation="FEUP & LIACC" page="https://web.fe.up.pt/~jpaulo/Site/Home.html"></Person>
         <Person name="João Saraiva" picture={jas} afiliation="University of Minho & HASLab/INESC TEC" page="https://haslab.uminho.pt/jas/"></Person>
 
         <h2>Comissão de programa</h2>
-        <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA Laboratory for Computer Science and Informatics"  page="https://alfa.di.uminho.pt/~jpaulo/Site/Home.html"></Person>
+        <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA Laboratory for Computer Science and Informatics"  page="https://asc.di.fct.unl.pt/~jleitao/"></Person>
         <Person name="Luís Antunes Veiga" picture={lv} afiliation="IST & INESC ID Lisboa" page="https://www.gsd.inesc-id.pt/~lveiga/"></Person>
 
         <h2>Divulgação e Web</h2>
