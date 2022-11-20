@@ -107,10 +107,15 @@
 }
 
 .Patreons {
-    margin-right: 50px;
+    margin-right: 0px;
 }
 
 .Menu {
+
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    height: 90px;
     display: flex;
     justify-content: left;
     width: 100%;
@@ -340,9 +345,11 @@
 
 .Person img{
     margin-right: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
 .ImportantDates {
-    margin-left: 100px;
+    margin-left: 0px;
     display: inline;
 }
 
