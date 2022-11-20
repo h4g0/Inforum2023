@@ -87,7 +87,7 @@ export function Login(this: any, props: any) {
 
                 <Link to="/Dates">            
 
-                <button>Datas</button>
+                <button>Chamadas</button>
 
                 </Link>
 
@@ -116,11 +116,7 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <Link to="/Previous">            
-
-                <button>Edições anteriores</button>
-
-                </Link>
+                
 
                 
                 <Link to="/Location">            
@@ -135,9 +131,17 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
+                {/* 
                 <Link to="/Keynote">            
 
                 <button> O que fazer no Porto</button>
+
+                </Link>
+                */}
+
+                <Link to="/Previous">            
+
+                <button>Edições Anteriores</button>
 
                 </Link>
             
