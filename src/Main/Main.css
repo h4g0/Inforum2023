@@ -2,6 +2,10 @@
     font-family: Helvetica;
   }
 
+p{
+    text-align: justify;
+}
+
 .login-div-external {
     border-radius: 25px;
     position: absolute;
@@ -168,8 +172,6 @@
 .TimerClock {
     color: #2f4f4f;
     text-decoration: none;
-    border-style: solid;
-    border-width: 2.5px;
 }
 
 .TimerClock:hover {
@@ -210,7 +212,8 @@
 .Intro {
     text-align: center;
     color: #2f4f4f;
-    margin-left: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 30px;
     font-size: 20px;
     border-style: hidden;
@@ -220,29 +223,27 @@
 
 .Location {
     color: #2f4f4f;
-    margin-left: 20px;
     margin-top: 30px;
     
     font-size: 20px;
     display: flex;
 
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px;
 }
 
 
 .People {
     color: #2f4f4f;
-    margin-left: 20px;
     margin-top: 30px;
     
     font-size: 20px;
     display: flex;
 
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px;
 }
 
 .People h2{
@@ -257,7 +258,6 @@
 
 .Keynote {
     color: #2f4f4f;
-    margin-left: 20px;
     margin-top: 30px;
     
     font-size: 20px;
@@ -265,41 +265,39 @@
 
     border-style: hidden;
     margin-right: 100px;
-    margin-left: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
 .Dates {
     color: #2f4f4f;
-    margin-left: 20px;
     margin-top: 30px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px;
 }
 
 .Previous {
     color: #2f4f4f;
-    margin-left: 20px;
     margin-top: 30px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px; 
 }
 
 .Program {
     color: #2f4f4f;
-    margin-left: 20px;
     margin-top: 30px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px; 
 }
 
 .Previous a {
