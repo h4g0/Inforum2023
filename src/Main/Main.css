@@ -2,6 +2,10 @@
     font-family: Helvetica;
   }
 
+p{
+    text-align: justify;
+}
+
 .login-div-external {
     border-radius: 25px;
     position: absolute;
@@ -120,7 +124,7 @@
     justify-content: left;
     width: 100%;
     align-items: left;
-    background-color: #0c4fed;
+    background-color: #898989;
     
 }
 
@@ -160,7 +164,7 @@
 
 .ButtonContainer a:hover{
     
-    color: #800000;
+    color: #2f4f4f;
 
 }
 
@@ -171,26 +175,24 @@
 }
 
 .TimerClock {
-    color: #8B4513;
+    color: #2f4f4f;
     text-decoration: none;
-    border-style: solid;
-    border-width: 2.5px;
 }
 
 .TimerClock:hover {
-    color: #8B4513;
+    color: #2f4f4f;
 }
 
 .Menu button {
 
     color: white;
     margin-left: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 18px;
 
     border-style: hidden;
-    background-color: #0c4fed;
+    background-color: #898989;
 }
 
 
@@ -200,19 +202,23 @@
     margin-left: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 18px;
 
     border-style: hidden;
     background-color: white;
     border-radius: 5px;
+
+    color: #2f4f4f	;
+    
 }
 
 
 
 .Intro {
     text-align: center;
-    color: #8B4513;
-    margin-left: 40px;
+    color: #2f4f4f;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-top: 30px;
     font-size: 20px;
     border-style: hidden;
@@ -221,30 +227,28 @@
 
 
 .Location {
-    color: #8B4513;
-    margin-left: 20px;
+    color: #2f4f4f;
     margin-top: 30px;
     
     font-size: 20px;
     display: flex;
 
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px;
 }
 
 
 .People {
-    color: #8B4513;
-    margin-left: 20px;
+    color: #2f4f4f;
     margin-top: 30px;
     
     font-size: 20px;
     display: flex;
 
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px;
 }
 
 .People h2{
@@ -258,8 +262,7 @@
 }
 
 .Keynote {
-    color: #8B4513;
-    margin-left: 20px;
+    color: #2f4f4f;
     margin-top: 30px;
     
     font-size: 20px;
@@ -267,54 +270,52 @@
 
     border-style: hidden;
     margin-right: 100px;
-    margin-left: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 
 .Dates {
-    color: #8B4513;
-    margin-left: 20px;
+    color: #2f4f4f;
     margin-top: 30px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px;
 }
 
 .Previous {
-    color: #8B4513;
-    margin-left: 20px;
+    color: #2f4f4f;
     margin-top: 30px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px; 
 }
 
 .Program {
-    color: #8B4513;
-    margin-left: 20px;
+    color: #2f4f4f;
     margin-top: 30px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
+    margin-left: 100px;
     margin-right: 100px;
-    margin-left: 20px; 
 }
 
 .Previous a {
-    color: #8B4513;
+    color: #2f4f4f;
 
 }
 
 .Previous a:hover {
-    color: #800000;  
+    color: #2f4f4f;  
 }
 
 .Accommodation {
-    color: #8B4513;
+    color: #2f4f4f;
     margin-left: 20px;
     margin-top: 30px;
     font-size: 20px;
@@ -325,12 +326,12 @@
 }
 
 .Accommodation a{
-    color: #8B4513;
+    color: #2f4f4f;
 
 }
 
 .Accommodation a:hover{
-    color: #800000;
+    color: #2f4f4f;
 
 }
 
@@ -364,9 +365,6 @@
     margin-left: 50px;
 }
 
-.Menu button:hover {
-    color: #800000	;
-}
 
 .day {
     background-color: rgb(28, 28, 218);
@@ -455,7 +453,7 @@
 }
 
 .RegistrationTable td{
-    border: 2px solid #8B4513;
+    border: 2px solid #2f4f4f;
     background-color: lavender;
     padding: 10px;
 }

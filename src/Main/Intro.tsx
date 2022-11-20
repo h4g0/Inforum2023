@@ -21,7 +21,7 @@ function Timer(props: any) {
                 return <>
                     <div className="Timer">
                 
-                            <p><a className='TimerClock'>{days} dias</a>: <a className='TimerClock'>{hours} horas</a>: <a className='TimerClock'>{minutes} minutos</a>: <a className='TimerClock'>{seconds} segundos</a></p>
+                            <p><a className='TimerClock'>{days} dias</a> : <a className='TimerClock'>{hours} horas</a> : <a className='TimerClock'>{minutes} minutos</a> : <a className='TimerClock'>{seconds} segundos</a></p>
                     </div>
                 
                 </>
@@ -40,7 +40,7 @@ export function Initial(props: any) {
 </p>
 <p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto. Contamos com a presença de todos!
 </p>
-        <p>Consulte o programa do Inforum 2023</p>
+
         <p>O INForum começa em:</p>
         <Timer time={props.time}></Timer>
         </div>
