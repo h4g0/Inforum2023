@@ -16,7 +16,7 @@ function Person(props: any){
             <div className="Person">
             <img className="PersonImage" width="100" height="100" src={props.picture}></img>
             <div>
-            <p><b>Afiliação:</b> {props.afiliation}</p>
+            <p>{props.afiliation}</p>
             <p><a target="_blank" rel="noopener noreferrer" href={props.page}>Homepage</a></p>
 
             </div>
@@ -37,17 +37,17 @@ export function People(props: any){
         Organização Local:
                 </h2>
 
-        <Person name="Jácome Cunha" picture={jacome} afiliation="FEUP & HASLab/INESC TEC" page="https://web.fe.up.pt/~jacome/"></Person>
-        <Person name="João Paulo Fernandes" picture={jpf} afiliation="FEUP & LIACC" page="https://web.fe.up.pt/~jpaulo/Site/Home.html"></Person>
+        <Person name="Jácome Cunha" picture={jacome} afiliation="Faculty of Engineering at University of Porto & HASLab/INESC TEC" page="https://web.fe.up.pt/~jacome/"></Person>
+        <Person name="João Paulo Fernandes" picture={jpf} afiliation="Faculty of Engineering at University of Porto & LIACC" page="https://web.fe.up.pt/~jpaulo/Site/Home.html"></Person>
         <Person name="João Saraiva" picture={jas} afiliation="University of Minho & HASLab/INESC TEC" page="https://haslab.uminho.pt/jas/"></Person>
 
         <h2>Comissão de programa</h2>
-        <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA Laboratory for Computer Science and Informatics"  page="https://asc.di.fct.unl.pt/~jleitao/"></Person>
-        <Person name="Luís Antunes Veiga" picture={lv} afiliation="IST & INESC ID Lisboa" page="https://www.gsd.inesc-id.pt/~lveiga/"></Person>
+        <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA LINCS"  page="https://asc.di.fct.unl.pt/~jleitao/"></Person>
+        <Person name="Luís Antunes Veiga" picture={lv} afiliation="Instituto Superior Técnico & INESC ID Lisboa" page="https://www.gsd.inesc-id.pt/~lveiga/"></Person>
 
         <h2>Divulgação e Web</h2>
-        <Person name="Hugo da Gião" picture={hugo} afiliation="FEUP & HASLab/INESC TEC" page="https://h4g0.vercel.app/"></Person>
-        <Person name="Lazaro Costa" picture={lazaro} afiliation="FEUP & HASLab/INESC TEC" page="https://lazarocosta.github.io/"></Person>
+        <Person name="Hugo da Gião" picture={hugo} afiliation="Faculty of Engineering at University of Porto & HASLab/INESC TEC" page="https://h4g0.vercel.app/"></Person>
+        <Person name="Lazaro Costa" picture={lazaro} afiliation="Faculty of Engineering at University of Porto & HASLab/INESC TEC" page="https://lazarocosta.github.io/"></Person>
         </div>
 
        

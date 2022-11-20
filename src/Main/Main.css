@@ -219,7 +219,7 @@ p{
     color: #2f4f4f;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 30px;
+    margin-top: 100px;
     font-size: 20px;
     border-style: hidden;
     text-align: left;
@@ -228,7 +228,7 @@ p{
 
 .Location {
     color: #2f4f4f;
-    margin-top: 30px;
+    margin-top: 100px;
     
     font-size: 20px;
     display: flex;
@@ -241,7 +241,7 @@ p{
 
 .People {
     color: #2f4f4f;
-    margin-top: 30px;
+    margin-top: 70px;
     
     font-size: 20px;
     display: flex;
@@ -263,7 +263,7 @@ p{
 
 .Keynote {
     color: #2f4f4f;
-    margin-top: 30px;
+    margin-top: 100px;
     
     font-size: 20px;
     display: flex;
@@ -277,7 +277,7 @@ p{
 
 .Dates {
     color: #2f4f4f;
-    margin-top: 30px;
+    margin-top: 100px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
@@ -287,7 +287,7 @@ p{
 
 .Previous {
     color: #2f4f4f;
-    margin-top: 30px;
+    margin-top: 100px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
@@ -297,7 +297,7 @@ p{
 
 .Program {
     color: #2f4f4f;
-    margin-top: 30px;
+    margin-top: 100px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
@@ -316,13 +316,12 @@ p{
 
 .Accommodation {
     color: #2f4f4f;
-    margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 100px;
     font-size: 20px;
     display: flex;
     border-style: hidden;
     margin-right: 100px;
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 .Accommodation a{
