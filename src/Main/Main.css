@@ -223,6 +223,7 @@ p{
     font-size: 20px;
     border-style: hidden;
     text-align: left;
+    margin-bottom: 50px;
 }
 
 
@@ -249,6 +250,7 @@ p{
     border-style: hidden;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 
 .People h2{
@@ -272,6 +274,7 @@ p{
     margin-right: 100px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 
 
@@ -283,6 +286,7 @@ p{
     border-style: hidden;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 
 .Previous {
@@ -293,6 +297,7 @@ p{
     border-style: hidden;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 
 .Program {
@@ -303,6 +308,7 @@ p{
     border-style: hidden;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 50px;
 }
 
 .Previous a {
@@ -322,6 +328,7 @@ p{
     border-style: hidden;
     margin-right: 100px;
     margin-left: 100px;
+    margin-bottom: 50px;
 }
 
 .Accommodation a{
@@ -463,4 +470,15 @@ p{
     margin-bottom: 40px;
     margin-top: 40px;
 
+}
+
+.footer {
+    position: fixed;
+    bottom: 0px;
+    height: 15px;
+    justify-content: left;
+    width: 100%;
+    align-items: left;
+    background-color: #0c4fed;
+    
 }

@@ -26,6 +26,10 @@ import { Registration } from './Registration';
 
 const inforumTime = '20 Sep 2023 00:00:00 GMT'
 
+function Footer(props: any) {
+    return <div className='footer'></div>
+}
+
 export function Login(this: any, props: any) {
         
     let id  = useParams()
@@ -146,6 +150,8 @@ export function Login(this: any, props: any) {
                 </Link>
             
                 </div>
+
+                <Footer/>
 
 
                 </div>
