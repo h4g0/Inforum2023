@@ -14,10 +14,10 @@ function Person(props: any){
         <div >
             <h4>{props.name}</h4>
             <div className="Person">
-            <img width="120" height="100"src={props.picture}></img>
+            <img className="PersonImage" width="100" height="100" src={props.picture}></img>
             <div>
             <p><b>Afiliação:</b> {props.afiliation}</p>
-            <p><a target="_blank" rel="noopener noreferrer" href={props.page}>{props.page}</a></p>
+            <p><a target="_blank" rel="noopener noreferrer" href={props.page}>Homepage</a></p>
 
             </div>
             </div>
