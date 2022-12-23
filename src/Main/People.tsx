@@ -55,4 +55,68 @@ export function People(props: any){
         </div>
         </>
 
+        {/* 
+
+IV. ORGANIZAÇÃO
+
+
+Presidência da Comissão de Programa:
+
+     João Leitão, U. Nova de Lisboa
+
+     Luís Veiga, U. Lisboa
+
+
+Comissão Organizadora:
+
+     Lázaro Costa, U. Porto
+
+     Jácome Cunha (Presidente), U. Porto
+
+     João Pascoal Faria, U. Porto
+
+     João Paulo Fernandes, U. Porto
+
+     Hugo da Gião, U. Porto
+
+     Rui Maranhão, U. Porto
+
+     João Saraiva, U. Minho
+
+
+Comissão Coordenadora:
+
+    Ana Paula Afonso, U. Lisboa
+
+    António Teixeira, U. Aveiro
+
+    Bruno Cabral, U. Coimbra
+
+    Francisco Martins, U. Açores
+
+    Henrique Santos, U. Minho
+
+    Irene Rodrigues, U. Évora
+
+    Jácome Cunha, U. Porto
+
+    João Leitão, U. Nova Lisboa
+
+    João Lourenço, U. Nova Lisboa
+
+    José Fonseca, IPG
+
+    Lúcio Ferrão, OutSystems (Presidente)
+
+    Luís Veiga, U. Lisboa
+
+    Mário Freire, U. Beira Interior
+
+    Matilde Pato, ISEL
+
+    Noélia Correia, U. Algarve
+
+    Nuno Antunes, U. Coimbra
+ */}
+
 }
