@@ -38,7 +38,7 @@ export function Initial(props: any) {
 </p>
 <p>O INForum é organizado em sessões temáticas sobre tópicos propostos pela comunidade e selecionados pela organização. Os tópicos têm comissões de programa (CP) próprias, que se articulam com os Presidentes da Comissão de Programa nos processos de organização das sessões (apelo a submissões, revisão e seleção de artigos, publicação de atas, etc.) de forma a tirar partido de uma única infraestrutura de suporte e garantir a coerência do evento.
 </p>
-<p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto. Contamos com a presença de todos!
+<p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto nos dias 7 e 8 de setembro. Contamos com a presença de todos!
 </p>
 
         <p>O INForum começa em:</p>
