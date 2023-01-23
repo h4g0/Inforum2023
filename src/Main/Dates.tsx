@@ -187,28 +187,28 @@ de atração de submissões.
 
 
 <ul>
-   <li> 27 jan receção de propostas para tópicos (online)</li>
+   <li> 27/jan receção de propostas para tópicos (online)</li>
 
-   <li>10 fev notificação aos proponentes de tópicos</li>
+   <li>10/fev notificação aos proponentes de tópicos</li>
 
-   <li>24 fev receção de propostas finais (com CPT final)</li>
-
-
-   <li>26 mai submissão de resumos de artigos</li>
-
-   <li>    02 jun submissão de artigos</li>
-
-   <li>30 jun notificação aos autores dos artigos</li>
+   <li>24/fev receção de propostas finais (com CPT final)</li>
 
 
-   <li>07 jul submissão de comunicações, pósteres e demonstrações</li>
+   <li>26/mai submissão de resumos de artigos</li>
 
-   <li>14 jul submissão de artigos camera-ready</li>
+   <li>    2/jun submissão de artigos</li>
 
-   <li>14 jul notificação aos autores das comunicações, pósteres e demonstrações</li>
+   <li>30/jun notificação aos autores dos artigos</li>
 
 
-   <li>08-09 set Evento no Porto</li>
+   <li>7/jul submissão de comunicações, pósteres e demonstrações</li>
+
+   <li>14/jul submissão de artigos camera-ready</li>
+
+   <li>14/jul notificação aos autores das comunicações, pósteres e demonstrações</li>
+
+
+   <li>7-8/set evento no Porto</li>
 
     </ul>
            </div>
