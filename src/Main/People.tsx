@@ -7,6 +7,8 @@ import jas from "./../jas.jpg"
 import jpf from "./../jpf.png"
 import jl from "./../jl.jpg"
 import lv from "./../lv.png"
+import pascoal from "./../img/pascoal.jpg"
+import maranhao from "./../img/maranhao.jpg"
 
 function Person(props: any){
     
@@ -34,19 +36,23 @@ export function People(props: any){
         </div>
 
         <div>
-        <h2>
-        Organização Local
-                </h2>
+        <h2>Presidentes da Comissão de Programa</h2>
+        
+        <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA LINCS"  page="https://asc.di.fct.unl.pt/~jleitao/"></Person>
+        <Person name="Luís Antunes Veiga" picture={lv} afiliation="Instituto Superior Técnico & INESC ID Lisboa" page="https://www.gsd.inesc-id.pt/~lveiga/"></Person>
+
+
+        <h2> Organização Local</h2>
 
         <Person name="Jácome Cunha" job="Presidente" picture={jacome} afiliation="Faculty of Engineering of University of Porto & HASLab/INESC TEC" page="https://web.fe.up.pt/~jacome/"></Person>
         <Person name="João Paulo Fernandes" job="Catering" picture={jpf} afiliation="Faculty of Engineering of University of Porto & LIACC" page="https://web.fe.up.pt/~jpaulo/Site/Home.html"></Person>
         <Person name="João Saraiva" job="Patrocínios" picture={jas} afiliation="University of Minho & HASLab/INESC TEC" page="https://haslab.uminho.pt/jas/"></Person>
+        <Person name="João Pascoal Faria" job="Patrocínios" picture={pascoal} afiliation="University of Porto" page="https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=210006"></Person>
+        <Person name="Rui Maranhão" job="Registos" picture={maranhao} afiliation="University of Porto" page="https://ruimaranhao.com/"></Person>
 
-        <h2>Presidentes da Comissão de Programa</h2>
-        <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA LINCS"  page="https://asc.di.fct.unl.pt/~jleitao/"></Person>
-        <Person name="Luís Antunes Veiga" picture={lv} afiliation="Instituto Superior Técnico & INESC ID Lisboa" page="https://www.gsd.inesc-id.pt/~lveiga/"></Person>
-
+        
         <h2>Divulgação e Web</h2>
+        
         <Person name="Hugo da Gião" picture={hugo} afiliation="Faculty of Engineering of University of Porto & HASLab/INESC TEC" page="https://h4g0.vercel.app/"></Person>
         <Person name="Lazaro Costa" picture={lazaro} afiliation="Faculty of Engineering of University of Porto & HASLab/INESC TEC" page="https://lazarocosta.github.io/"></Person>
         </div>
@@ -57,14 +63,6 @@ export function People(props: any){
 
         {/* 
 
-IV. ORGANIZAÇÃO
-
-
-Presidência da Comissão de Programa:
-
-     João Leitão, U. Nova de Lisboa
-
-     Luís Veiga, U. Lisboa
 
 
 Comissão Organizadora:
