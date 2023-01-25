@@ -130,8 +130,8 @@ export function Initial(props: any) {
             <p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto nos dias 7
                 e 8 de setembro. Contamos com a presença de todos!
             </p>
-            {witdh > 1000 ? (
-                <div className="slide-container" style={{'width': '900px'}}>
+            {witdh > 1100 ? (
+                <div className="slide-container" style={{'width': '1100px'}}>
                     <Slide>
                         {slideImages.map((slideImage, index) => (
                             <div key={index}>
@@ -151,7 +151,6 @@ export function Initial(props: any) {
                             <div key={index}>
                                 <div className={"divStyle_small"}
                                      style={{'backgroundImage': `url(${slideImages_small.url})`}}>
-                                    <span className={"spanStyle"}>{slideImages_small.caption}</span>
                                 </div>
                             </div>
 
