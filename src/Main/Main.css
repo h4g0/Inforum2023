@@ -111,14 +111,14 @@ p{
 }
 
 .Patreons {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .Menu {
 
     overflow: hidden;
     position: fixed;
-    top: 0px;
+    top: 0;
     height: 75px;
     display: flex;
     justify-content: left;

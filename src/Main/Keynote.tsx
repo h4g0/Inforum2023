@@ -5,7 +5,7 @@ export function Keynote(props: any){
     return <><div className="Keynote">
         
         <div>
-            <Patreons></Patreons>
+            <Patreons/>
         </div>
         <div>
         <h2>

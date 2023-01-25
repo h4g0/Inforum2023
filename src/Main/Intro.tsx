@@ -42,7 +42,7 @@ export function Initial(props: any) {
 </p>
 
         <p>O INForum começa em:</p>
-        <Timer time={props.time}></Timer>
+        <Timer time={props.time}/>
         </div>
         
         </>

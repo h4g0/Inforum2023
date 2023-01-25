@@ -2,7 +2,7 @@ import './Main.css'
 import { useSelector,useDispatch } from 'react-redux'
 import { Form, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import inforum from "./../inforum.png"
+import inforum from "../img/inforum.png"
 
 
 import {

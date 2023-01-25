@@ -1,13 +1,13 @@
 import './Main.css'
-import satelite from "./../ComoChegar2.png"
-import metro from "./../mapa-metro-oporto.png"
+import satelite from "../img/ComoChegar2.png"
+import metro from "../img/mapa-metro-oporto.png"
 import { Patreons } from './Patreons'
 
 export function Location(props: any) {
     return <><div className="Location">
 
     <div>
-        <Patreons></Patreons>
+        <Patreons/>
     </div>
     
       <div>
@@ -16,14 +16,14 @@ export function Location(props: any) {
         
         <p>A FEUP localiza-se em Portugal, no limite norte da cidade do Porto, perto da Estrada da Circunvalação (EN12) e junto ao Hospital de São João.</p>
         <p><b>Coordenadas:</b> 41.1780, -8.5980 (41o 10’ 40.8’’ N, 8o 35’ 52.8’’ W)</p>
-        <img src={satelite}></img>
+        <img src={satelite} alt="cordenadas satélite"/>
         <h3>De metro</h3>
         <ul>
             <li>	A linha D (amarela) liga o Pólo Universitário à Câmara de Gaia em cerca de 15 minutos, passando pela Trindade, onde tem ligação com as linhas A (azul), B (vermelha) e C (verde). Saindo na estação do Pólo Universitário, deverá virar à esquerda na Rua do Dr. Manuel Pereira da Silva e, depois de passar o cemitério de Paranhos, virar à esquerda para a Rua do Dr. Roberto Frias. Continue até encontrar a FEUP do seu lado direito.</li>
             <li>Saindo no IPO, deverá percorrer toda a extensão da Rua do Dr. Plácido da Costa e atravessar a rua do Dr. Roberto Frias. Estará agora em frente à FEUP.</li>
             <li>Saindo no Hospital de São João, siga pela estrada da circunvalação até encontrar o cruzamento com a Rua do Dr. Roberto Frias. Percorra esta rua até ao cruzamento com Rua do Dr. Plácido da Costa. Terá agora a FEUP do seu lado esquerdo.</li>
         </ul>
-        <img src={metro}></img>
+        <img src={metro} alt="Metro do Porto"/>
         <h3>De Autocarro</h3>
         <p>Existem 4 linhas de autocarro na zona da Faculdade: 204, 300, 301 e 803.
 
@@ -59,4 +59,3 @@ De forma a escolher qual o autocarro que se adequa melhor ao seu percurso, visit
     	
     </>
     }
-    
