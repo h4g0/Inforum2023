@@ -145,7 +145,7 @@ export function Initial(props: any) {
                 </div>
 
             ) : (
-                <div className="slide-container" style={{'width': '750px'}}>
+                <div className="slide-container" style={{'width': '480px'}}>
                     <Slide>
                         {slideImages_small.map((slideImages_small, index) => (
                             <div key={index}>
