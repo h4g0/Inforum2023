@@ -1,8 +1,8 @@
 * {
     font-family: Helvetica;
-  }
+}
 
-p{
+p {
     text-align: justify;
 }
 
@@ -34,7 +34,7 @@ p{
     margin-left: -250px;
     width: 500px;
     height: 350px;
-    background-color: #00ffff	;
+    background-color: #00ffff;
 }
 
 .login-message {
@@ -71,7 +71,7 @@ p{
     top: 125px;
 }
 
-.login-password:focus{
+.login-password:focus {
     outline: none;
 }
 
@@ -86,7 +86,7 @@ p{
     position: absolute;
     left: 287.5px;
     top: 200px;
-    background-color: #3366cc    ;
+    background-color: #3366cc;
     cursor: pointer;
 }
 
@@ -125,12 +125,11 @@ p{
     width: 100%;
     align-items: left;
     background-color: #0c4fed;
-    
+
 }
 
 
-
-.Menu  h1 {
+.Menu h1 {
     color: burlywood;
 
 }
@@ -156,14 +155,14 @@ p{
 }
 
 
-.ButtonContainer a{
-    
+.ButtonContainer a {
+
     color: burlywood;
 
 }
 
-.ButtonContainer a:hover{
-    
+.ButtonContainer a:hover {
+
     color: #2f4f4f;
 
 }
@@ -208,10 +207,9 @@ p{
     background-color: white;
     border-radius: 5px;
 
-    color: #2f4f4f	;
-    
-}
+    color: #2f4f4f;
 
+}
 
 
 .Intro {
@@ -230,7 +228,7 @@ p{
 .Location {
     color: #2f4f4f;
     margin-top: 100px;
-    
+
     font-size: 20px;
     display: flex;
 
@@ -243,7 +241,7 @@ p{
 .People {
     color: #2f4f4f;
     margin-top: 70px;
-    
+
     font-size: 20px;
     display: flex;
 
@@ -253,20 +251,20 @@ p{
     margin-bottom: 50px;
 }
 
-.People h2{
+.People h2 {
     margin-top: 40px;
     border-top: solid;
 }
 
 
-.People h4{
+.People h4 {
     margin-top: 20px;
 }
 
 .Keynote {
     color: #2f4f4f;
     margin-top: 100px;
-    
+
     font-size: 20px;
     display: flex;
 
@@ -317,7 +315,7 @@ p{
 }
 
 .Previous a:hover {
-    color: #2f4f4f;  
+    color: #2f4f4f;
 }
 
 .Accommodation {
@@ -331,12 +329,12 @@ p{
     margin-bottom: 50px;
 }
 
-.Accommodation a{
+.Accommodation a {
     color: #2f4f4f;
 
 }
 
-.Accommodation a:hover{
+.Accommodation a:hover {
     color: #2f4f4f;
 
 }
@@ -350,11 +348,12 @@ p{
     font-size: medium;
 }
 
-.Person img{
+.Person img {
     margin-right: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
+
 .ImportantDates {
     margin-left: 0px;
     display: inline;
@@ -364,9 +363,10 @@ p{
     margin-bottom: 20px;
 }
 
-.Location h3{
+.Location h3 {
     margin-top: 20px;
 }
+
 .Options {
     margin-left: 50px;
 }
@@ -377,7 +377,7 @@ p{
     width: 1000px;
 }
 
-.now{
+.now {
     border-style: none;
     border-width: 2px;
     width: 1000px;
@@ -385,11 +385,11 @@ p{
     margin-bottom: 5px;
 }
 
-.now p{
+.now p {
     margin-left: 20px;
 }
 
-.past{
+.past {
     border-style: none;
     width: 1000px;
     background-color: lightgray;
@@ -397,11 +397,11 @@ p{
     margin-bottom: 5px;
 }
 
-.past p{
+.past p {
     margin-left: 20px;
 }
 
-.future{
+.future {
     border-style: none;
     width: 1000px;
     border-width: 2px;
@@ -410,7 +410,7 @@ p{
 
 }
 
-.future p{
+.future p {
     margin-left: 20px;
 }
 
@@ -422,34 +422,34 @@ p{
     color: white;
 }
 
-.itemInfo p{
+.itemInfo p {
     display: flex;
     margin-bottom: 0px;
 }
 
 
-.itemAbstract{
+.itemAbstract {
     font-size: small;
 }
 
-.itemAuthor{
+.itemAuthor {
     color: lightgray;
 }
 
-.agora{
+.agora {
     color: gold;
 }
 
-.dentro{
+.dentro {
     color: silver;
 }
 
-.RegistrationTable{
+.RegistrationTable {
     border-style: solid;
     border-color: white;
 }
 
-.RegistrationTable th{
+.RegistrationTable th {
     background-color: #0c4fed;
     color: white;
     padding: 10px;
@@ -458,13 +458,13 @@ p{
     padding-bottom: 20px;
 }
 
-.RegistrationTable td{
+.RegistrationTable td {
     border: 2px solid #2f4f4f;
     background-color: lavender;
     padding: 10px;
 }
 
-.ProgramDay{
+.ProgramDay {
     border-style: none;
     border-top: solid;
     margin-bottom: 40px;
@@ -480,5 +480,29 @@ p{
     width: 100%;
     align-items: left;
     background-color: #0c4fed;
-    
+
+}
+
+.spanStyle {
+    padding: 20px;
+    background: #efefef;
+    color: #000000
+}
+
+.divStyle {
+    display: flex;    /*alignItems: center;*/
+    /*justifyContent: center;*/
+    /*backgroundSize: cover;
+*/
+    height: 500px;
+    width: 800px;
+}
+
+.divStyle_small {
+    display: flex;    /*alignItems: center;*/
+    /*justifyContent: center;*/
+    /*backgroundSize: cover;
+*/
+    height: 375px;
+    width: 600px;
 }

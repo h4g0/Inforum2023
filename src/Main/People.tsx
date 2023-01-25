@@ -1,14 +1,14 @@
 import './Main.css'
 import {Patreons} from './Patreons'
-import hugo from "../img/hugo.jpg"
-import lazaro from "../img/lazaro.jpg"
-import jacome from "../img/jacome.jpg"
-import jas from "../img/jas.jpg"
-import jpf from "../img/jpf.png"
-import jl from "../img/jl.jpg"
-import lv from "../img/lv.png"
-import pascoal from "./../img/pascoal.jpg"
-import maranhao from "./../img/maranhao.jpg"
+import hugo from "../img/Organization/hugo.jpg"
+import lazaro from "../img/Organization/lazaro.jpg"
+import jacome from "../img/Organization/jacome.jpg"
+import jas from "../img/Organization/jas.jpg"
+import jpf from "../img/Organization/jpf.png"
+import jl from "../img/Organization/jl.jpg"
+import lv from "../img/Organization/lv.png"
+import pascoal from "../img/Organization/pascoal.jpg"
+import maranhao from "../img/Organization/maranhao.jpg"
 
 function Person(props: any) {
 
@@ -67,7 +67,7 @@ export function People(props: any) {
                 <Person name="Hugo da Gião" picture={hugo}
                         afiliation="Faculty of Engineering of University of Porto & HASLab/INESC TEC"
                         page="https://h4g0.vercel.app/"/>
-                <Person name="Lazaro Costa" picture={lazaro}
+                <Person name="Lázaro Costa" picture={lazaro}
                         afiliation="Faculty of Engineering of University of Porto & HASLab/INESC TEC"
                         page="https://lazarocosta.github.io/"/>
             </div>
