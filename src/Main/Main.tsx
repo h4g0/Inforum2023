@@ -80,7 +80,6 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <div className="Options">
 
 
                 <Link to="/Program">            
@@ -149,7 +148,6 @@ export function Login(this: any, props: any) {
 
                 </Link>
             
-                </div>
 
                 <Footer/>
 

@@ -19,6 +19,7 @@ p {
 }
 
 .logo {
+    display: inline-block;
     height: 50px;
     margin-top: 10px;
     margin-left: 40px;
@@ -116,13 +117,11 @@ p {
 
 .Menu {
 
-    overflow: hidden;
+    display: inline;
     position: fixed;
     top: 0;
-    display: flex;
     justify-content: left;
     width: 100%;
-    align-items: left;
     background-color: #0c4fed;
 
 }
@@ -342,6 +341,10 @@ p {
     margin-top: 20px;
 }
 
+.Accommodation img {
+    max-width: 100%;
+}
+
 .Person {
     display: flex;
     font-size: medium;
@@ -370,9 +373,7 @@ p {
     max-width: 100%;
 }
 
-.Options {
-    margin-left: 50px;
-}
+
 
 
 .day {
@@ -517,7 +518,7 @@ p {
 
 }
 
-@media only screen and (max-width: 1005px) {
+@media only screen and (max-width: 955px) {
     /* For mobile phones: */
     .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
       margin-top: 150px;
@@ -525,23 +526,23 @@ p {
   }
 
 
-  @media only screen and (max-width:  705px) {
+  @media only screen and (max-width:  512px) {
     /* For mobile phones: */
     .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
         margin-top: 220px;
+        margin-right: 50px;
+        margin-left: 50px;
+
     }
   }
 
-  @media only screen and (max-width:  572px) {
+  @media only screen and (max-width:  377px) {
     /* For mobile phones: */
     .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
-        margin-top: 300px;
+        margin-top: 270px;
+        margin-right: 20px;
+        margin-left: 20px;
+
     }
   }
 
-  @media only screen and (max-width:  556px) {
-    /* For mobile phones: */
-    .Intro {
-      margin-top: 350px;
-    }
-  }
