@@ -1,23 +1,10 @@
 import './Main.css'
 import 'react-slideshow-image/dist/styles.css'
 import React from 'react';
-import {Slide} from 'react-slideshow-image';
 
-import avAliados_sm from "../img/Porto/AvAliados-small.jpg"
-import bridge_sm from "../img/Porto/bridge-small.jpg"
-import Casamusica_sm from "../img/Porto/Casamusica-small.jpg"
-import douroRiver_sm from "../img/Porto/douroRiver-small.jpg"
-import eletrico_sm from "../img/Porto/eletrico-small.jpg"
-import forteSaoFrancisco_sm from "../img/Porto/forteSaoFrancisco-small.jpg"
-
-import avAliados_lg from "../img/Porto/AvAliados-large.jpg"
-import bridge_lg from "../img/Porto/bridge-large.jpg"
-import Casamusica_lg from "../img/Porto/Casamusica-large.jpg"
-import douroRiver_lg from "../img/Porto/douroRiver-large.jpg"
-import eletrico_lg from "../img/Porto/eletrico-large.jpg"
-import forteSaoFrancisco_lg from "../img/Porto/forteSaoFrancisco-large.jpg"
 
 import {useState, useEffect} from 'react';
+import { Slider } from './Sliders';
 
 function getWindowDimensions() {
     const {innerWidth: width, innerHeight: height} = window;
@@ -55,55 +42,7 @@ function Timer(props: any) {
 }
 
 export function Initial(props: any) {
-    const slideImages = [
-        {
-            url: avAliados_lg,
-            caption: 'Av. dos Aliados'
-        },
-        {
-            url: bridge_lg,
-            caption: 'Ponte D.Luís'
-        },
-        {
-            url: Casamusica_lg,
-            caption: 'Casa da Música'
-        },
-        {
-            url: douroRiver_lg,
-            caption: 'Rio Douro'
-        }, {
-            url: eletrico_lg,
-            caption: 'Elétrico'
-        }, {
-            url: forteSaoFrancisco_lg,
-            caption: 'Forte de São Francisco'
-        },
-    ]
-    const slideImages_small = [
-        {
-            url: avAliados_sm,
-            caption: 'Av. dos Aliados'
-        },
-        {
-            url: bridge_sm,
-            caption: 'Ponte D.Luís'
-        },
-        {
-            url: Casamusica_sm,
-            caption: 'Casa da Música'
-        },
-        {
-            url: douroRiver_sm,
-            caption: 'Rio Douro'
-        }, {
-            url: eletrico_sm,
-            caption: 'Elétrico'
-        }, {
-            url: forteSaoFrancisco_sm,
-            caption: 'Forte de São Francisco'
-        },
-    ]
-    const witdh = getWindowDimensions();
+
     return <>
         <div className="Intro">
 
@@ -130,8 +69,11 @@ export function Initial(props: any) {
             <p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto nos dias 7
                 e 8 de setembro. Contamos com a presença de todos!
             </p>
-            {witdh > 1100 ? (
-                <div className="slide-container" style={{'width': '1100px'}}>
+
+        
+        <div>
+
+               {/* <div className="slide-container" >
                     <Slide>
                         {slideImages.map((slideImage, index) => (
                             <div key={index}>
@@ -143,23 +85,13 @@ export function Initial(props: any) {
                         ))}
                     </Slide>
                 </div>
+                */}
 
-            ) : (
-                <div className="slide-container" style={{'width': '480px'}}>
-                    <Slide>
-                        {slideImages_small.map((slideImages_small, index) => (
-                            <div key={index}>
-                                <div className={"divStyle_small"}
-                                     style={{'backgroundImage': `url(${slideImages_small.url})`}}>
-                                </div>
-                            </div>
+              <Slider></Slider>
 
-                        ))}
-                    </Slide>
-                </div>
-            )}
-
-
+            
+        </div>
+                        
             <p>O INForum começa em:</p>
             <Timer time={props.time}/>
         </div>
