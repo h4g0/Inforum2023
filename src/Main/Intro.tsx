@@ -1,7 +1,6 @@
 import './Main.css'
 import 'react-slideshow-image/dist/styles.css'
 import React from 'react';
-import {Slide} from 'react-slideshow-image';
 
 import avAliados_sm from "../img/Porto/AvAliados-small.jpg"
 import bridge_sm from "../img/Porto/bridge-small.jpg"
@@ -54,7 +53,7 @@ function Timer(props: any) {
     </>
 }
 
-export function Initial(props: any) {
+function Slider() {
     const slideImages = [
         {
             url: avAliados_lg,
@@ -79,36 +78,39 @@ export function Initial(props: any) {
             caption: 'Forte de São Francisco'
         },
     ]
-    const slideImages_small = [
-        {
-            url: avAliados_sm,
-            caption: 'Av. dos Aliados'
-        },
-        {
-            url: bridge_sm,
-            caption: 'Ponte D.Luís'
-        },
-        {
-            url: Casamusica_sm,
-            caption: 'Casa da Música'
-        },
-        {
-            url: douroRiver_sm,
-            caption: 'Rio Douro'
-        }, {
-            url: eletrico_sm,
-            caption: 'Elétrico'
-        }, {
-            url: forteSaoFrancisco_sm,
-            caption: 'Forte de São Francisco'
-        },
-    ]
-    const witdh = getWindowDimensions();
+
+    const now = (new Date()).getTime()
+
+    const oneSecond = 1000
+
+    const second =  Math.floor(now  / oneSecond)
+
+    const pos = ( second - (second % 5)) % slideImages.length
+
+    return <>
+        <div className='SlideImageContainer'>
+   
+        <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
+
+        </div>
+    </>
+
+
+}
+
+export function Initial(props: any) {
+    
+   
     return <>
         <div className="Intro">
 
 
+
             <h2>Bem-vindo ao INForum 2023</h2>
+
+            <Slider></Slider>
+
+
             <p> Reunindo a comunidade nacional, o INForum é um local privilegiado para a divulgação, discussão e
                 reconhecimento de trabalhos científicos e de inovação e avanços tecnológicos em Informática. O INForum
                 oferece assim um palco especializado para promover, por um lado, o intercâmbio de conhecimento e
@@ -130,35 +132,7 @@ export function Initial(props: any) {
             <p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto nos dias 7
                 e 8 de setembro. Contamos com a presença de todos!
             </p>
-            {witdh > 1100 ? (
-                <div className="slide-container" style={{'width': '1100px'}}>
-                    <Slide>
-                        {slideImages.map((slideImage, index) => (
-                            <div key={index}>
-                                <div className={"divStyle"} style={{'backgroundImage': `url(${slideImage.url})`}}>
-                                    <span className={"spanStyle"}>{slideImage.caption}</span>
-                                </div>
-                            </div>
-
-                        ))}
-                    </Slide>
-                </div>
-
-            ) : (
-                <div className="slide-container" style={{'width': '480px'}}>
-                    <Slide>
-                        {slideImages_small.map((slideImages_small, index) => (
-                            <div key={index}>
-                                <div className={"divStyle_small"}
-                                     style={{'backgroundImage': `url(${slideImages_small.url})`}}>
-                                </div>
-                            </div>
-
-                        ))}
-                    </Slide>
-                </div>
-            )}
-
+           
 
             <p>O INForum começa em:</p>
             <Timer time={props.time}/>
