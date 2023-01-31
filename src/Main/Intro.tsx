@@ -89,7 +89,7 @@ function Slider() {
         },
     ]
 
-    const animation = 10
+    const animation = 11
 
     const [time, setTime] = useState(Date.now());
 
@@ -110,13 +110,14 @@ function Slider() {
 
     const pos = ( second - (second % animation)) % slideImages.length
 
+    console.log(pos)
+
     const pos2 =  ( pos + 1 ) % slideImages.length
 
     const pos3 = ( pos + 2 ) % slideImages.length
 
     const lapse_time = animation / 2
 
-    console.log(second % animation)
 
     const op   = (seconds % animation) < lapse_time ? 
     (seconds % lapse_time ) * ( 1 / lapse_time ) :
@@ -127,7 +128,7 @@ function Slider() {
     };
 
     return <>
-        <div  className='SlideImageContainer' style={divStyle}>
+        <div  style={divStyle} className='SlideImageContainer'>
    
         <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
 
