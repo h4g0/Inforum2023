@@ -87,10 +87,18 @@ function Slider() {
 
     const pos = ( second - (second % 5)) % slideImages.length
 
+    const pos2 =  ( pos + 1 ) % slideImages.length
+
+    const pos3 = ( pos + 2 ) % slideImages.length
+
     return <>
         <div className='SlideImageContainer'>
    
         <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
+
+        <img className="SlideImage" src={slideImages[pos2].url} title={slideImages[pos2].caption}></img>
+
+        <img className="SlideImage" src={slideImages[pos3].url} title={slideImages[pos3].caption}></img>
 
         </div>
     </>
@@ -106,10 +114,10 @@ export function Initial(props: any) {
 
 
 
-            <h2>Bem-vindo ao INForum 2023</h2>
 
             <Slider></Slider>
 
+            <h2>Bem-vindo ao INForum 2023</h2>
 
             <p> Reunindo a comunidade nacional, o INForum é um local privilegiado para a divulgação, discussão e
                 reconhecimento de trabalhos científicos e de inovação e avanços tecnológicos em Informática. O INForum
