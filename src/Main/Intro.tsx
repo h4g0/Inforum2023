@@ -26,6 +26,15 @@ function getWindowDimensions() {
 
 function Timer(props: any) {
 
+    const [time, setTime] = useState(Date.now());
+
+    useEffect(() => {
+        const interval = setInterval(() => setTime(Date.now()), 1000);
+        return () => {
+        clearInterval(interval);
+    };
+    }, []); 
+
     const inforumDate = Date.parse(props.time)
     const now = (new Date()).getTime()
 
@@ -41,6 +50,7 @@ function Timer(props: any) {
     const minutes = Math.floor((inforumDate - now - milHours) / oneMinute)
     const milMinutes = milHours + minutes * oneMinute
     const seconds = Math.floor((inforumDate - now - milMinutes) / oneSecond)
+
 
     return <>
         <div className="Timer">
@@ -79,20 +89,45 @@ function Slider() {
         },
     ]
 
+    const animation = 10
+
+    const [time, setTime] = useState(Date.now());
+
+    useEffect(() => {
+        const interval = setInterval(() => setTime(Date.now()),  10);
+        return () => {
+        clearInterval(interval);
+    };
+    }, []); 
+
     const now = (new Date()).getTime()
 
     const oneSecond = 1000
 
+    const seconds = now  / oneSecond
+
     const second =  Math.floor(now  / oneSecond)
 
-    const pos = ( second - (second % 5)) % slideImages.length
+    const pos = ( second - (second % animation)) % slideImages.length
 
     const pos2 =  ( pos + 1 ) % slideImages.length
 
     const pos3 = ( pos + 2 ) % slideImages.length
 
+    const lapse_time = animation / 2
+
+    console.log(second % animation)
+
+    const op   = (seconds % animation) < lapse_time ? 
+    (seconds % lapse_time ) * ( 1 / lapse_time ) :
+             1 - (seconds % lapse_time) * ( 1 / lapse_time ) 
+
+    const divStyle = {
+        opacity: op,
+    };
+
     return <>
-        <div className='SlideImageContainer'>
+        <div  className='SlideImageContainer' style={divStyle}>
    
         <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
 
@@ -102,7 +137,6 @@ function Slider() {
 
         </div>
     </>
-
 
 }
 
