@@ -492,7 +492,7 @@ p {
 
 .SlideImageContainer {
     max-width: 100%;
-    height: 270px;
+    height: 350px;
     position: relative;
 
     
@@ -512,11 +512,51 @@ p {
 
 }
 
+
+@media only screen and (max-width: 1700px) {
+    /* For mobile phones: */
+   
+    .SlideImageContainer {
+        height: 300px;
+
+    }
+  }
+
+  @media only screen and (max-width: 1257px) {
+    /* For mobile phones: */
+   
+    .SlideImageContainer {
+        height: 270px;
+
+    }
+  }
+
+  @media only screen and (max-width: 987px) {
+    /* For mobile phones: */
+   
+    .SlideImageContainer {
+        height: 200px;
+
+    }
+  }
+
+  
+  @media only screen and (max-width: 663px) {
+    /* For mobile phones: */
+   
+    .SlideImageContainer {
+        height: 150px;
+
+    }
+  }
+
+
 @media only screen and (max-width: 955px) {
     /* For mobile phones: */
     .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
       margin-top: 150px;
     }
+ 
   }
 
 
@@ -526,6 +566,11 @@ p {
         margin-top: 220px;
         margin-right: 50px;
         margin-left: 50px;
+
+    }
+
+    .SlideImageContainer {
+        height: 100px;
 
     }
   }
