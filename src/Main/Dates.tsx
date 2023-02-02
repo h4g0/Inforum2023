@@ -187,28 +187,28 @@ de atração de submissões.
 
 
 <ul>
-   <li> 27/jan receção de propostas para tópicos (online)</li>
+   <li className={Date.now() > Date.parse("27 Jan 2023 23:59:00 GMT") ? "oldDate" : "newDate"}> 27/jan receção de propostas para tópicos (online)</li>
 
-   <li>10/fev notificação aos proponentes de tópicos</li>
+   <li className={Date.now() > Date.parse("19 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>10/fev notificação aos proponentes de tópicos</li>
 
-   <li>24/fev receção de propostas finais (com CPT final)</li>
-
-
-   <li>26/mai submissão de resumos de artigos</li>
-
-   <li>    2/jun submissão de artigos</li>
-
-   <li>30/jun notificação aos autores dos artigos</li>
+   <li className={Date.now() > Date.parse("24 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >24/fev receção de propostas finais (com CPT final)</li>
 
 
-   <li>7/jul submissão de comunicações, pósteres e demonstrações</li>
+   <li className={Date.now() > Date.parse("26 May 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >26/mai submissão de resumos de artigos</li>
 
-   <li>14/jul submissão de artigos camera-ready</li>
+   <li className={Date.now() > Date.parse("02 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >    2/jun submissão de artigos</li>
 
-   <li>14/jul notificação aos autores das comunicações, pósteres e demonstrações</li>
+   <li className={Date.now() > Date.parse("30 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >30/jun notificação aos autores dos artigos</li>
 
 
-   <li>7-8/set evento no Porto</li>
+   <li className={Date.now() > Date.parse("07 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >7/jul submissão de comunicações, pósteres e demonstrações</li>
+
+   <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >14/jul submissão de artigos camera-ready</li>
+
+   <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >14/jul notificação aos autores das comunicações, pósteres e demonstrações</li>
+
+
+   <li className={Date.now() > Date.parse("8 Sep 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >7-8/set evento no Porto</li>
 
     </ul>
            </div>

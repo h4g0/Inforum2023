@@ -512,6 +512,9 @@ p {
 
 }
 
+.oldDate {
+    color: lightgray;
+}
 
 @media only screen and (max-width: 1700px) {
     /* For mobile phones: */
