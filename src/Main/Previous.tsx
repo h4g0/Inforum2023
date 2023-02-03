@@ -14,7 +14,7 @@ export function Previous(props: any) {
 
                 <ul>
 
-                    <li><a target="_blank" rel="noopener noreferrer" href="https://inforum.org.pt/en/inforum">INForum
+                    <li><a target="_blank" rel="noopener noreferrer" href="https://inforum.org.pt/2022/index.html">INForum
                         2022</a></li>
                     <li><a target="_blank" rel="noopener noreferrer"
                            href="http://lasige-inforum.lasige.di.fc.ul.pt:8080/INForum2020">INForum 2021</a></li>
