@@ -492,21 +492,16 @@ p {
 
 .SlideImageContainer {
     max-width: 100%;
-    height: 350px;
+    height: 450px;
     position: relative;
-
-    
 }
 
 
-
-
 .SlideImage {
-    max-width: 26.4%;
-    margin-left: 5%;
-    max-height: 300px;
+    margin-left: 32.5%;    
+    width: 35%;
     align-self: center;
-    margin-top: 20px;
+    margin-top: 10px;
     position: relative;
 
 
@@ -516,7 +511,7 @@ p {
     color: lightgray;
 }
 
-@media only screen and (max-width: 1700px) {
+@media only screen and (max-width: 1500px) {
     /* For mobile phones: */
    
     .SlideImageContainer {
@@ -525,7 +520,7 @@ p {
     }
   }
 
-  @media only screen and (max-width: 1257px) {
+  @media only screen and (max-width: 1040px) {
     /* For mobile phones: */
    
     .SlideImageContainer {
@@ -544,12 +539,17 @@ p {
   }
 
   
-  @media only screen and (max-width: 663px) {
+  @media only screen and (max-width: 807px) {
     /* For mobile phones: */
    
     .SlideImageContainer {
-        height: 150px;
+        height: 350px;
 
+    }
+
+    .SlideImage {
+        width: 80%;
+        margin-left: 10%;
     }
   }
 
@@ -563,7 +563,7 @@ p {
   }
 
 
-  @media only screen and (max-width:  512px) {
+  @media only screen and (max-width:  650px) {
     /* For mobile phones: */
     .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
         margin-top: 220px;
@@ -573,7 +573,7 @@ p {
     }
 
     .SlideImageContainer {
-        height: 100px;
+        height: 300px;
 
     }
   }

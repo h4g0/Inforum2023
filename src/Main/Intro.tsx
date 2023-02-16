@@ -16,7 +16,7 @@ import douroRiver_lg from "../img/Porto/douroRiver-large.jpg"
 import eletrico_lg from "../img/Porto/eletrico-large.jpg"
 import forteSaoFrancisco_lg from "../img/Porto/forteSaoFrancisco-large.jpg"
 
-import {useState, useEffect} from 'react';
+import {useRef, useLayoutEffect, useState, useEffect} from 'react';
 
 function getWindowDimensions() {
     const {innerWidth: width, innerHeight: height} = window;
@@ -64,6 +64,7 @@ function Timer(props: any) {
 }
 
 function Slider() {
+
     const slideImages = [
         {
             url: avAliados_lg,
@@ -90,7 +91,7 @@ function Slider() {
     ]
 
     const animation = 11
-
+    
     const [time, setTime] = useState(Date.now());
 
     useEffect(() => {
@@ -110,15 +111,8 @@ function Slider() {
 
     const pos = ( second - (second % animation)) % slideImages.length
 
-    console.log(pos)
-
-    const pos2 =  ( pos + 1 ) % slideImages.length
-
-    const pos3 = ( pos + 2 ) % slideImages.length
-
     const lapse_time = animation / 2
-
-
+    
     const op   = (seconds % animation) < lapse_time ? 
     (seconds % lapse_time ) * ( 1 / lapse_time ) :
              1 - (seconds % lapse_time) * ( 1 / lapse_time ) 
@@ -127,18 +121,17 @@ function Slider() {
         opacity: op,
     };
 
+
     return <>
         <div  style={divStyle} className='SlideImageContainer'>
-   
+        
         <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
 
-        <img className="SlideImage" src={slideImages[pos2].url} title={slideImages[pos2].caption}></img>
-
-        <img className="SlideImage" src={slideImages[pos3].url} title={slideImages[pos3].caption}></img>
-
+                   
+      
         </div>
     </>
-
+  
 }
 
 export function Initial(props: any) {

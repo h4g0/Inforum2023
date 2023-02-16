@@ -189,7 +189,7 @@ de atração de submissões.
 <ul>
    <li className={Date.now() > Date.parse("27 Jan 2023 23:59:00 GMT") ? "oldDate" : "newDate"}> 27/jan receção de propostas para tópicos (online)</li>
 
-   <li className={Date.now() > Date.parse("19 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>10/fev notificação aos proponentes de tópicos</li>
+   <li className={Date.now() > Date.parse("10 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>10/fev notificação aos proponentes de tópicos</li>
 
    <li className={Date.now() > Date.parse("24 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >24/fev receção de propostas finais (com CPT final)</li>
 
