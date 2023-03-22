@@ -9,7 +9,7 @@ export function Dates(props: any){
             <div>
            <Patreons/>
             </div>
-            <div className='ImportantDates'>
+        <div className='ImportantDates'>
             <h1>Estrutura do INForum</h1>
 
 <p>

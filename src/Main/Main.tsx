@@ -1,6 +1,6 @@
 import './Main.css'
-import { useSelector,useDispatch } from 'react-redux'
-import { Form, Button } from 'react-bootstrap';
+import {useSelector, useDispatch} from 'react-redux'
+import {Form, Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import inforum from "../img/inforum.png"
 
@@ -12,17 +12,25 @@ import {
     useParams,
     Routes,
     useNavigate,
-  } from "react-router-dom";
-import { useEffect, useReducer, useState } from 'react'
-import { Initial } from './Intro';
-import { Location } from './Location';
-import { People } from './People';
-import { Keynote } from './Keynote';
-import { Dates } from './Dates';
-import { Accommodation } from './Accommodation';
-import { Previous } from './Previous';
-import { Program } from './Program';
-import { Registration } from './Registration';
+} from "react-router-dom";
+import {useEffect, useReducer, useState} from 'react'
+import {Initial} from './Intro';
+import {Location} from './Location';
+import {People} from './People';
+import {Keynote} from './Keynote';
+import {Dates} from './Dates';
+import {Accommodation} from './Accommodation';
+import {Previous} from './Previous';
+import {Program} from './Program';
+
+import {Registration} from './Registration';
+import {Track1_CRC} from './Tracks/Track1_CRC';
+import {Track2_SOFTCRC} from './Tracks/Track2_SOFTCRC';
+import {Track3_CD} from './Tracks/Track3_CD';
+import {Track4_SIntel} from './Tracks/Track4_SIntel';
+import {Track5_ASPI} from './Tracks/Track5_ASPI';
+
+
 
 const inforumTime = '7 Sep 2023 08:00:00 GMT'
 
@@ -31,8 +39,8 @@ function Footer(props: any) {
 }
 
 export function Login(this: any, props: any) {
-        
-    let id  = useParams()
+
+    let id = useParams()
 
     console.log(id)
     /*
@@ -49,41 +57,47 @@ export function Login(this: any, props: any) {
                 </div>)
                 */
 
-                
-         
-                
 
     return (
         <Router>
-        
+            <div className="Menu">
 
+                <Link to="/">
 
-
-                <div className="Menu">
-
-                <Link to="/">            
-
-                <img className="logo" src={inforum}></img>
+                    <img className="logo" src={inforum}></img>
 
                 </Link>
 
+                <Link to="/Program">
 
-
-                <Link to="/Program">            
-
-                {/*<button>Programa</button>*/}
+                    {/*<button>Programa</button>*/}
 
                 </Link>
 
-                <Link to="/Dates">            
-
-                <button>Chamadas</button>
-
+                <Link to="/Dates">
+                    <button>Chamadas</button>
                 </Link>
 
-                <Link to="/Registration">            
+{/*                <Link to="Tracks/CRC">
+                    <button>Track CRC</button>
+                </Link>
+                <Link to="Tracks/SOFTCRC">
+                    <button>Track SOFTCRC</button>
+                </Link>
+                <Link to="Tracks/CD">
+                    <button>Track CD</button>
+                </Link>
+                <Link to="Tracks/SIntel">
+                    <button>Track SIntel</button>
+                </Link>
+                <Link to="Tracks/ASPI">
+                    <button>Track ASPI</button>
+                </Link>*/}
 
-               {/*<button>Inscrições</button>*/}
+
+                <Link to="/Registration">
+
+                    {/*<button>Inscrições</button>*/}
 
                 </Link>
 
@@ -92,32 +106,28 @@ export function Login(this: any, props: any) {
                 </a>*/}
 
 
+                <Link to="/People">
 
-
-                <Link to="/People">            
-
-                <button>Organização</button>
+                    <button>Organização</button>
 
                 </Link>
 
-                <Link to="/Keynote">            
+                <Link to="/Keynote">
 
-                {/*<button>Keynote</button>*/}
+                    {/*<button>Keynote</button>*/}
+
+                </Link>
+
+
+                <Link to="/Location">
+
+                    <button>Como chegar</button>
 
                 </Link>
 
-                
+                <Link to="/Accommodation">
 
-                
-                <Link to="/Location">            
-
-                <button>Como chegar</button>
-
-                </Link>
-                
-                <Link to="/Accommodation">            
-
-                <button>Alojamento</button>
+                    <button>Alojamento</button>
 
                 </Link>
 
@@ -129,51 +139,57 @@ export function Login(this: any, props: any) {
                 </Link>
                 */}
 
-                <Link to="/Previous">            
+                <Link to="/Previous">
 
-                <button>Edições Anteriores</button>
+                    <button>Edições Anteriores</button>
 
                 </Link>
-            
+
 
                 <Footer/>
 
 
-                </div>
+            </div>
 
-                <Routes>        
+            <Routes>
 
-            
-                <Route path="/" element={<Initial time={inforumTime} />} />
 
-                <Route path="Program" element={<Program />} />
+                <Route path="/" element={<Initial time={inforumTime}/>}/>
 
-                <Route path="Location" element={<Location />} />
+                <Route path="Program" element={<Program/>}/>
 
-                <Route path="Publications" element={<Initial time={inforumTime}/>} />
+                <Route path="Tracks/CRC" element={<Track1_CRC/>}/>
+                <Route path="Tracks/SOFTCRC" element={<Track2_SOFTCRC/>}/>
+                <Route path="Tracks/CD" element={<Track3_CD/>}/>
+                <Route path="Tracks/SIntel" element={<Track4_SIntel/>}/>
+                <Route path="Tracks/ASPI" element={<Track5_ASPI/>}/>
 
-                <Route path="Education" element={<Initial time={inforumTime} />} />
 
-                <Route path="People" element={<People />} />
+                <Route path="Location" element={<Location/>}/>
 
-                <Route path="Keynote" element={<Keynote />} />
+                <Route path="Publications" element={<Initial time={inforumTime}/>}/>
 
-                <Route path="Dates" element={<Dates />} />
+                <Route path="Education" element={<Initial time={inforumTime}/>}/>
 
-                <Route path="Accommodation" element={<Accommodation />} />
+                <Route path="People" element={<People/>}/>
 
-                <Route path="Previous" element={<Previous />} />
+                <Route path="Keynote" element={<Keynote/>}/>
+
+                <Route path="Dates" element={<Dates/>}/>
+
+                <Route path="Accommodation" element={<Accommodation/>}/>
+
+                <Route path="Previous" element={<Previous/>}/>
 
                 <Route path="Registration" element={<Registration/>}/>
 
-                </Routes>
+            </Routes>
 
         </Router>
 
 
-      
     )
-    
+
 }
 
 export default Login
