@@ -9,7 +9,7 @@ export function Track5_ASPI(props: any){
             <Patreons/>
         </div>
         <div className='Tracks'>
-            <h1>Comunicações e Redes de Computadores (CRC)</h1>
+            <h1>Aspetos Sócio-Profissionais da Informática</h1>
             <p>O Colégio de Informática da Ordem dos Engenheiros promove uma sessão no Inforum 2023 com o objetivo de discutir trabalhos realizados por jovens investigadores e outros profissionais que se relacionam com preocupações sobre impactos sócio-profissionais na sociedade moderna do desenvolvimento, operação e utilização de tecnologia de produtos e serviços baseados em tecnologias da informação.
 
                 Pretende-se que nesta sessão os participantes apresentem trabalhos originais que poderão ter como pano de fundo um leque muito variado de temas como, entre outros, a influência da informática na educação, saúde, trabalho, ambiente, economia, direitos humanos,  o burnout e a humanização do trabalho considerando neste particular as implicações no indivíduo e na família, a segurança, e a própria História da Informática em Portugal e no Mundo.

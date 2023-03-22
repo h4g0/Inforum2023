@@ -10,7 +10,7 @@ export function Track4_SIntel(props: any){
             <Patreons/>
         </div>
         <div className='Tracks'>
-            <h1>Aspetos Sócio-Profissionais da Informática</h1>
+            <h1>Sistemas Inteligentes</h1>
             <p>A sofisticação de sistemas informáticos modernos exige uma cada vez maior integração de mecanismos avançados e inteligentes de suporte à tomada de decisão e de interação com humanos. O tópico Sistemas Inteligentes agrega a inclusão em sistemas informáticos de componentes relacionados com a tomada de decisão inteligente.
 
 
