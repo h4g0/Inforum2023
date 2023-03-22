@@ -121,10 +121,10 @@ export function Track1_CRC(props: any){
             <h2>Comissão coordenadora</h2>
             
             <ul>
-                <ul>
+               
                     <li>Daniel Corujo</li>
                     <li>João Vilela</li>
-                </ul>
+            
             </ul>
         </div>
 
