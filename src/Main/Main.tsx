@@ -29,6 +29,7 @@ import {Track2_SOFTCRC} from './Tracks/Track2_SOFTCRC';
 import {Track3_CD} from './Tracks/Track3_CD';
 import {Track4_SIntel} from './Tracks/Track4_SIntel';
 import {Track5_ASPI} from './Tracks/Track5_ASPI';
+import { Tracks } from './Tracks';
 
 
 
@@ -77,6 +78,10 @@ export function Login(this: any, props: any) {
                 <Link to="/Dates">
                     <button>Chamadas</button>
                 </Link>
+
+                {/*<Link  to="/Tracks">
+                    <button>Tracks</button>
+    </Link>*/}
 
 {/*                <Link to="Tracks/CRC">
                     <button>Track CRC</button>
@@ -164,6 +169,7 @@ export function Login(this: any, props: any) {
                 <Route path="Tracks/SIntel" element={<Track4_SIntel/>}/>
                 <Route path="Tracks/ASPI" element={<Track5_ASPI/>}/>
 
+                <Route path="Tracks" element={<Tracks/>}/>
 
                 <Route path="Location" element={<Location/>}/>
 
