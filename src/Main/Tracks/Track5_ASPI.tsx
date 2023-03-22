@@ -26,6 +26,122 @@ export function Track5_ASPI(props: any){
                 A sessão decorrerá com apresentações e discussão dos artigos e será acompanhada de um debate temático com convidados.
 
             </p>
+
+
+
+            <h2>Lista de tópicos</h2>
+
+            <ul>
+                <li>
+                Ética e Deontologia na Informática
+                </li>
+
+                <li>
+                Discussão sobre aspectos de ética e casos de estudo. 
+                </li>
+
+                <li>
+                Impacto Social da IA
+                </li>
+
+                <li>
+                Informática e a Sustentabilidade
+                </li>
+
+                <li>
+                Regulação da profissão da Engenharia Informática
+                </li>
+
+                <li>
+                História da Engenharia Informática em Portugal
+
+                </li>
+
+                <li>
+                Educação, formação/certificação profissional e treino em Informática 
+
+                </li>
+
+                <li>
+                Inclusão, Igualdade e Equidade
+
+                </li>
+
+                <li>
+                Acessibilidade
+    
+                </li>
+
+                <li>
+                Burnout na Engenharia Informática
+                </li>
+                
+                <li>
+                Humanização do Trabalho em TI (ex. conciliação entre a vida profissional, familiar e pessoal)
+
+                </li>
+
+                <li>
+                Ambientes de trabalho (trabalho presencial versus remoto e suas implicações)
+
+                </li>
+
+                <li>
+                Nível de qualificação versus perfis profissionais
+
+                </li>
+
+                <li>
+                Tratamento informático de dados pessoais e seu impacto
+
+                </li>
+
+                <li>
+                Impacto sociais decorrentes do caso de vício ou defeito de software 
+
+                </li>
+
+                <li>
+                Responsabilidade civil do engenheiro de software
+
+                </li>
+
+    
+            </ul>
+
+
+            <h2>Comissão de programa</h2>
+
+            <ul>
+                <li>Ademar Aguiar, FEUP</li>
+                <li>Alberto Silva, IST UL</li>
+                <li>Armanda Rodrigues, FCT NOVA </li>
+                <li>Ana Moreira, FCT NOVA</li>
+                <li>António Carvalho, Politécnico de Coimbra</li>
+                <li>Carlos Pereira, Politécnico de Coimbra</li>
+                <li>Fernanda Pedro, CEI - Ordem dos Engenheiros</li>
+                <li>Gonçalo Marques, ESTGOH, Politécnico de Coimbra</li>
+                <li>Henrique Mamede, INESC TEC, U. Aberta </li>
+                <li>Isabel Sofia Sousa Brito, IPBeja</li>
+                <li>João Araújo, FCT NOVA</li>
+                <li>João Oliveira, CEI - Ordem dos Engenheiros</li>
+                <li>João Pascoal Faria, FEUP</li>
+                <li>Jorge Bernardino, Politécnico de Coimbra</li>
+                <li>Legatheaux Martins, FCT NOVA</li>
+                <li>Luís Amaral, UMinho</li>
+                <li>Luís Osório, ISEL</li>
+                <li>Mário Freire, UBI</li>
+                <li>Miguel Brito, UMinho</li>
+                <li>Miguel Goulão, FCT NOVA</li>
+                <li>Nuno Mateus-Coelho, Instituto Politécnico do Cávado e do Ave (IPCA)</li>
+                <li>Paula Alexandra Silva, FCT U.Coimbra</li>
+                <li>Paula Ventura, UAlg</li>
+                <li>Paulo Lopes, FCT NOVA</li>
+                <li>Vítor Santos, NOVA IMS</li>
+                <li>Vasco Pereira, UCoimbra</li>
+
+
+            </ul>
         </div>
 
 

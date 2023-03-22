@@ -69,13 +69,13 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
-                <Link to="/Program">
+                <Link to="/program">
 
                     {/*<button>Programa</button>*/}
 
                 </Link>
 
-                <Link to="/Dates">
+                <Link to="/dates">
                     <button>Chamadas</button>
                 </Link>
 
@@ -100,7 +100,7 @@ export function Login(this: any, props: any) {
                 </Link>*/}
 
 
-                <Link to="/Registration">
+                <Link to="/registration">
 
                     {/*<button>Inscrições</button>*/}
 
@@ -111,26 +111,26 @@ export function Login(this: any, props: any) {
                 </a>*/}
 
 
-                <Link to="/People">
+                <Link to="/people">
 
                     <button>Organização</button>
 
                 </Link>
 
-                <Link to="/Keynote">
+                <Link to="/keynote">
 
                     {/*<button>Keynote</button>*/}
 
                 </Link>
 
 
-                <Link to="/Location">
+                <Link to="/location">
 
                     <button>Como chegar</button>
 
                 </Link>
 
-                <Link to="/Accommodation">
+                <Link to="/accommodation">
 
                     <button>Alojamento</button>
 
@@ -144,7 +144,7 @@ export function Login(this: any, props: any) {
                 </Link>
                 */}
 
-                <Link to="/Previous">
+                <Link to="/previous">
 
                     <button>Edições Anteriores</button>
 
@@ -161,33 +161,33 @@ export function Login(this: any, props: any) {
 
                 <Route path="/" element={<Initial time={inforumTime}/>}/>
 
-                <Route path="Program" element={<Program/>}/>
+                <Route path="program" element={<Program/>}/>
 
-                <Route path="Tracks/CRC" element={<Track1_CRC/>}/>
-                <Route path="Tracks/SOFTCRC" element={<Track2_SOFTCRC/>}/>
-                <Route path="Tracks/CD" element={<Track3_CD/>}/>
-                <Route path="Tracks/SIntel" element={<Track4_SIntel/>}/>
-                <Route path="Tracks/ASPI" element={<Track5_ASPI/>}/>
+                <Route path="tracks/crc" element={<Track1_CRC/>}/>
+                <Route path="tracks/softcrc" element={<Track2_SOFTCRC/>}/>
+                <Route path="tracks/cd" element={<Track3_CD/>}/>
+                <Route path="tracks/sintel" element={<Track4_SIntel/>}/>
+                <Route path="tracks/aspi" element={<Track5_ASPI/>}/>
 
-                <Route path="Tracks" element={<Tracks/>}/>
+                <Route path="tracks" element={<Tracks/>}/>
 
-                <Route path="Location" element={<Location/>}/>
+                <Route path="location" element={<Location/>}/>
 
-                <Route path="Publications" element={<Initial time={inforumTime}/>}/>
+                <Route path="publications" element={<Initial time={inforumTime}/>}/>
 
-                <Route path="Education" element={<Initial time={inforumTime}/>}/>
+                <Route path="education" element={<Initial time={inforumTime}/>}/>
 
-                <Route path="People" element={<People/>}/>
+                <Route path="people" element={<People/>}/>
 
-                <Route path="Keynote" element={<Keynote/>}/>
+                <Route path="keynote" element={<Keynote/>}/>
 
-                <Route path="Dates" element={<Dates/>}/>
+                <Route path="dates" element={<Dates/>}/>
 
-                <Route path="Accommodation" element={<Accommodation/>}/>
+                <Route path="accommodation" element={<Accommodation/>}/>
 
-                <Route path="Previous" element={<Previous/>}/>
+                <Route path="previous" element={<Previous/>}/>
 
-                <Route path="Registration" element={<Registration/>}/>
+                <Route path="registration" element={<Registration/>}/>
 
             </Routes>
 

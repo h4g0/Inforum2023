@@ -13,19 +13,19 @@ export function Tracks(props: any){
             <div className='ImportantDates'>
                 <h2>Tracks</h2>
                 
-                <Link to="/Tracks/CRC">
+                <Link to="/tracks/crc">
                     <p>Comunicações e Redes de Computadores (CRC)</p>
                 </Link>
-                <Link to="/Tracks/SOFTCRC">
+                <Link to="/tracks/softcrc">
                     <p>Ciência e Engenharia de Software (SOFT-PT 2023)</p>
                 </Link>
-                <Link to="/Tracks/CD">
+                <Link to="/tracks/cd">
                     <p>Ciência de Dados</p>
                 </Link>
-                <Link to="/Tracks/SIntel">
+                <Link to="/tracks/sintel">
                     <p>Sistemas Inteligentes (SIntel)</p>
                 </Link>
-                <Link to="/Tracks/ASPI">
+                <Link to="/tracks/aspi">
                     <p>Aspetos Sócio-Profissionais da Informática</p>
                 </Link>
 
