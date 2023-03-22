@@ -23,7 +23,7 @@ export function Tracks(props: any){
                     <p>Ciência de Dados</p>
                 </Link>
                 <Link to="/Tracks/SIntel">
-                    <p>Sistemas Inteligentes</p>
+                    <p>Sistemas Inteligentes (SIntel)</p>
                 </Link>
                 <Link to="/Tracks/ASPI">
                     <p>Aspetos Sócio-Profissionais da Informática</p>
