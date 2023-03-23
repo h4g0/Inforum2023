@@ -20,7 +20,8 @@ export function Track2_SOFTCRC(props: any) {
 
                 <h2>Lista de tópicos</h2>
 
-                <p>Solicitam-se artigos com contribuição original em todos os tópicos relacionados com o software, nomeadamente (mas não apenas) trabalhos que se enquadrem nas seguintes áreas:</p>
+                <p>Solicitam-se artigos com contribuição original em todos os tópicos relacionados com o software,
+                    nomeadamente (mas não apenas) trabalhos que se enquadrem nas seguintes áreas:</p>
 
                 <ul>
                     <li>Modelos de computação e de programação</li>
@@ -37,14 +38,14 @@ export function Track2_SOFTCRC(props: any) {
                 </ul>
 
                 <h2>Comissão de programa</h2>
-              
+
                 <ul>
                     <li>Jorge Sousa Pinto, U. Minho (coord.)</li>
                     <li>Alexandra Mendes, U. Porto</li>
                     <li>Ana Almeida Matos, U. Lisboa</li>
                     <li>Antónia Lopes, U. Lisboa</li>
                     <li>Carla Ferreira, U. Nova de Lisboa</li>
-                    <li>Cláudio Lourenço, Huawei Central Software Institute (UK)</li>
+                    <li>Cláudio Lourenço, Huawei Central Software Institute (UK)</li>
                     <li>Daniela Cruz, Checkmarx</li>
                     <li>David Pereira, ISEP, I.P. Porto</li>
                     <li>Francisco Martins, U. Açores</li>
