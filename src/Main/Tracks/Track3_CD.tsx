@@ -39,13 +39,31 @@ export function Track3_CD(props: any) {
 
 
             <h2>Lista de tópicos</h2>
-            <p>A sessão INForum CD procura submissões de artigos no contexto da ciência e análise de dados (podendo estar ou não relacionado com grande volume de dados (big data)), no seu sentido abrangente, descrita de forma não exaustiva, pela seguinte lista de tópicos: Ciência de Dados, Big Data, Cloud Computing, Aprendizagem Automática, Aprendizagem Estatística, Aprendizagem Profunda, Extração da Informação, Fundamentos matemáticos e modelos estatísticos para descoberta do conhecimento, Mineração de dados, Mineração Web, Processamento estatístico da linguagem natural, Processos de otimização em grande volume de dados (procura, análise, indexação, mapeamento, ...), Recuperação da Informação, Redes Sociais, Segurança da Informação, Visualização de grande volume de dados.
+            <p>A sessão INForum CD procura submissões de artigos no contexto da ciência e análise de dados (podendo estar ou não relacionado com grande volume de dados (big data)), no seu sentido abrangente, descrita de forma não exaustiva, pela seguinte lista de tópicos:
 </p>
-            </div>
 
+            <ul>
+                <li>Ciência de Dados</li>
+                <li>Big Data</li>
+                <li>Cloud Computing</li>
+                <li>Aprendizagem Automática</li>
+                <li>Aprendizagem Estatística</li>
+                <li>Aprendizagem Profunda</li>
+                <li>Extração da Informação</li>
+                <li>Fundamentos matemáticos e modelos estatísticos para descoberta do conhecimento</li>
+                <li>Mineração de dados</li>
+                <li>Mineração Web</li>
+                <li>Processamento estatístico da linguagem natural</li>
+                <li>Processos de otimização em grande volume de dados (procura, análise, indexação, mapeamento, ...)</li>
+                <li>Recuperação da Informação</li>
+                <li>Redes Sociais</li>
+                <li>Segurança da Informação</li>
+                <li>Visualização de grande volume de dados</li>
+            </ul>
+            </div>
             <div className='TracksTwo'>
 
-                
+            <div className='InsideTracksTwo'>
             <h2>Datas importantes</h2>
 
             <InforumDates></InforumDates>
@@ -80,6 +98,7 @@ export function Track3_CD(props: any) {
                 <li>Sergi Bermudez I Badia, Universidade da Madeira</li>
                 <li>Teresa	Gonçalves, Universidade de Evora</li>
             </ul>
+            </div>
             </div>
             </div>
 

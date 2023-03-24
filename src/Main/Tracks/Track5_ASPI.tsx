@@ -77,7 +77,7 @@ export function Track5_ASPI(props: any) {
 
             <div className="TracksTwo">
 
-
+            <div className='InsideTracksTwo'>
             <h2>Datas importantes</h2>
 
             <InforumDates></InforumDates>
@@ -122,7 +122,7 @@ export function Track5_ASPI(props: any) {
             </ul>
         </div>
 
-
+        </div>
         </div>
         </div>
     </>

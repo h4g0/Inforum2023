@@ -43,6 +43,7 @@ export function Track2_SOFTCRC(props: any) {
 
             <div className='TracksTwo'>
 
+            <div className='InsideTracksTwo'>
 
             <h2>Datas importantes</h2>
 
@@ -100,6 +101,7 @@ export function Track2_SOFTCRC(props: any) {
                
                 </div>
 
+            </div>
             </div>
         </div>
     

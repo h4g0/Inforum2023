@@ -107,7 +107,7 @@ Neste sentido, a CRC ambiciona capturar evidências, inovações, trabalhos apli
             </div>
 
         <div className='TracksTwo'>
-
+        <div className='InsideTracksTwo'>
             <h2>Datas importantes</h2>
 
             <InforumDates></InforumDates>
@@ -149,7 +149,7 @@ Neste sentido, a CRC ambiciona capturar evidências, inovações, trabalhos apli
        
             
         </div>
-
+        </div>
             </div>
 
     </>

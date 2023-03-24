@@ -47,15 +47,16 @@ export function Track4_SIntel(props: any){
         </div>
 
         <div className='TracksTwo'>
-
+        <div className='InsideTracksTwo'>
         
         <h2>Datas importantes</h2>
 
         <InforumDates></InforumDates>
 
-        <a href="https://easychair.org/conferences/?conf=inforum2023">https://easychair.org/conferences/?conf=inforum2023</a>
 
         <h2>Link de submissão</h2>
+
+        <a href="https://easychair.org/conferences/?conf=inforum2023">https://easychair.org/conferences/?conf=inforum2023</a>
 
         <h2>Comissão coordenadora</h2>
 
@@ -97,6 +98,7 @@ export function Track4_SIntel(props: any){
             </ul>
 
             </div>
+        </div>
         </div>
         </div>
     </>
