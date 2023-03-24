@@ -88,7 +88,7 @@ export function Track4_SIntel(props: any){
 
             </div>
         </div>
-  </div>
+        </div>
     </>
 
 }

@@ -22,7 +22,8 @@ export function Track2_SOFTCRC(props: any) {
 
                 <h2>Lista de tópicos</h2>
 
-                <p>Solicitam-se artigos com contribuição original em todos os tópicos relacionados com o software, nomeadamente (mas não apenas) trabalhos que se enquadrem nas seguintes áreas:</p>
+                <p>Solicitam-se artigos com contribuição original em todos os tópicos relacionados com o software,
+                    nomeadamente (mas não apenas) trabalhos que se enquadrem nas seguintes áreas:</p>
 
                 <ul>
                     <li>Modelos de computação e de programação</li>
