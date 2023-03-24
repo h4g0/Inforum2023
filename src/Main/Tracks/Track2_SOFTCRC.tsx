@@ -10,6 +10,8 @@ export function Track2_SOFTCRC(props: any) {
                 <Patreons/>
             </div>
             <div className='Tracks'>
+            <div className='TracksOne'>
+
                 <h1>Ciência e Engenharia de Software (SOFT-PT 2023)</h1>
 
                 <p>O SOFT-PT (Ciência e Engenharia de Software) é uma das sessões do INForum (https://inforum.org.pt/),
@@ -35,37 +37,13 @@ export function Track2_SOFTCRC(props: any) {
                     <li>Desenho e análise de algoritmos, pesquisa e optimização</li>
                     <li>Casos de estudo e relatos de experiências na indústria de software</li>
                 </ul>
+            </div>
+
+            <div className='TracksTwo'>
+
 
                 <h2>Comissão de programa</h2>
               
-                <ul>
-                    <li>Jorge Sousa Pinto, U. Minho (coord.)</li>
-                    <li>Alexandra Mendes, U. Porto</li>
-                    <li>Ana Almeida Matos, U. Lisboa</li>
-                    <li>Antónia Lopes, U. Lisboa</li>
-                    <li>Carla Ferreira, U. Nova de Lisboa</li>
-                    <li>Cláudio Lourenço, Huawei Central Software Institute (UK)</li>
-                    <li>Daniela Cruz, Checkmarx</li>
-                    <li>David Pereira, ISEP, I.P. Porto</li>
-                    <li>Francisco Martins, U. Açores</li>
-                    <li>Hugo Macedo, Aarhus University (Denmark)</li>
-                    <li>Isabel Sousa Brito, IP Beja</li>
-                    <li>João Saraiva, U. Minho</li>
-                    <li>João Paulo Fernandes, U. Porto</li>
-                    <li>Joaquim Tojal, Critical Software</li>
-                    <li>Luís Caires, U. Nova de Lisboa</li>
-                    <li>Marco Vieira, U. Coimbra</li>
-                    <li>Maria João Frade, U. Minho</li>
-                    <li>Mário Florido, U. Porto</li>
-                    <li>Mário Pereira, U. Nova de Lisboa</li>
-                    <li>Miguel Oliveira e Silva, U. Aveiro</li>
-                    <li>Salvador Abreu, U. Évora</li>
-                    <li>Sandra Alves, U. Porto</li>
-                    <li>Simão Melo de Sousa, U. Beira Interior</li>
-                    <li>Vasco Vasconcelos, U. Lisboa</li>
-                    <li>Victor Miraldo, Channable (The Netherlands)</li>
-                </ul>
-
                 <h2>Comissão coordenadora</h2>
 
                 <ul>
@@ -79,8 +57,40 @@ export function Track2_SOFTCRC(props: any) {
                     <li>Vasco Thudichum Vasconcelos, vmvasconcelos@ciencias.ulisboa.pt</li>
                 </ul>
 
+                <ul>
+                    <li>Jorge Sousa Pinto, Universidade do Minho (coord.)</li>
+                    <li>Alexandra Mendes, Universidade do Porto</li>
+                    <li>Ana Almeida Matos, Universidade  Lisboa</li>
+                    <li>Antónia Lopes, Universidade  Lisboa</li>
+                    <li>Carla Ferreira, Universidade  Nova de Lisboa</li>
+                    <li>Cláudio Lourenço, Huawei Central Software Institute (UK)</li>
+                    <li>Daniela Cruz, Checkmarx</li>
+                    <li>David Pereira, ISEP, Instituto Politécnico do Porto</li>
+                    <li>Francisco Martins, Universidade dos Açores</li>
+                    <li>Hugo Macedo, Aarhus University (Denmark)</li>
+                    <li>Isabel Sousa Brito, Instituto Politécnico de Beja</li>
+                    <li>João Saraiva, Universidade do Minho</li>
+                    <li>João Paulo Fernandes, Universidade do Porto</li>
+                    <li>Joaquim Tojal, Critical Software</li>
+                    <li>Luís Caires, Universidade  Nova de Lisboa</li>
+                    <li>Marco Vieira, Universidade de Coimbra</li>
+                    <li>Maria João Frade, Universidade do Minho</li>
+                    <li>Mário Florido, Universidade do Porto</li>
+                    <li>Mário Pereira, Universidade  Nova de Lisboa</li>
+                    <li>Miguel Oliveira e Silva, Universidade de Aveiro</li>
+                    <li>Salvador Abreu, Universidade de Évora</li>
+                    <li>Sandra Alves, Universidade do Porto</li>
+                    <li>Simão Melo de Sousa, Universidade da Beira Interior</li>
+                    <li>Vasco Vasconcelos, Universidade  de Lisboa</li>
+                    <li>Victor Miraldo, Channable (The Netherlands)</li>
+                </ul>
+
+               
+                </div>
+
             </div>
         </div>
+    
     </>
 
 }

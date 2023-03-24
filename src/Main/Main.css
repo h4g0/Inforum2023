@@ -514,8 +514,37 @@ p {
 }
 
 
+.Tracks {
+    display: flex;
+}
+
+.TracksOne{
+    margin-right: 5%;
+    width: 60%;
+}
+
+.TracksTwo{
+    width: 35%;
+}
 
 
+@media only screen and (max-width: 850px) {
+    /* For mobile phones: */
+    .Tracks {
+      display: block;
+    }
+
+    .TracksOne{
+        margin-right: 0%;
+        width: 100%;
+    }
+    
+    .TracksTwo{
+        width: 100%;
+    }
+    
+}
+  
 @media only screen and (max-width: 955px) {
     /* For mobile phones: */
     .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {

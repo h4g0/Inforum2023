@@ -10,6 +10,8 @@ export function Track4_SIntel(props: any){
             <Patreons/>
         </div>
         <div className='Tracks'>
+        <div className='TracksOne'>
+
             <h1>Sistemas Inteligentes (SIntel)</h1>
             <p>A sofisticação de sistemas informáticos modernos exige uma cada vez maior integração de mecanismos avançados e inteligentes de suporte à tomada de decisão e de interação com humanos. O tópico Sistemas Inteligentes agrega a inclusão em sistemas informáticos de componentes relacionados com a tomada de decisão inteligente.
 
@@ -20,7 +22,7 @@ export function Track4_SIntel(props: any){
                 Nos sistemas inteligentes destacam-se três tarefas: percepção, raciocínio e interação. A percepção é responsável pela compreensão do ambiente, obtendo informação semântica através de várias modalidades, como imagem, texto, som, ou outras. O raciocínio ajuda o sistema a tomar decisões, resolver problemas complexos e gerar novos conhecimentos usando a informação recolhida da percepção e de outras fontes. A interação permite que o sistema comunique e colabore com outros agentes, como humanos ou outros sistemas inteligentes, permitindo operar em ambientes complexos e dinâmicos. Ao realizar essas tarefas, os sistemas inteligentes permitem abordar de formas inovadoras problemas do mundo real em virtualmente qualquer domínio de aplicação, desde a saúde, indústria, transportes, agricultura, serviços, arte, etc.
             </p>
 
-
+        
             <h2>Lista de tópicos</h2>
 
                                     
@@ -41,44 +43,50 @@ export function Track4_SIntel(props: any){
             <li>Visão por computador</li>
             <li>Visualização inteligente de informação</li>
 
+        </div>
+
+        <div className='TracksTwo'>
+
+        <h2>Comissão coordenadora</h2>
+
+        <ul>
+            <li>Henrique Lopes Cardoso,  Faculdade de Engenharia da Universidade do Porto</li>
+            <li>Luís Filipe Teixeira,  Faculdade de Engenharia da Universidade do Porto</li>
+        </ul>
+
             <h2>Comissão de programa</h2>
 
             <ul>
-                <li>Alberto Simões, IPCA</li>
-                <li>António Abelha, UMinho</li>
-                <li>Ana Paula Rocha, FEUP</li>
-                <li>Artur Pereira, UA</li>
-                <li>Brígida Mónica Faria, ESS/IPP</li>
-                <li>César Analide, UMinho</li>
-                <li>Daniel Castro Silva, FEUP</li>
-                <li>Gil Gonçalves, FEUP</li>
-                <li>Hélder Oliveira, FCUP</li>
-                <li>Henrique Lopes Cardoso, FEUP</li>
+                <li>Alberto Simões, Instituto Politécnico do Cávado e do Ave </li>
+                <li>António Abelha, Universidade do Minho</li>
+                <li>Ana Paula Rocha,  Faculdade de Engenharia da Universidade do Porto</li>
+                <li>Artur Pereira, Universidade de Aveiro</li>
+                <li>Brígida Mónica Faria, ESS/Instituto Politécnico do Porto</li>
+                <li>César Analide, Universidade do Minho</li>
+                <li>Daniel Castro Silva,  Faculdade de Engenharia da Universidade do Porto</li>
+                <li>Gil Gonçalves,  Faculdade de Engenharia da Universidade do Porto</li>
+                <li>Hélder Oliveira, Faculdade de Ciências da Universidade do Porto</li>
+                <li>Henrique Lopes Cardoso,  Faculdade de Engenharia da Universidade do Porto</li>
                 <li>Joana Campos, INESC-ID</li>
-                <li>João Balsa, FCUL</li>
-                <li>João Cordeiro, UBI</li>
-                <li>João C. Neves, UBI</li>
-                <li>João Rodrigues, UAlg</li>
-                <li>João Ricardo Silva, FCUL</li>
-                <li>Jorge Alves da Silva, FEUP</li>
+                <li>João Balsa, Faculdade de Ciências da Universidade do Lisboa</li>
+                <li>João Cordeiro, Universidade da Beira Interior</li>
+                <li>João C. Neves, Universidade da Beira Interior</li>
+                <li>João Rodrigues, Universidade de Aveirolg</li>
+                <li>João Ricardo Silva, Faculdade de Ciências da Universidade do Lisboa</li>
+                <li>Jorge Alves da Silva,  Faculdade de Engenharia da Universidade do Porto</li>
                 <li>Liliana Ferreira, Fraunhofer AICOS</li>
-                <li>Luís Nunes, ISCTE</li>
+                <li>Luís Nunes, Instituto Universitário de Lisboa</li>
                 <li>Luis Rosado, Fraunhofer AICOS</li>
-                <li>Luís Filipe Teixeira, FEUP</li>
+                <li>Luís Filipe Teixeira,  Faculdade de Engenharia da Universidade do Porto</li>
                 <li>Maria Vasconcelos, Fraunhofer AICOS</li>
-                <li>Nelson Rodrigues, IPB</li>
-                <li>Nuno Gonçalves, UCoimbra</li>
-                <li>Pedro Melo-Pinto, UTAD</li>
-                <li>Pedro Moreira, IPVC</li>
-                <li>Ricardo Campos, IPTomar</li>
+                <li>Nelson Rodrigues, Instituto Politécnico de Bragança</li>
+                <li>Nuno Gonçalves, Universidade de Coimbra</li>
+                <li>Pedro Melo-Pinto, Universidade de Trás-os-Montes e Alto Douro</li>
+                <li>Pedro Moreira,  Instituto Politécnico de Viana do Castelo</li>
+                <li>Ricardo Campos, Instituto Politécnico de Tomar</li>
             </ul>
 
-            <h2>Comissão coordenadora</h2>
-
-            <ul>
-                <li>Henrique Lopes Cardoso, FEUP</li>
-                <li>Luís Filipe Teixeira, FEUP</li>
-            </ul>
+            </div>
         </div>
   </div>
     </>

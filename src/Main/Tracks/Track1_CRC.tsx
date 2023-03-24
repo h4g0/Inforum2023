@@ -8,6 +8,8 @@ export function Track1_CRC(props: any){
             <Patreons/>
         </div>
         <div className='Tracks'>
+            <div className='TracksOne'>
+
             <h1>Comunicações e Redes de Computadores (CRC)</h1>
 
         <p>As capacidades de rede e computação evidenciadas pelo 5G, nas suas várias releases, têm-se revelado muito promissoras para uma pletora de aplicações e cenários. Aspetos como a digitalização têm impulsionado diversas áreas verticais, permitindo a concretização de aspetos tais como a Industria4.0. Permitiu também pela primeira vez ver serem aplicadas inovações e novos desenvolvimentos em diversas áreas, não só as focadas no seio das telecomunicações, mas também em muitas outras capacidades complementares e de suporte, como é o caso da computação, automação, inteligência artificial, etc.
@@ -97,6 +99,18 @@ export function Track1_CRC(props: any){
                 </li>
             </ul>
 
+            </div>
+
+        <div className='TracksTwo'>
+
+             <h2>Comissão coordenadora</h2>
+            
+            <ul>
+               
+                    <li>Daniel Corujo</li>
+                    <li>João Vilela</li>
+            
+            </ul>
             <h2>Comissão de programa</h2>
             <ul>
                 <li>Amaro Sousa, Universidade de Aveiro</li>
@@ -118,14 +132,10 @@ export function Track1_CRC(props: any){
                 <li>Vasco Pereira, Universidade de Coimbra</li>
             </ul>
 
-            <h2>Comissão coordenadora</h2>
+
+        </div>
+       
             
-            <ul>
-               
-                    <li>Daniel Corujo</li>
-                    <li>João Vilela</li>
-            
-            </ul>
         </div>
 
     </div>

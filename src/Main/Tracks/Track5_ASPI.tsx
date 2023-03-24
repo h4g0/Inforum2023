@@ -9,6 +9,7 @@ export function Track5_ASPI(props: any){
             <Patreons/>
         </div>
         <div className='Tracks'>
+        <div className='TracksOne'>
             <h1>Aspetos Sócio-Profissionais da Informática</h1>
             <p>O Colégio de Informática da Ordem dos Engenheiros promove uma sessão no Inforum 2023 com o objetivo de discutir trabalhos realizados por jovens investigadores e outros profissionais que se relacionam com preocupações sobre impactos sócio-profissionais na sociedade moderna do desenvolvimento, operação e utilização de tecnologia de produtos e serviços baseados em tecnologias da informação.
 
@@ -109,39 +110,44 @@ export function Track5_ASPI(props: any){
     
             </ul>
 
+            </div>
+
+            <div className="TracksTwo">
 
             <h2>Comissão de programa</h2>
 
             <ul>
-                <li>Ademar Aguiar, FEUP</li>
-                <li>Alberto Silva, IST UL</li>
+                <li>Ademar Aguiar, Faculdade de Engenharia da Universidade do Porto</li>
+                <li>Alberto Silva, Instituto Superior Técnico</li>
                 <li>Armanda Rodrigues, FCT NOVA </li>
                 <li>Ana Moreira, FCT NOVA</li>
-                <li>António Carvalho, Politécnico de Coimbra</li>
-                <li>Carlos Pereira, Politécnico de Coimbra</li>
+                <li>António Carvalho, Instituto Politécnico de Coimbra</li>
+                <li>Carlos Pereira, Instituto Politécnico de Coimbra</li>
                 <li>Fernanda Pedro, CEI - Ordem dos Engenheiros</li>
-                <li>Gonçalo Marques, ESTGOH, Politécnico de Coimbra</li>
-                <li>Henrique Mamede, INESC TEC, U. Aberta </li>
-                <li>Isabel Sofia Sousa Brito, IPBeja</li>
+                <li>Gonçalo Marques, ESTGOH, Instituto Politécnico de Coimbra</li>
+                <li>Henrique Mamede, INESC TEC, Universidade Aberta </li>
+                <li>Isabel Sofia Sousa Brito,  Instituto Politécnico de Beja</li>
                 <li>João Araújo, FCT NOVA</li>
                 <li>João Oliveira, CEI - Ordem dos Engenheiros</li>
-                <li>João Pascoal Faria, FEUP</li>
-                <li>Jorge Bernardino, Politécnico de Coimbra</li>
+                <li>João Pascoal Faria, Faculdade de Engenharia da Universidade do Porto</li>
+                <li>Jorge Bernardino, Instituto Politécnico de Coimbra</li>
                 <li>Legatheaux Martins, FCT NOVA</li>
-                <li>Luís Amaral, UMinho</li>
-                <li>Luís Osório, ISEL</li>
-                <li>Mário Freire, UBI</li>
-                <li>Miguel Brito, UMinho</li>
+                <li>Luís Amaral, Universidade do Minho</li>
+                <li>Luís Osório, Instituto Superior de Engenharia de Lisboa</li>
+                <li>Mário Freire, Universidade da Beira Interior</li>
+                <li>Miguel Brito, Universidade do Minho</li>
                 <li>Miguel Goulão, FCT NOVA</li>
                 <li>Nuno Mateus-Coelho, Instituto Politécnico do Cávado e do Ave (IPCA)</li>
-                <li>Paula Alexandra Silva, FCT U.Coimbra</li>
-                <li>Paula Ventura, UAlg</li>
+                <li>Paula Alexandra Silva, Faculdade de Ciências e Tecnologia da Universidade de Coimbra</li>
+                <li>Paula Ventura, Universidade do Algarve</li>
                 <li>Paulo Lopes, FCT NOVA</li>
                 <li>Vítor Santos, NOVA IMS</li>
-                <li>Vasco Pereira, UCoimbra</li>
+                <li>Vasco Pereira, Universidade de Coimbra</li>
 
 
             </ul>
+
+            </div>
         </div>
 
 
