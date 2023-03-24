@@ -1,3 +1,4 @@
+import { InforumDates } from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
 
@@ -46,6 +47,15 @@ export function Track4_SIntel(props: any){
         </div>
 
         <div className='TracksTwo'>
+
+        
+        <h2>Datas importantes</h2>
+
+        <InforumDates></InforumDates>
+
+        <a href="https://easychair.org/conferences/?conf=inforum2023">https://easychair.org/conferences/?conf=inforum2023</a>
+
+        <h2>Link de submissão</h2>
 
         <h2>Comissão coordenadora</h2>
 

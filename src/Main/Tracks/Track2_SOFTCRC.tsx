@@ -1,3 +1,4 @@
+import { InforumDates } from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
 
@@ -43,10 +44,17 @@ export function Track2_SOFTCRC(props: any) {
             <div className='TracksTwo'>
 
 
+            <h2>Datas importantes</h2>
+
+            <InforumDates></InforumDates>
+            
+            
+            <h2>Link de submissão</h2>
+
+            <a href="https://easychair.org/conferences/?conf=inforum2023">https://easychair.org/conferences/?conf=inforum2023</a>
+
                 <h2>Comissão de programa</h2>
               
-                <h2>Comissão coordenadora</h2>
-
                 <ul>
                     <li>Luís Caires, lcaires@fct.unl.pt</li>
                     <li>Carla Ferreira, carla.ferreira@fct.unl.pt</li>
@@ -57,6 +65,9 @@ export function Track2_SOFTCRC(props: any) {
                     <li>Simão Melo de Sousa, desousa@di.ubi.pt</li>
                     <li>Vasco Thudichum Vasconcelos, vmvasconcelos@ciencias.ulisboa.pt</li>
                 </ul>
+
+
+                <h2>Comissão coordenadora</h2>
 
                 <ul>
                     <li>Jorge Sousa Pinto, Universidade do Minho (coord.)</li>

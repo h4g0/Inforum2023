@@ -1,6 +1,39 @@
 import './Main.css'
 import { Patreons } from './Patreons'
 
+
+export function InforumDates(props: any){
+    return <>
+
+    
+<ul>
+   <li className={Date.now() > Date.parse("27 Jan 2023 23:59:00 GMT") ? "oldDate" : "newDate"}> 27/jan receção de propostas para tópicos (online)</li>
+
+   <li className={Date.now() > Date.parse("10 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>10/fev notificação aos proponentes de tópicos</li>
+
+   <li className={Date.now() > Date.parse("24 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >24/fev receção de propostas finais (com CPT final)</li>
+
+
+   <li className={Date.now() > Date.parse("26 May 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >26/mai submissão de resumos de artigos</li>
+
+   <li className={Date.now() > Date.parse("02 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >    2/jun submissão de artigos</li>
+
+   <li className={Date.now() > Date.parse("30 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >30/jun notificação aos autores dos artigos</li>
+
+
+   <li className={Date.now() > Date.parse("07 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >7/jul submissão de comunicações, pósteres e demonstrações</li>
+
+   <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >14/jul submissão de artigos camera-ready</li>
+
+   <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >14/jul notificação aos autores das comunicações, pósteres e demonstrações</li>
+
+
+   <li className={Date.now() > Date.parse("8 Sep 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >7-8/set evento no Porto</li>
+
+    </ul>
+
+    </>
+}
 export function Dates(props: any){
     return <><div className="Dates">
         
@@ -185,32 +218,8 @@ de atração de submissões.
 
 <h1>Datas Importantes</h1>
 
+<InforumDates></InforumDates>
 
-<ul>
-   <li className={Date.now() > Date.parse("27 Jan 2023 23:59:00 GMT") ? "oldDate" : "newDate"}> 27/jan receção de propostas para tópicos (online)</li>
-
-   <li className={Date.now() > Date.parse("10 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>10/fev notificação aos proponentes de tópicos</li>
-
-   <li className={Date.now() > Date.parse("24 Feb 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >24/fev receção de propostas finais (com CPT final)</li>
-
-
-   <li className={Date.now() > Date.parse("26 May 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >26/mai submissão de resumos de artigos</li>
-
-   <li className={Date.now() > Date.parse("02 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >    2/jun submissão de artigos</li>
-
-   <li className={Date.now() > Date.parse("30 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >30/jun notificação aos autores dos artigos</li>
-
-
-   <li className={Date.now() > Date.parse("07 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >7/jul submissão de comunicações, pósteres e demonstrações</li>
-
-   <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >14/jul submissão de artigos camera-ready</li>
-
-   <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >14/jul notificação aos autores das comunicações, pósteres e demonstrações</li>
-
-
-   <li className={Date.now() > Date.parse("8 Sep 2023 23:59:00 GMT") ? "oldDate" : "newDate"} >7-8/set evento no Porto</li>
-
-    </ul>
            </div>
             
         </div>
