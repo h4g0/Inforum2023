@@ -30,6 +30,8 @@ import {Track3_CD} from './Tracks/Track3_CD';
 import {Track4_SIntel} from './Tracks/Track4_SIntel';
 import {Track5_ASPI} from './Tracks/Track5_ASPI';
 import { Tracks } from './Tracks';
+import { Track6_SCF } from './Tracks/Track6_SCF';
+import { Track7_CPD } from './Tracks/Track7_CPD';
 
 
 
@@ -167,8 +169,11 @@ export function Login(this: any, props: any) {
                 <Route path="tracks/softcrc" element={<Track2_SOFTCRC/>}/>
                 <Route path="tracks/cd" element={<Track3_CD/>}/>
                 <Route path="tracks/sintel" element={<Track4_SIntel/>}/>
-                <Route path="tracks/aspi" element={<Track5_ASPI/>}/>
+                <Route path="tracks/aspi" element={<Track5_ASPI/>}/>                
+                <Route path="/tracks/cpsapps" element={<Track6_SCF/>}/>
+                <Route path="/tracks/cpdla" element={<Track7_CPD/>}/>
 
+                
                 <Route path="tracks" element={<Tracks/>}/>
 
                 <Route path="location" element={<Location/>}/>

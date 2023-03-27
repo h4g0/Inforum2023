@@ -28,6 +28,12 @@ export function Tracks(props: any){
                 <Link to="/tracks/aspi">
                     <p>Aspetos Sócio-Profissionais da Informática</p>
                 </Link>
+                <Link to="/tracks/cpsapps">
+                    <p>Sistemas Ciber-Físicos Confiáveis e Aplicações (CPS&Apps)</p>
+                </Link>
+                <Link to="/tracks/cpdla">
+                    <p>Computação Paralela, Distribuída e de Larga Escala (CPDLA)</p>
+                </Link>
 
             </div>
             

@@ -1,4 +1,4 @@
-import { InforumDates } from '../Dates';
+import { InforumDates, InforumDatesTracks } from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
 
@@ -110,7 +110,7 @@ Neste sentido, a CRC ambiciona capturar evidências, inovações, trabalhos apli
         <div className='InsideTracksTwo'>
             <h2>Datas importantes</h2>
 
-            <InforumDates></InforumDates>
+            <InforumDatesTracks></InforumDatesTracks>
             <h2>Link de submissão</h2>
 
             <a href="https://easychair.org/conferences/?conf=inforum2023">https://easychair.org/conferences/?conf=inforum2023</a>

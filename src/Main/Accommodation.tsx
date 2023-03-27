@@ -13,7 +13,7 @@ export function Accommodation(props: any){
             </div>
             <div className='ImportantDates'>
                 <h2>Alojamento</h2>
-                <p>Existem varios hoteis a distancia a pé da FEUP alguns deles incluem:</p>
+                <p>Existem vários hotéis a distância a menos de 15 minutos a pé ou de transportes públicos da FEUP alguns deles incluem:</p>
                 <h3><a href="https://www.hotelportinari.com/">Hotel Portinari</a></h3>
                 <p><b>Preço:</b> 47€ por pessoa por noite</p>
                 <img src={portiari} alt="Hotel Portinari"/>

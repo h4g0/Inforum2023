@@ -1,4 +1,4 @@
-import { InforumDates } from '../Dates';
+import { InforumDates, InforumDatesTracks } from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
 
@@ -51,7 +51,7 @@ export function Track4_SIntel(props: any){
         
         <h2>Datas importantes</h2>
 
-        <InforumDates></InforumDates>
+        <InforumDatesTracks></InforumDatesTracks>
 
 
         <h2>Link de submissão</h2>
