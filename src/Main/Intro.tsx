@@ -31,9 +31,9 @@ function Timer(props: any) {
     useEffect(() => {
         const interval = setInterval(() => setTime(Date.now()), 1000);
         return () => {
-        clearInterval(interval);
-    };
-    }, []); 
+            clearInterval(interval);
+        };
+    }, []);
 
     const inforumDate = Date.parse(props.time)
     const now = (new Date()).getTime()
@@ -91,31 +91,31 @@ function Slider() {
     ]
 
     const animation = 11
-    
+
     const [time, setTime] = useState(Date.now());
 
     useEffect(() => {
-        const interval = setInterval(() => setTime(Date.now()),  10);
+        const interval = setInterval(() => setTime(Date.now()), 10);
         return () => {
-        clearInterval(interval);
-    };
-    }, []); 
+            clearInterval(interval);
+        };
+    }, []);
 
     const now = (new Date()).getTime()
 
     const oneSecond = 1000
 
-    const seconds = now  / oneSecond
+    const seconds = now / oneSecond
 
-    const second =  Math.floor(now  / oneSecond)
+    const second = Math.floor(now / oneSecond)
 
-    const pos = ( second - (second % animation)) % slideImages.length
+    const pos = (second - (second % animation)) % slideImages.length
 
     const lapse_time = animation / 2
-    
-    const op   = (seconds % animation) < lapse_time ? 
-    (seconds % lapse_time ) * ( 1 / lapse_time ) :
-             1 - (seconds % lapse_time) * ( 1 / lapse_time ) 
+
+    const op = (seconds % animation) < lapse_time ?
+        (seconds % lapse_time) * (1 / lapse_time) :
+        1 - (seconds % lapse_time) * (1 / lapse_time)
 
     const divStyle = {
         opacity: op,
@@ -123,28 +123,22 @@ function Slider() {
 
 
     return <>
-        <div  style={divStyle} className='SlideImageContainer'>
-        
-        <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
+        <div style={divStyle} className='SlideImageContainer'>
 
-                   
-      
+            <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
+
+
         </div>
     </>
-  
+
 }
 
 export function Initial(props: any) {
-    
-   
+
+
     return <>
         <div className="Intro">
-
-
-
-
             <Slider></Slider>
-
             <h2>Bem-vindo ao INForum 2023</h2>
 
             <p> Reunindo a comunidade nacional, o INForum é um local privilegiado para a divulgação, discussão e
@@ -168,7 +162,7 @@ export function Initial(props: any) {
             <p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto nos dias 7
                 e 8 de setembro. Contamos com a presença de todos!
             </p>
-           
+
 
             <p>O INForum começa em:</p>
             <Timer time={props.time}/>

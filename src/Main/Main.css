@@ -123,7 +123,7 @@ p {
     justify-content: left;
     width: 100%;
     background-color: #0c4fed;
-    z-index:1;
+    z-index: 1;
 
 }
 
@@ -168,7 +168,7 @@ p {
 
 
 .Timer {
-    font-size:  40px;
+    font-size: 40px;
     font-weight: bold;
 
 }
@@ -235,7 +235,6 @@ p {
     margin-left: 100px;
     margin-right: 100px;
 }
-
 
 
 .People {
@@ -339,10 +338,6 @@ p {
 
 }
 
-.Accommodation h3 {
-    margin-top: 20px;
-}
-
 .Accommodation img {
     max-width: 100%;
 }
@@ -363,19 +358,30 @@ p {
     display: inline;
 }
 
-.ImportantDates h2 {
-    margin-bottom: 20px;
+.mb-2 {
+    margin-bottom: 2em;
 }
 
-.Location h3 {
-    margin-top: 20px;
+.mt-2 {
+    margin-top: 2em;
 }
+
+.mt-4 {
+    margin-top: 4em;
+}
+
+.mt-0 {
+    margin-top: 0em;
+}
+
+.pb-0 {
+    padding-bottom: 0em;
+}
+
 
 .Location img {
     max-width: 100%;
 }
-
-
 
 
 .day {
@@ -490,7 +496,6 @@ p {
 }
 
 
-
 .SlideImageContainer {
     max-width: 100%;
     position: relative;
@@ -499,7 +504,7 @@ p {
 
 
 .SlideImage {
-    margin-left: 15%;    
+    margin-left: 15%;
     width: 70%;
     aspect-ratio: 3.5 / 1;
     align-self: center;
@@ -518,20 +523,20 @@ p {
     display: flex;
 }
 
-.TracksOne{
+.TracksOne {
     margin-right: 5%;
     width: 60%;
 }
 
-.TracksTwo{
+.TracksTwo {
     width: 35%;
 }
 
-.InsideTracksTwo{
-    font-size:smaller;
-    border-style:solid;
+.InsideTracksTwo {
+    font-size: smaller;
+    border-style: solid;
     border-width: 5px;
-    border-color: #0c4fed; 
+    border-color: #0c4fed;
     padding-left: 5px;
 }
 
@@ -539,32 +544,32 @@ p {
 @media only screen and (max-width: 850px) {
     /* For mobile phones: */
     .Tracks {
-      display: block;
+        display: block;
     }
 
-    .TracksOne{
+    .TracksOne {
         margin-right: 0%;
         width: 100%;
     }
-    
-    .TracksTwo{
+
+    .TracksTwo {
         width: 100%;
     }
-    
+
 }
-  
+
 @media only screen and (max-width: 955px) {
     /* For mobile phones: */
-    .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
-      margin-top: 150px;
+    .Intro, .Location, .Keynote, .People, .Dates, .Accommodation, .Previous {
+        margin-top: 150px;
     }
- 
-  }
+
+}
 
 
-  @media only screen and (max-width:  650px) {
+@media only screen and (max-width: 650px) {
     /* For mobile phones: */
-    .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
+    .Intro, .Location, .Keynote, .People, .Dates, .Accommodation, .Previous {
         margin-top: 220px;
         margin-right: 50px;
         margin-left: 50px;
@@ -574,16 +579,16 @@ p {
     .Timer {
         font-size: 20px;
     }
- 
-  }
 
-  @media only screen and (max-width:  377px) {
+}
+
+@media only screen and (max-width: 377px) {
     /* For mobile phones: */
-    .Intro,.Location,.Keynote,.People,.Dates,.Accommodation,.Previous {
+    .Intro, .Location, .Keynote, .People, .Dates, .Accommodation, .Previous {
         margin-top: 270px;
         margin-right: 20px;
         margin-left: 20px;
 
     }
-  }
+}
 

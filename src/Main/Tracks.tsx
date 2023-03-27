@@ -1,18 +1,18 @@
-import { Link } from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import './Main.css'
-import { Patreons } from './Patreons'
+import {Patreons} from './Patreons'
 
-export function Tracks(props: any){
-    return <><div className="Accommodation">
-        
-        
-            
+export function Tracks(props: any) {
+    return <>
+        <div className="Accommodation">
+
+
             <div>
-            <Patreons/>
+                <Patreons/>
             </div>
             <div className='ImportantDates'>
                 <h2>Tracks</h2>
-                
+
                 <Link to="/tracks/crc">
                     <p>Comunicações e Redes de Computadores (CRC)</p>
                 </Link>
@@ -36,8 +36,8 @@ export function Tracks(props: any){
                 </Link>
 
             </div>
-            
+
         </div>
-        </>
+    </>
 
 }
