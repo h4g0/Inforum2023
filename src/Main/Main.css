@@ -385,6 +385,11 @@ p {
     display: flex;
 }
 
+.Accomodation2{
+    margin-left: 0px;
+    display:block;
+}
+
 .mb-2 {
     margin-bottom: 2em;
 }
@@ -667,6 +672,10 @@ p {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
+
+  .card a{
+    text-decoration: none;
+  }
   .card img{
     object-fit: cover;
     max-width: 270px;

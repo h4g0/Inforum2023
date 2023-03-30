@@ -8,16 +8,22 @@ import {Patreons} from './Patreons'
 function  Hotel(props: any){
     
     return <>
+       
         <div className="card">
+
+        <a href={props.url}>
         <img src={props.img} alt={props.imgName}/>
+
         <div className="container">
 
-        <h3 className="mt-4"><a href={props.url}>{props.name}</a></h3>
+        <h3 className="mt-4"><a >{props.name}</a></h3>
 
         <p><b>Distância: </b>{props.distance}</p>
         <p><b>Preço:</b> +/-{props.price}€ por pessoa por noite</p>
-        
         </div>
+
+        </a>
+     
         </div>
     </>
 
@@ -29,7 +35,7 @@ export function Accommodation(props: any) {
             <div>
                 <Patreons/>
             </div>
-            <div className='ImportantDates'>
+            <div className='Accomodation2'>
                 <h2>Alojamento</h2>
                 <p>Existem vários hotéis a menos de 15 minutos a pé ou de transportes públicos da FEUP
                     alguns deles incluem:</p>

@@ -45,7 +45,7 @@ export function Track2_SOFTCRC(props: any) {
                 <div className='TracksTwo'>
 
                     <div className='InsideTracksTwo'>
-                        
+
                     <div className='Submission'>
                     <h2>Link de submissão</h2>
 
