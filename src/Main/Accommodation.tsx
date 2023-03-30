@@ -31,7 +31,7 @@ export function Accommodation(props: any) {
             </div>
             <div className='ImportantDates'>
                 <h2>Alojamento</h2>
-                <p>Existem vários hotéis a distância a menos de 15 minutos a pé ou de transportes públicos da FEUP
+                <p>Existem vários hotéis a menos de 15 minutos a pé ou de transportes públicos da FEUP
                     alguns deles incluem:</p>
 
                 <div className='Hotels'>

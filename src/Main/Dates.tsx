@@ -106,6 +106,8 @@ export function Dates(props: any) {
                 <Patreons/>
             </div>
             <div className='ImportantDates'>
+                <div className='InforumStructure'>
+
                 <h1>Estrutura do INForum</h1>
 
                 <p>
@@ -283,10 +285,20 @@ export function Dates(props: any) {
 
                 </p>
 
+                </div>
+
+                <div className='ImportantDatesHighlightsExternal'>
+
+                <div className='ImportantDatesHighlights'>
+
 
                 <h1>Datas Importantes</h1>
 
                 <InforumDates></InforumDates>
+                
+                </div>
+
+                </div>
 
             </div>
 

@@ -76,10 +76,22 @@ export function Login(this: any, props: any) {
 
                 </Link>
 
+                <div className="dropdown">
+                <button>Chamadas</button>
+                <div className="dropdown-content">
+               
                 <Link to="/dates">
-                    <button>Chamadas</button>
+                    <a>Datas</a>
                 </Link>
 
+                <Link to="/tracks">
+                    <a>Tracks</a>
+                </Link>
+
+                </div>
+                </div>
+
+                   
                 {/*<Link  to="/Tracks">
                     <button>Tracks</button>
     </Link>*/}

@@ -10,30 +10,73 @@ export function Tracks(props: any) {
             <div>
                 <Patreons/>
             </div>
-            <div className='ImportantDates'>
+            <div className='TrackList'>
+                
                 <h2>Tracks</h2>
 
-                <Link to="/tracks/crc">
-                    <p>Comunicações e Redes de Computadores (CRC)</p>
-                </Link>
-                <Link to="/tracks/softcrc">
-                    <p>Ciência e Engenharia de Software (SOFT-PT 2023)</p>
-                </Link>
-                <Link to="/tracks/cd">
-                    <p>Ciência de Dados</p>
-                </Link>
-                <Link to="/tracks/sintel">
-                    <p>Sistemas Inteligentes (SIntel)</p>
-                </Link>
-                <Link to="/tracks/aspi">
-                    <p>Aspetos Sócio-Profissionais da Informática</p>
-                </Link>
-                <Link to="/tracks/cpsapps">
-                    <p>Sistemas Ciber-Físicos Confiáveis e Aplicações (CPS&Apps)</p>
-                </Link>
-                <Link to="/tracks/cpdla">
-                    <p>Computação Paralela, Distribuída e de Larga Escala (CPDLA)</p>
-                </Link>
+                <ul>
+                    <li>
+                    
+                    <Link to="/tracks/crc">
+                    Comunicações e Redes de Computadores (CRC)
+                    </Link>
+
+                    </li>
+
+                    <li>
+                        
+                        <Link to="/tracks/softcrc">
+                        Ciência e Engenharia de Software (SOFT-PT 2023)
+                        </Link>
+
+                    </li>
+
+                    <li>
+
+                        <Link to="/tracks/cd">
+                        Ciência de Dados
+                        </Link>
+                        
+                    </li>
+
+                    <li>
+
+                        <Link to="/tracks/sintel">
+                        Sistemas Inteligentes (SIntel)
+                        </Link>
+                    </li>
+
+
+                    <li>
+  
+                        <Link to="/tracks/aspi">
+                        Aspetos Sócio-Profissionais da Informática
+                        </Link>
+                        
+                    </li>
+
+                    <li>
+
+                        <Link to="/tracks/cpsapps">
+                        Sistemas Ciber-Físicos Confiáveis e Aplicações (CPS&Apps)
+                        </Link>
+
+                    </li>
+
+                    <li>
+
+                        <Link to="/tracks/cpdla">
+                        Computação Paralela, Distribuída e de Larga Escala (CPDLA)
+                        </Link>
+
+                    </li>
+
+                </ul>
+              
+               
+             
+             
+          
 
             </div>
 
