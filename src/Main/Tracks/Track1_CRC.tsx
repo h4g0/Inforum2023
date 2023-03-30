@@ -123,13 +123,18 @@ export function Track1_CRC(props: any) {
 
                 <div className='TracksTwo'>
                     <div className='InsideTracksTwo'>
+                    
+                    <div className='Submission'>
+                    <h2>Link de submissão</h2>
+
+                    <a href="https://easychair.org/conferences/?conf=inforum2023">https://easychair.org/conferences/?conf=inforum2023</a>
+
+                    </div>
+                   
                         <h2>Datas importantes</h2>
 
                         <InforumDatesTracks></InforumDatesTracks>
-                        <h2>Link de submissão</h2>
-
-                        <a href="https://easychair.org/conferences/?conf=inforum2023">https://easychair.org/conferences/?conf=inforum2023</a>
-
+                        
                         <h2>Comissão coordenadora</h2>
 
                         <ul>
