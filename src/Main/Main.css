@@ -1,7 +1,8 @@
 
 * {
     font-family: Helvetica;
-    overflow-wrap: break-word;
+    overflow-wrap: anywhere;;
+
 }
 
 p {
@@ -318,6 +319,7 @@ p {
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: 25px;  
+
 }
 
 .Program {
