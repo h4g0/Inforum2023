@@ -301,22 +301,22 @@ p {
 
 .Previous li {
     margin: 0;
-	padding: 10px 0 10px 90px;
+	padding: 5px 0 5px 35px;
 	list-style: none;
     background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 80px;  
+	background-size: 25px;  
 }
 
 .TrackList li {
     margin: 0;
-	padding: 10px 0 10px 90px;
+	padding: 10px 0 10px 35px;
 	list-style: none;
     background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 80px;  
+	background-size: 25px;  
 }
 
 .Program {
@@ -586,12 +586,12 @@ p {
 
 .Tracks li {
     margin: 0;
-	padding: 10px 0 10px 65px;
+	padding: 5px 0 5px 35px;
 	list-style: none;
     background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 50px;  }
+	background-size: 25px;  }
 
 .Tracks a {
     color: orange;
@@ -629,7 +629,7 @@ p {
     float: left;
     margin-bottom: 20px;
     margin-left: 20px;
-    padding: 20px;
+    padding: 15px;
     font-size: smaller;
 }
 
@@ -643,12 +643,12 @@ p {
 
 .ImportantDatesHighlights li {
     margin: 0;
-	padding: 10px 0 10px 65px;
+	padding: 5px 0 5px 35px;
 	list-style: none;
     background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 50px;  
+	background-size: 20px;  
 }
 
 .InforumStructure {

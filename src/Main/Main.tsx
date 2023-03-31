@@ -81,11 +81,11 @@ export function Login(this: any, props: any) {
                 <div className="dropdown-content">
                
                 <Link to="/dates">
-                    <a>Datas</a>
+                    <a>Sessões</a>
                 </Link>
 
                 <Link to="/tracks">
-                    <a>Tracks</a>
+                    <a>Artigos</a>
                 </Link>
 
                 </div>
