@@ -551,6 +551,7 @@ p {
 
 .oldDate {
     color: lightgray;
+    text-decoration: line-through;
 }
 
 
