@@ -12,7 +12,7 @@ export function Tracks(props: any) {
             </div>
             <div className='TrackList'>
                 
-                <h2>Tracks</h2>
+                <h2>Sessões</h2>
 
                 <ul>
                     <li>
