@@ -127,9 +127,14 @@ p {
     width: 100%;
     background-color: #0c4fed;
     z-index: 1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 
 }
 
+.Menu:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
 
 .Menu h1 {
     color: burlywood;
@@ -714,7 +719,10 @@ p {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover  {
+    color: #2f4f4f;
+    background-color: #f1f1f1}
+
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {
