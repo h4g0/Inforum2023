@@ -56,7 +56,7 @@ export function People(props: any) {
                 <Person name="João Saraiva" job="Patrocínios" picture={jas}
                         afiliation="University of Minho & HASLab/INESC TEC"
                         page="https://haslab.uminho.pt/jas/"/>
-                <Person name="João Pascoal Faria" job="Patrocínios" picture={pascoal} afiliation="University of Porto"
+                <Person name="João Pascoal Faria" job="Patrocínios" picture={pascoal} afiliation="University of Porto & HumanISE/INESC TEC"
                         page="https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=210006"/>
                 <Person name="Rui Maranhão" job="Registos" picture={maranhao} afiliation="University of Porto"
                         page="https://ruimaranhao.com/"/>
