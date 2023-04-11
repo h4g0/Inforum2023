@@ -1,5 +1,4 @@
 import './Main.css'
-import 'react-slideshow-image/dist/styles.css'
 import React from 'react';
 
 import avAliados_sm from "../img/Porto/AvAliados-small.jpg"
