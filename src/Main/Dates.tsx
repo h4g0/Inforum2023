@@ -292,7 +292,7 @@ export function Dates(props: any) {
                 <div className='ImportantDatesHighlights'>
 
 
-                <h1>Datas Importantes</h1>
+                <h2>Datas Importantes</h2>
 
                 <InforumDates></InforumDates>
                 
