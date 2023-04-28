@@ -1,8 +1,34 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
+import { SortedCommission } from '../Tracks';
 
 export function Track3_CD(props: any) {
+    const co_pro = [
+        "Alberto Simões, 2Ai Lab and Instituto Politécnico do Cávado e do Ave",
+        "Alexandre Rademaker, IBM Research and EMAp/FGV",
+        "Andre de Carvalho, Universidade de São Paulo",
+        "Armanda Rodrigues, Universidade NOVA de Lisboa",
+        "Cátia Vaz, ISEL, Instituto Politécnico de Lisboa",
+        "Claudia Soares, FCT UNL",
+        "Diana Santos, University of Oslo",
+        "Helena Galhardas, Universidade de Lisboa",
+        "Helena Moniz, FLUL and CLUL/ INESC-ID",
+        "Irene Rodrigues, Universidade de Evora",
+        "João Cordeiro, Universidade da Beira Interior",
+        "João Carlos Neves, NOVA-LINCS and Universidade da Beira Interior",
+        "Luís A. Alexandre, Departamento de Informatica, Universidade da Beira Interior",
+        "Natália Souza, INESCD-ID Lisboa",
+        "Nuno Pombo, Universidade da Beira Interior",
+        "Pedro G. Ferreira, Ipatimup - Institute of Molecular Pathology and Immunology of the University of Porto",
+        "Rui Neves Madeira, ESTSetúbal/Instituto Politécnico de Setúbal",
+        "Salvador Abreu, NOVA-LINCS and University of Evora",
+        "Sara Madeira, Universidade de Lisboa",
+        "Sebastião Pais, NOVA-LINCS and Universidade da Beira Interior",
+        "Sergi Bermudez I Badia, Universidade da Madeira",
+        "Teresa Gonçalves, Universidade de Evora"
+    ]
+
     return <>
         <div className="Accommodation">
 
@@ -91,32 +117,8 @@ export function Track3_CD(props: any) {
                        
                         <h2>Comissão de programa</h2>
 
-                        <ul>
-                            <li>Alberto Simões, 2Ai Lab and Instituto Politécnico do Cávado e do Ave</li>
-                            <li>Alexandre Rademaker, IBM Research and EMAp/FGV</li>
-                            <li>Andre de Carvalho, Universidade de São Paulo</li>
-                            <li>Armanda Rodrigues, Universidade NOVA de Lisboa</li>
-                            <li>Cátia Vaz, ISEL, Instituto Politécnico de Lisboa</li>
-                            <li>Claudia Soares, FCT UNL</li>
-                            <li>Diana Santos, University of Oslo</li>
-                            <li>Helena Galhardas, Universidade de Lisboa</li>
-                            <li>Helena Moniz, FLUL and CLUL/ INESC-ID</li>
-                            <li>Irene Rodrigues, Universidade de Evora</li>
-                            <li>João Cordeiro, Universidade da Beira Interior</li>
-                            <li>João Carlos Neves, NOVA-LINCS and Universidade da Beira Interior</li>
-                            <li>Luís A. Alexandre, Departamento de Informatica, Universidade da Beira Interior</li>
-                            <li>Natália Souza, INESCD-ID Lisboa</li>
-                            <li>Nuno Pombo, Universidade da Beira Interior</li>
-                            <li>Pedro G. Ferreira, Ipatimup - Institute of Molecular Pathology and Immunology of the
-                                University of Porto
-                            </li>
-                            <li>Rui Neves Madeira, ESTSetúbal/Instituto Politécnico de Setúbal</li>
-                            <li>Salvador Abreu, NOVA-LINCS and University of Evora</li>
-                            <li>Sara Madeira, Universidade de Lisboa</li>
-                            <li>Sebastião Pais, NOVA-LINCS and Universidade da Beira Interior</li>
-                            <li>Sergi Bermudez I Badia, Universidade da Madeira</li>
-                            <li>Teresa Gonçalves, Universidade de Evora</li>
-                        </ul>
+                       <SortedCommission people={co_pro}></SortedCommission>
+                       
                     </div>
                 </div>
             </div>

@@ -1,8 +1,39 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
+import { SortedCommission } from '../Tracks';
 
 export function Track4_SIntel(props: any) {
+    
+    const co_pro = [ 
+    "Alberto Simões, Instituto Politécnico do Cávado e do Ave",
+    "António Abelha, Universidade do Minho",
+    "Ana Paula Rocha, Faculdade de Engenharia da Universidade do Porto",
+    "Artur Pereira, Universidade de Aveiro",
+    "Brígida Mónica Faria, ESS/Instituto Politécnico do Porto",
+    "César Analide, Universidade do Minho",
+    "Daniel Castro Silva, Faculdade de Engenharia da Universidade do Porto",
+    "Gil Gonçalves, Faculdade de Engenharia da Universidade do Porto",
+    "Hélder Oliveira, Faculdade de Ciências da Universidade do Porto",
+    "Henrique Lopes Cardoso, Faculdade de Engenharia da Universidade do Porto",
+    "Joana Campos, INESC-ID",
+    "João Balsa, Faculdade de Ciências da Universidade do Lisboa",
+    "João Cordeiro, Universidade da Beira Interior",
+    "João C. Neves, Universidade da Beira Interior",
+    "João Rodrigues, Universidade de Aveirolg",
+    "João Ricardo Silva, Faculdade de Ciências da Universidade do Lisboa",
+    "Jorge Alves da Silva, Faculdade de Engenharia da Universidade do Porto",
+    "Liliana Ferreira, Fraunhofer AICOS",
+    "Luís Nunes, Instituto Universitário de Lisboa",
+    "Luis Rosado, Fraunhofer AICOS",
+    "Luís Filipe Teixeira, Faculdade de Engenharia da Universidade do Porto",
+    "Maria Vasconcelos, Fraunhofer AICOS",
+    "Nelson Rodrigues, Instituto Politécnico de Bragança",
+    "Nuno Gonçalves, Universidade de Coimbra",
+    "Pedro Melo-Pinto, Universidade de Trás-os-Montes e Alto Douro",
+    "Pedro Moreira, Instituto Politécnico de Viana do Castelo",
+    "Ricardo Campos, Instituto Politécnico de Tomar"]
+
     return <>
         <div className="Accommodation">
 
@@ -87,35 +118,7 @@ export function Track4_SIntel(props: any) {
 
                         <h2>Comissão de programa</h2>
 
-                        <ul>
-                            <li>Alberto Simões, Instituto Politécnico do Cávado e do Ave</li>
-                            <li>António Abelha, Universidade do Minho</li>
-                            <li>Ana Paula Rocha, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Artur Pereira, Universidade de Aveiro</li>
-                            <li>Brígida Mónica Faria, ESS/Instituto Politécnico do Porto</li>
-                            <li>César Analide, Universidade do Minho</li>
-                            <li>Daniel Castro Silva, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Gil Gonçalves, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Hélder Oliveira, Faculdade de Ciências da Universidade do Porto</li>
-                            <li>Henrique Lopes Cardoso, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Joana Campos, INESC-ID</li>
-                            <li>João Balsa, Faculdade de Ciências da Universidade do Lisboa</li>
-                            <li>João Cordeiro, Universidade da Beira Interior</li>
-                            <li>João C. Neves, Universidade da Beira Interior</li>
-                            <li>João Rodrigues, Universidade de Aveirolg</li>
-                            <li>João Ricardo Silva, Faculdade de Ciências da Universidade do Lisboa</li>
-                            <li>Jorge Alves da Silva, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Liliana Ferreira, Fraunhofer AICOS</li>
-                            <li>Luís Nunes, Instituto Universitário de Lisboa</li>
-                            <li>Luis Rosado, Fraunhofer AICOS</li>
-                            <li>Luís Filipe Teixeira, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Maria Vasconcelos, Fraunhofer AICOS</li>
-                            <li>Nelson Rodrigues, Instituto Politécnico de Bragança</li>
-                            <li>Nuno Gonçalves, Universidade de Coimbra</li>
-                            <li>Pedro Melo-Pinto, Universidade de Trás-os-Montes e Alto Douro</li>
-                            <li>Pedro Moreira, Instituto Politécnico de Viana do Castelo</li>
-                            <li>Ricardo Campos, Instituto Politécnico de Tomar</li>
-                        </ul>
+                       <SortedCommission people={co_pro}></SortedCommission>
 
                     </div>
                 </div>

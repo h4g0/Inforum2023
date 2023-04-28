@@ -3,6 +3,20 @@ import './Main.css'
 import {Patreons} from './Patreons'
 import {InforumDates, InforumDatesTracks} from './Dates';
 
+
+
+export function SortedCommission(props: any){
+    const people = props.people.sort()
+    console.log(people)
+    return <>
+    <ul>
+    {people.map(element => {
+            return <li>{element}</li>
+        })}
+    </ul>
+       
+    </>
+}
 export function Tracks(props: any) {
     return <>
         <div className="Accommodation">

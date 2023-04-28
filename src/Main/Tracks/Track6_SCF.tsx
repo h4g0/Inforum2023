@@ -1,8 +1,40 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
+import { SortedCommission } from '../Tracks';
 
 export function Track6_SCF(props: any) {
+
+    const co_pro = [
+                            "Aleksandar Ilic, INESC-ID/Instituto Superior Técnico",
+                            "António Casimiro, LASIGE/Faculdade de Ciências da Universidade de Lisboa",
+                            "Armando Sousa, Faculdade de Engenharia da Universidade do Porto/INESC-TEC",
+                            "Carlos Almeida, Instituto Superior Técnico-Universidade de Lisboa",
+                            "Carlos Gonçalves, EFACEC/ Instituto Superior de Engenharia do Porto",
+                            "Daniel Silveira, GMVIS",
+                            "Filipe Pinto, AlticeLabs",
+                            "João Bispo, Faculdade de Engenharia da Universidade do Porto/INESCTEC",
+                            "João Carlos Ferreira, ISCTE-Instituto Universitário de Lisboa",
+                            "João Cunha, Instituto Superior de Engenharia de Coimbra-Instituto Politécnico de Coimbra",
+                            "Joaquim Ferreira, IT/Universidade de Aveiro",
+                            "Jorge Pinto, HASLab/INESC TEC/U.Minho",
+                            "José Cecílio, LASIGE/Faculdade de Ciências da Universidade de Lisboa",
+                            "Luis Gomes, UNINOVA",
+                            "Luis Lino Ferreira, INESC-TEC/ Instituto Superior de Engenharia do Porto",
+                            "Luis Moutinho, ESTG Águeda/Universidade de Aveiro/IT",
+                            "Lurien Klein, Virtual Power Solutions",
+                            "Nuno Macedo, University of Porto & INESC TEC",
+                            "Paulo Pedreiras, IT/DETI-Universidade de Aveiro",
+                            "Paulo Bartolomeu, IT/DETI-Universidade de Aveiro",
+                            "Pedro Fonseca, Universidade de Aveiro/IT",
+                            "Pedro Ferreira, LASIGE/Faculdade de Ciências da Universidade de Lisboa",
+                            "Pedro Lousã, Beyond Vision",
+                            "Ricardo Severino, Instituto Politécnico do Porto",
+                            "Sandro Pinto, Centro ALGORITMI/Uminho",
+                            "Sérgio Ivan Lopes, ESTG/Instituto Politécnico de Viana do Castelo",
+                            "William Correia Xavier, Wiseware"
+    ]
+
     return <>
         <div className="Accommodation">
 
@@ -122,39 +154,9 @@ export function Track6_SCF(props: any) {
                        
 
                         <h2>Comissão de programa</h2>
-                        <ul>
-                            <li>Aleksandar Ilic, INESC-ID/Instituto Superior Técnico</li>
-                            <li>António Casimiro, LASIGE/Faculdade de Ciências da Universidade de Lisboa</li>
-                            <li>Armando Sousa, Faculdade de Engenharia da Universidade do Porto/INESC-TEC</li>
-                            <li>Carlos Almeida, Instituto Superior Técnico-Universidade de Lisboa</li>
-                            <li>Carlos Gonçalves, EFACEC/ Instituto Superior de Engenharia do Porto</li>
-                            <li>Daniel Silveira, GMVIS</li>
-                            <li>Filipe Pinto, AlticeLabs</li>
-                            <li>João Bispo, Faculdade de Engenharia da Universidade do Porto/INESCTEC</li>
-                            <li>João Carlos Ferreira, ISCTE-Instituto Universitário de Lisboa</li>
-                            <li>João Cunha, Instituto Superior de Engenharia de Coimbra-Instituto Politécnico de
-                                Coimbra
-                            </li>
-                            <li>Joaquim Ferreira, IT/Universidade de Aveiro</li>
-                            <li>Jorge Pinto, HASLab/INESC TEC/U.Minho</li>
-                            <li>José Cecílio, LASIGE/Faculdade de Ciências da Universidade de Lisboa</li>
-                            <li>Luis Gomes, UNINOVA</li>
-                            <li>Luis Lino Ferreira, INESC-TEC/ Instituto Superior de Engenharia do Porto</li>
-                            <li>Luis Moutinho, ESTG Águeda/Universidade de Aveiro/IT</li>
-                            <li>Lurien Klein, Virtual Power Solutions</li>
-                            <li>Nuno Macedo, University of Porto & INESC TEC</li>
-                            <li>Paulo Pedreiras, IT/DETI-Universidade de Aveiro</li>
-                            <li>Paulo Bartolomeu, IT/DETI-Universidade de Aveiro</li>
-                            <li>Pedro Fonseca, Universidade de Aveiro/IT</li>
-                            <li>Pedro Ferreira, LASIGE/Faculdade de Ciências da Universidade de Lisboa</li>
-                            <li>Pedro Lousã, Beyond Vision</li>
-                            <li>Ricardo Severino, Instituto Politécnico do Porto</li>
-                            <li>Sandro Pinto, Centro ALGORITMI/Uminho</li>
-                            <li>Sérgio Ivan Lopes, ESTG/Instituto Politécnico de Viana do Castelo</li>
-                            <li>William Correia Xavier, Wiseware</li>
-                        </ul>
-
-
+                        
+                        <SortedCommission people={co_pro}></SortedCommission>
+                        
                     </div>
 
 

@@ -1,8 +1,39 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
+import { SortedCommission } from '../Tracks';
 
 export function Track5_ASPI(props: any) {
+
+    const co_pro = [
+        "Ademar Aguiar, Faculdade de Engenharia da Universidade do Porto",
+        "Alberto Silva, Instituto Superior Técnico",
+        "Armanda Rodrigues, FCT NOVA",
+        "Ana Moreira, FCT NOVA",
+        "António Carvalho, Instituto Politécnico de Coimbra",
+        "Carlos Pereira, Instituto Politécnico de Coimbra",
+        "Fernanda Pedro, CEI - Ordem dos Engenheiros",
+        "Gonçalo Marques, ESTGOH, Instituto Politécnico de Coimbra",
+        "Henrique Mamede, INESC TEC, Universidade Aberta",
+        "Isabel Sofia Sousa Brito, Instituto Politécnico de Beja",
+        "João Araújo, FCT NOVA",
+        "João Oliveira, CEI - Ordem dos Engenheiros",
+        "João Pascoal Faria, Faculdade de Engenharia da Universidade do Porto",
+        "Jorge Bernardino, Instituto Politécnico de Coimbra",
+        "Legatheaux Martins, FCT NOVA",
+        "Luís Amaral, Universidade do Minho",
+        "Luís Osório, Instituto Superior de Engenharia de Lisboa",
+        "Mário Freire, Universidade da Beira Interior",
+        "Miguel Brito, Universidade do Minho",
+        "Miguel Goulão, FCT NOVA",
+        "Nuno Mateus-Coelho, Instituto Politécnico do Cávado e do Ave (IPCA)",
+        "Paula Alexandra Silva, Faculdade de Ciências e Tecnologia da Universidade de Coimbra",
+        "Paula Ventura, Universidade do Algarve",
+        "Paulo Lopes, FCT NOVA",
+        "Vítor Santos, NOVA IMS",
+        "Vasco Pereira, Universidade de Coimbra"
+    ]
+
     return <>
         <div className="Accommodation">
 
@@ -112,37 +143,8 @@ export function Track5_ASPI(props: any) {
 
                         <h2>Comissão de programa</h2>
 
-                        <ul>
-                            <li>Ademar Aguiar, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Alberto Silva, Instituto Superior Técnico</li>
-                            <li>Armanda Rodrigues, FCT NOVA</li>
-                            <li>Ana Moreira, FCT NOVA</li>
-                            <li>António Carvalho, Instituto Politécnico de Coimbra</li>
-                            <li>Carlos Pereira, Instituto Politécnico de Coimbra</li>
-                            <li>Fernanda Pedro, CEI - Ordem dos Engenheiros</li>
-                            <li>Gonçalo Marques, ESTGOH, Instituto Politécnico de Coimbra</li>
-                            <li>Henrique Mamede, INESC TEC, Universidade Aberta</li>
-                            <li>Isabel Sofia Sousa Brito, Instituto Politécnico de Beja</li>
-                            <li>João Araújo, FCT NOVA</li>
-                            <li>João Oliveira, CEI - Ordem dos Engenheiros</li>
-                            <li>João Pascoal Faria, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Jorge Bernardino, Instituto Politécnico de Coimbra</li>
-                            <li>Legatheaux Martins, FCT NOVA</li>
-                            <li>Luís Amaral, Universidade do Minho</li>
-                            <li>Luís Osório, Instituto Superior de Engenharia de Lisboa</li>
-                            <li>Mário Freire, Universidade da Beira Interior</li>
-                            <li>Miguel Brito, Universidade do Minho</li>
-                            <li>Miguel Goulão, FCT NOVA</li>
-                            <li>Nuno Mateus-Coelho, Instituto Politécnico do Cávado e do Ave (IPCA)</li>
-                            <li>Paula Alexandra Silva, Faculdade de Ciências e Tecnologia da Universidade de Coimbra
-                            </li>
-                            <li>Paula Ventura, Universidade do Algarve</li>
-                            <li>Paulo Lopes, FCT NOVA</li>
-                            <li>Vítor Santos, NOVA IMS</li>
-                            <li>Vasco Pereira, Universidade de Coimbra</li>
+                        <SortedCommission people={co_pro}></SortedCommission>
 
-
-                        </ul>
                     </div>
 
                 </div>

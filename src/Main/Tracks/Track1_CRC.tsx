@@ -1,8 +1,28 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
+import { SortedCommission } from '../Tracks';
 
 export function Track1_CRC(props: any) {
+    const co_pro = [
+        "Amaro Sousa, Universidade de Aveiro",
+        "Augusto Casaca, INESC-ID",
+        "Leonel Santos leonel.santos@ipleiria.pt",
+        "Edmundo Monteiro, Universidade de Coimbra",
+        "Jorge Sá Silva, Universidade de Coimbra",
+        "José Legatheaux Martins, Universidade Nova de Lisboa",
+        "Manuel Ricardo, Universidade do Porto",
+        "Marilia Curado, Universidade de Coimbra",
+        "Noelia Correia, Universidade do Algarve",
+        "Paulo Pedreiras, Universidade de Aveiro",
+        "Pedro Sousa, Universidade do Minho (CENTRO ALGORITMI)",
+        "Rui Campos, INESC TEC",
+        "Sérgio Crisóstomo, Universidade do Porto",
+        "Susana Sargento, Universidade de Aveiro",
+        "Solange Rito Lima, Universidade do Minho",
+        "Vasco Pedro, Universidade de Évora",
+        "Vasco Pereira, Universidade de Coimbra"]
+
     return <>
         <div className="Accommodation">
 
@@ -144,26 +164,8 @@ export function Track1_CRC(props: any) {
 
                         </ul>
                         <h2>Comissão de programa</h2>
-                        <ul>
-                            <li>Amaro Sousa, Universidade de Aveiro</li>
-                            <li>Augusto Casaca, INESC-ID</li>
-                            <li>Leonel Santos leonel.santos@ipleiria.pt</li>
-                            <li>Edmundo Monteiro, Universidade de Coimbra</li>
-                            <li>Jorge Sá Silva, Universidade de Coimbra</li>
-                            <li>José Legatheaux Martins, Universidade Nova de Lisboa</li>
-                            <li>Manuel Ricardo, Universidade do Porto</li>
-                            <li>Marilia Curado, Universidade de Coimbra</li>
-                            <li>Noelia Correia, Universidade do Algarve</li>
-                            <li>Paulo Pedreiras, Universidade de Aveiro</li>
-                            <li>Pedro Sousa, Universidade do Minho (CENTRO ALGORITMI)</li>
-                            <li>Rui Campos, INESC TEC</li>
-                            <li>Sérgio Crisóstomo, Universidade do Porto</li>
-                            <li>Susana Sargento, Universidade de Aveiro</li>
-                            <li>Solange Rito Lima, Universidade do Minho</li>
-                            <li>Vasco Pedro, Universidade de Évora</li>
-                            <li>Vasco Pereira, Universidade de Coimbra</li>
-                        </ul>
-
+                        <SortedCommission people={co_pro}></SortedCommission>
+                        
 
                     </div>
 

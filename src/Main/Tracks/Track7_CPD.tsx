@@ -1,8 +1,29 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
+import { SortedCommission } from '../Tracks';
 
 export function Track7_CPD(props: any) {
+    
+    const co_pro = [ "Ricardo Vilaça, Universidade of Minho",
+    "Luís Veiga, Instituto Superior Técnico / INESC-ID Lisboa",
+    "Vitor Duarte, NOVA LINCS / Universidade NOVA de Lisboa",
+    "Luís Rodrigues, Instituto Superior Técnico / INESC-ID Lisboa",
+    "Óscar Mortágua Pereira, Universidade de Aveiro",
+    "José Simão, Instituto Superior de Engenharia de Lisboa - Instituto Politécnico de Lisboa/ INESC-ID Lisboa",
+    "João Nuno Silva, Instituto Superior Técnico / INESC-ID Lisboa",
+    " Miguel Matos, Instituto Superior Técnico / INESC-ID Lisboa",
+    "Francisco Maia, Universidade do Minho",
+    "Hugo Miranda, Universidade de Lisboa -Faculdade de Ciências / LaSIGE",
+    "Salvador Abreu, LISP &amp; CRI / University of Évora",
+    "João Lourenço, NOVA LINCS / Universidade NOVA de Lisboa",
+    "Paula Prata, Universidade da Beira Interior",
+    "Carlos Goncalves, Instituto Superior de Engenharia de Lisboa, Instituto Politécnico de Lisboa",
+    "Luís Antunes, Faculdade de Ciências da Universidade do Porto - Universidade do Porto",
+    "Carlos Baquero, Faculdade de Engenharia da Universidade do Porto - Universidade do Porto",
+    "Nuno Santos, Instituto Superior Técnico / INESC-ID Lisboa",
+    "Hervé Paulino, NOVA LINCS / Universidade NOVA de Lisboa"]
+
     return <>
         <div className="Accommodation">
 
@@ -72,33 +93,8 @@ export function Track7_CPD(props: any) {
                         
 
                         <h2>Comissão de programa</h2>
-                        <ul>
-                            <li>Ricardo Vilaça, Universidade of Minho</li>
-                            <li>Luís Veiga, Instituto Superior Técnico / INESC-ID Lisboa</li>
-                            <li>Vitor Duarte, NOVA LINCS / Universidade NOVA de Lisboa</li>
-                            <li>Luís Rodrigues, Instituto Superior Técnico / INESC-ID Lisboa</li>
-                            <li>Óscar Mortágua Pereira, Universidade de Aveiro</li>
-                            <li>José Simão, Instituto Superior de Engenharia de Lisboa - Instituto Politécnico de Lisboa
-                                / INESC-ID Lisboa
-                            </li>
-                            <li>João Nuno Silva, Instituto Superior Técnico / INESC-ID Lisboa</li>
-                            <li> Miguel Matos, Instituto Superior Técnico / INESC-ID Lisboa</li>
-                            <li>Francisco Maia, Universidade do Minho</li>
-                            <li>Hugo Miranda, Universidade de Lisboa -Faculdade de Ciências / LaSIGE</li>
-                            <li>Salvador Abreu, LISP &amp; CRI / University of Évora</li>
-                            <li>João Lourenço, NOVA LINCS / Universidade NOVA de Lisboa</li>
-                            <li>Paula Prata, Universidade da Beira Interior</li>
-                            <li>Carlos Goncalves, Instituto Superior de Engenharia de Lisboa, Instituto Politécnico de
-                                LisboaInstituto Politécnico de Lisboa
-                            </li>
-                            <li>Luís Antunes, Faculdade de Ciências da Universidade do Porto - Universidade do Porto
-                            </li>
-                            <li>Carlos Baquero, Faculdade de Engenharia da Universidade do Porto - Universidade do
-                                Porto
-                            </li>
-                            <li>Nuno Santos, Instituto Superior Técnico / INESC-ID Lisboa</li>
-                            <li>Hervé Paulino, NOVA LINCS / Universidade NOVA de Lisboa</li>
-                        </ul>
+                        
+                        <SortedCommission people={co_pro}></SortedCommission>
 
 
                     </div>

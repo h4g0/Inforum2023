@@ -1,8 +1,48 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons} from "../Patreons";
+import { SortedCommission } from '../Tracks';
 
 export function Track2_SOFTCRC(props: any) {
+    const co_pro = [
+        "Luís Caires, lcaires@fct.unl.pt",
+        "Carla Ferreira, carla.ferreira@fct.unl.pt",
+        "Luis Barbosa, lsb@di.uminho.pt",
+        "Antónia Lopes, malopes@ciencias.ulisboa.pt",
+        "João Pascoal Faria, jpf@fe.up.pt",
+        "Salvador Abreu, spa@uevora.pt",
+        "Simão Melo de Sousa, desousa@di.ubi.pt",
+        "Vasco Thudichum Vasconcelos, vmvasconcelos@ciencias.ulisboa.pt"
+    ]
+
+    const co_cor = [
+        "Jorge Sousa Pinto, Universidade do Minho (coord.)",
+        "Alexandra Mendes, Universidade do Porto",
+        "Ana Almeida Matos, Universidade Lisboa",
+        "Antónia Lopes, Universidade Lisboa",
+        "Carla Ferreira, Universidade Nova de Lisboa",
+        "Cláudio Lourenço, Huawei Central Software Institute (UK)",
+        "Daniela Cruz, Checkmarx",
+        "David Pereira, ISEP, Instituto Politécnico do Porto",
+        "Francisco Martins, Universidade dos Açores",
+        "Hugo Macedo, Aarhus University (Denmark)",
+        "Isabel Sousa Brito, Instituto Politécnico de Beja",
+        "João Saraiva, Universidade do Minho",
+        "João Paulo Fernandes, Universidade do Porto",
+        "Joaquim Tojal, Critical Software",
+        "Luís Caires, Universidade Nova de Lisboa",
+        "Marco Vieira, Universidade de Coimbra",
+        "Maria João Frade, Universidade do Minho",
+        "Mário Florido, Universidade do Porto",
+        "Mário Pereira, Universidade Nova de Lisboa",
+        "Miguel Oliveira e Silva, Universidade de Aveiro",
+        "Salvador Abreu, Universidade de Évora",
+        "Sandra Alves, Universidade do Porto",
+        "Simão Melo de Sousa, Universidade da Beira Interior",
+        "Vasco Vasconcelos, Universidade de Lisboa",
+        "Victor Miraldo, Channable (The Netherlands)" 
+    ]
+
     return <>
         <div className="Accommodation">
 
@@ -61,47 +101,14 @@ export function Track2_SOFTCRC(props: any) {
 
                         <h2>Comissão de programa</h2>
 
-                        <ul>
-                            <li>Luís Caires, lcaires@fct.unl.pt</li>
-                            <li>Carla Ferreira, carla.ferreira@fct.unl.pt</li>
-                            <li>Luis Barbosa, lsb@di.uminho.pt</li>
-                            <li>Antónia Lopes, malopes@ciencias.ulisboa.pt</li>
-                            <li>João Pascoal Faria, jpf@fe.up.pt</li>
-                            <li>Salvador Abreu, spa@uevora.pt</li>
-                            <li>Simão Melo de Sousa, desousa@di.ubi.pt</li>
-                            <li>Vasco Thudichum Vasconcelos, vmvasconcelos@ciencias.ulisboa.pt</li>
-                        </ul>
+                        <SortedCommission people={co_pro}></SortedCommission>
 
 
                         <h2>Comissão coordenadora</h2>
 
-                        <ul>
-                            <li>Jorge Sousa Pinto, Universidade do Minho (coord.)</li>
-                            <li>Alexandra Mendes, Universidade do Porto</li>
-                            <li>Ana Almeida Matos, Universidade Lisboa</li>
-                            <li>Antónia Lopes, Universidade Lisboa</li>
-                            <li>Carla Ferreira, Universidade Nova de Lisboa</li>
-                            <li>Cláudio Lourenço, Huawei Central Software Institute (UK)</li>
-                            <li>Daniela Cruz, Checkmarx</li>
-                            <li>David Pereira, ISEP, Instituto Politécnico do Porto</li>
-                            <li>Francisco Martins, Universidade dos Açores</li>
-                            <li>Hugo Macedo, Aarhus University (Denmark)</li>
-                            <li>Isabel Sousa Brito, Instituto Politécnico de Beja</li>
-                            <li>João Saraiva, Universidade do Minho</li>
-                            <li>João Paulo Fernandes, Universidade do Porto</li>
-                            <li>Joaquim Tojal, Critical Software</li>
-                            <li>Luís Caires, Universidade Nova de Lisboa</li>
-                            <li>Marco Vieira, Universidade de Coimbra</li>
-                            <li>Maria João Frade, Universidade do Minho</li>
-                            <li>Mário Florido, Universidade do Porto</li>
-                            <li>Mário Pereira, Universidade Nova de Lisboa</li>
-                            <li>Miguel Oliveira e Silva, Universidade de Aveiro</li>
-                            <li>Salvador Abreu, Universidade de Évora</li>
-                            <li>Sandra Alves, Universidade do Porto</li>
-                            <li>Simão Melo de Sousa, Universidade da Beira Interior</li>
-                            <li>Vasco Vasconcelos, Universidade de Lisboa</li>
-                            <li>Victor Miraldo, Channable (The Netherlands)</li>
-                        </ul>
+                            
+                        <SortedCommission people={co_cor}></SortedCommission>
+
 
 
                     </div>
