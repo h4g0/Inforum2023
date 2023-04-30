@@ -7,11 +7,9 @@ export function Location(props: any) {
     return <>
         <div className="Location">
 
-            <div>
-                <Patreons/>
-            </div>
+            <Patreons/>
 
-            <div>
+            <div className='InsideIntro'>
 
                 <h2>Como chegar a FEUP</h2>
 

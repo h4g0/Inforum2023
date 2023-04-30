@@ -32,6 +32,7 @@ import {Track5_ASPI} from './Tracks/Track5_ASPI';
 import {Tracks} from './Tracks';
 import {Track6_SCF} from './Tracks/Track6_SCF';
 import {Track7_CPD} from './Tracks/Track7_CPD';
+import { PatreonsFull } from './PatreonsFull';
 
 
 const inforumTime = '7 Sep 2023 08:00:00 GMT'
@@ -204,6 +205,8 @@ export function Login(this: any, props: any) {
                 <Route path="previous" element={<Previous/>}/>
 
                 <Route path="registration" element={<Registration/>}/>
+
+                <Route path="patreons" element={<PatreonsFull/>}/>
 
             </Routes>
 

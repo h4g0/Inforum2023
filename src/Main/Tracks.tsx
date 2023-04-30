@@ -21,10 +21,6 @@ export function Tracks(props: any) {
     return <>
         <div className="Accommodation">
 
-
-            <div>
-                <Patreons/>
-            </div>
             <div className='Tracks'>
                 <div className='TracksOne'>
                     <h2>Chamada a Submissões</h2>

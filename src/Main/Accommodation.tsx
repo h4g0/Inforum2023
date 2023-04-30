@@ -32,10 +32,10 @@ export function Accommodation(props: any) {
 
     return <>
         <div className="Accommodation">
-            <div>
-                <Patreons/>
-            </div>
-            <div className='Accomodation2'>
+            
+            <Patreons/>
+            
+            <div className='Accomodation2 InsideIntro'>
                 <h2>Alojamento</h2>
                 <p>Existem vários hotéis a menos de 15 minutos a pé ou de transportes públicos da FEUP
                     alguns deles incluem:</p>

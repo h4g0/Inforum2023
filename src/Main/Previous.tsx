@@ -6,10 +6,12 @@ export function Previous(props: any) {
         <div className="Previous">
 
 
-            <div>
-                <Patreons/>
-            </div>
-            <div>
+           <Patreons/>
+            
+            <div className='InsideIntro'>
+
+              <div className="PreviousList">
+
                 <h2>Edições anteriores do INForum:</h2>
 
                 <ul>
@@ -44,6 +46,8 @@ export function Previous(props: any) {
                            href="http://lasige-inforum.lasige.di.fc.ul.pt:8080/INForum2009">INForum 2009</a></li>
 
                 </ul>
+                
+                </div>
 
             </div>
 

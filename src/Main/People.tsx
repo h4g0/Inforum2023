@@ -32,11 +32,10 @@ export function People(props: any) {
     return <>
         <div className="People">
 
-            <div>
-                <Patreons/>
-            </div>
+            
+            <Patreons/>
 
-            <div>
+            <div className="InsideIntro">
                 <h2>Presidentes da Comissão de Programa</h2>
 
                 <Person name="João Carlos Antunes Leitão" picture={jl} afiliation="NOVA University Lisbon & NOVA LINCS"

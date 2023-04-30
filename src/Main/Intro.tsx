@@ -16,6 +16,7 @@ import eletrico_lg from "../img/Porto/eletrico-large.jpg"
 import forteSaoFrancisco_lg from "../img/Porto/forteSaoFrancisco-large.jpg"
 
 import {useRef, useLayoutEffect, useState, useEffect} from 'react';
+import { Patreons } from './Patreons';
 
 function getWindowDimensions() {
     const {innerWidth: width, innerHeight: height} = window;
@@ -126,7 +127,7 @@ function Slider() {
 
             <img className="SlideImage" src={slideImages[pos].url} title={slideImages[pos].caption}></img>
 
-
+    
         </div>
     </>
 
@@ -138,6 +139,14 @@ export function Initial(props: any) {
     return <>
         <div className="Intro">
             <Slider></Slider>
+
+
+            <div className='IntroInternal'>
+
+            <Patreons></Patreons>
+
+            <div className='InsideIntro'>
+
             <h2>Bem-vindo ao INForum 2023</h2>
 
             <p> Reunindo a comunidade nacional, o INForum é um local privilegiado para a divulgação, discussão e
@@ -166,6 +175,10 @@ export function Initial(props: any) {
             <p>O INForum começa em:</p>
             <Timer time={props.time}/>
         </div>
+
+        </div>
+        </div>
+
 
     </>
 }

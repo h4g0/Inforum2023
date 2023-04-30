@@ -101,10 +101,6 @@ export function Dates(props: any) {
     return <>
         <div className="Dates">
 
-
-            <div>
-                <Patreons/>
-            </div>
             <div className='ImportantDates'>
                 <div className='InforumStructure'>
 
