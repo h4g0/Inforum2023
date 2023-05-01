@@ -4,19 +4,22 @@ import {Patreons} from "../Patreons";
 import { SortedCommission } from '../Tracks';
 
 export function Track2_SOFTCRC(props: any) {
-    const co_pro = [
-        "Luís Caires, lcaires@fct.unl.pt",
-        "Carla Ferreira, carla.ferreira@fct.unl.pt",
-        "Luis Barbosa, lsb@di.uminho.pt",
-        "Antónia Lopes, malopes@ciencias.ulisboa.pt",
-        "João Pascoal Faria, jpf@fe.up.pt",
-        "Salvador Abreu, spa@uevora.pt",
-        "Simão Melo de Sousa, desousa@di.ubi.pt",
-        "Vasco Thudichum Vasconcelos, vmvasconcelos@ciencias.ulisboa.pt"
+    const co_cor = [
+        "Luís Caires, Universidade Nova de Lisboa",
+        "Carla Ferreira, Universidade Nova de Lisboa",
+        "Luis Barbosa, Universidade do Minho",
+        "Antónia Lopes, Universidade Lisboa",
+        "João Pascoal Faria, Universidade do Porto",
+        "Salvador Abreu, Universidade de Évora",
+        "Simão Melo de Sousa, Universidade da Beira Interior",
+        "Vasco Thudichum Vasconcelos, Universidade Lisboa"
     ]
 
-    const co_cor = [
-        "Jorge Sousa Pinto, Universidade do Minho (coord.)",
+    const cor_pro = [
+        "Jorge Sousa Pinto, Universidade do Minho (coord.)"
+    ]
+
+    const co_pro = [
         "Alexandra Mendes, Universidade do Porto",
         "Ana Almeida Matos, Universidade Lisboa",
         "Antónia Lopes, Universidade Lisboa",
@@ -97,7 +100,7 @@ export function Track2_SOFTCRC(props: any) {
 
                         <h2>Comissão de programa</h2>
 
-                        <SortedCommission people={co_pro}></SortedCommission>
+                        <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
 
 
                         <h2>Comissão coordenadora</h2>

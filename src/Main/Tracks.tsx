@@ -6,10 +6,18 @@ import {InforumDates, InforumDatesTracks} from './Dates';
 
 
 export function SortedCommission(props: any){
+    
+    const cord = ( props.cord || []).sort() 
+
     const people = props.people.sort()
     console.log(people)
     return <>
     <ul>
+    
+    {cord.map(element => {
+            return <li className='coord'><b>{element}</b></li>
+    })}
+
     {people.map(element => {
             return <li>{element}</li>
         })}

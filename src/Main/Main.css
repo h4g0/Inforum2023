@@ -448,6 +448,10 @@ p {
     width: 1000px;
 }
 
+.coord{
+    color:#0c4fed;
+}
+
 .now {
     border-style: none;
     border-width: 2px;

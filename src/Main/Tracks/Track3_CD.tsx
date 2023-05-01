@@ -4,6 +4,11 @@ import {Patreons} from "../Patreons";
 import { SortedCommission } from '../Tracks';
 
 export function Track3_CD(props: any) {
+
+    const cor_pro = [
+        "Sebastião Pais, NOVA-LINCS and Universidade da Beira Interior (coord.)"
+    ]
+
     const co_pro = [
         "Alberto Simões, 2Ai Lab and Instituto Politécnico do Cávado e do Ave",
         "Alexandre Rademaker, IBM Research and EMAp/FGV",
@@ -24,7 +29,6 @@ export function Track3_CD(props: any) {
         "Rui Neves Madeira, ESTSetúbal/Instituto Politécnico de Setúbal",
         "Salvador Abreu, NOVA-LINCS and University of Evora",
         "Sara Madeira, Universidade de Lisboa",
-        "Sebastião Pais, NOVA-LINCS and Universidade da Beira Interior",
         "Sergi Bermudez I Badia, Universidade da Madeira",
         "Teresa Gonçalves, Universidade de Evora"
     ]
@@ -113,7 +117,7 @@ export function Track3_CD(props: any) {
                        
                         <h2>Comissão de programa</h2>
 
-                       <SortedCommission people={co_pro}></SortedCommission>
+                       <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
                        
                     </div>
                 </div>

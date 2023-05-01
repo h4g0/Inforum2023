@@ -5,6 +5,11 @@ import { SortedCommission } from '../Tracks';
 
 export function Track7_CPD(props: any) {
     
+    const cor_pro = [
+        "Rolando Martins, Faculdade de Ciências da Universidade do Porto - Universidade do Porto (coord.)",
+        "Nuno Laranjeiro, Universidade de Coimbra (coord.)"
+    ]
+
     const co_pro = [ "Ricardo Vilaça, Universidade of Minho",
     "Luís Veiga, Instituto Superior Técnico / INESC-ID Lisboa",
     "Vitor Duarte, NOVA LINCS / Universidade NOVA de Lisboa",
@@ -90,7 +95,7 @@ export function Track7_CPD(props: any) {
 
                         <h2>Comissão de programa</h2>
                         
-                        <SortedCommission people={co_pro}></SortedCommission>
+                        <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
 
 
                     </div>

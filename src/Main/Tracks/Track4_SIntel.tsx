@@ -5,6 +5,11 @@ import { SortedCommission } from '../Tracks';
 
 export function Track4_SIntel(props: any) {
     
+    const cor_pro = [
+        "Henrique Lopes Cardoso, Faculdade de Engenharia da Universidade do Porto (coord.)",
+        "Luís Filipe Teixeira, Faculdade de Engenharia da Universidade do Porto (coord.)"
+    ]
+
     const co_pro = [ 
     "Alberto Simões, Instituto Politécnico do Cávado e do Ave",
     "António Abelha, Universidade do Minho",
@@ -15,7 +20,6 @@ export function Track4_SIntel(props: any) {
     "Daniel Castro Silva, Faculdade de Engenharia da Universidade do Porto",
     "Gil Gonçalves, Faculdade de Engenharia da Universidade do Porto",
     "Hélder Oliveira, Faculdade de Ciências da Universidade do Porto",
-    "Henrique Lopes Cardoso, Faculdade de Engenharia da Universidade do Porto",
     "Joana Campos, INESC-ID",
     "João Balsa, Faculdade de Ciências da Universidade do Lisboa",
     "João Cordeiro, Universidade da Beira Interior",
@@ -26,7 +30,6 @@ export function Track4_SIntel(props: any) {
     "Liliana Ferreira, Fraunhofer AICOS",
     "Luís Nunes, Instituto Universitário de Lisboa",
     "Luis Rosado, Fraunhofer AICOS",
-    "Luís Filipe Teixeira, Faculdade de Engenharia da Universidade do Porto",
     "Maria Vasconcelos, Fraunhofer AICOS",
     "Nelson Rodrigues, Instituto Politécnico de Bragança",
     "Nuno Gonçalves, Universidade de Coimbra",
@@ -114,7 +117,7 @@ export function Track4_SIntel(props: any) {
 
                         <h2>Comissão de programa</h2>
 
-                       <SortedCommission people={co_pro}></SortedCommission>
+                       <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
 
                     </div>
                 </div>

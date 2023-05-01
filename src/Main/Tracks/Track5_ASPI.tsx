@@ -5,6 +5,11 @@ import { SortedCommission } from '../Tracks';
 
 export function Track5_ASPI(props: any) {
 
+    const cor_pro = [
+        "Vasco Amaral, Ordem dos Engenheiros, FCT NOVA (coord.)",
+        "Jorge Barbosa, Instituto Politécnico de Coimbra (coord.)"
+    ]
+
     const co_pro = [
         "Ademar Aguiar, Faculdade de Engenharia da Universidade do Porto",
         "Alberto Silva, Instituto Superior Técnico",
@@ -139,7 +144,7 @@ export function Track5_ASPI(props: any) {
 
                         <h2>Comissão de programa</h2>
 
-                        <SortedCommission people={co_pro}></SortedCommission>
+                        <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
 
                     </div>
 

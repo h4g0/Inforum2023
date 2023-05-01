@@ -5,6 +5,12 @@ import { SortedCommission } from '../Tracks';
 
 export function Track6_SCF(props: any) {
 
+    const cor_pro = [
+        "José Cecílio, LASIGE/Faculdade de Ciências da Universidade de Lisboa (coord.)",
+        "Pedro Fonseca, Universidade de Aveiro/IT (coord.)",
+        "Ricardo Severino, Instituto Politécnico do Porto (coord.)"
+    ]
+
     const co_pro = [
                             "Aleksandar Ilic, INESC-ID/Instituto Superior Técnico",
                             "António Casimiro, LASIGE/Faculdade de Ciências da Universidade de Lisboa",
@@ -18,7 +24,6 @@ export function Track6_SCF(props: any) {
                             "João Cunha, Instituto Superior de Engenharia de Coimbra-Instituto Politécnico de Coimbra",
                             "Joaquim Ferreira, IT/Universidade de Aveiro",
                             "Jorge Pinto, HASLab/INESC TEC/U.Minho",
-                            "José Cecílio, LASIGE/Faculdade de Ciências da Universidade de Lisboa",
                             "Luis Gomes, UNINOVA",
                             "Luis Lino Ferreira, INESC-TEC/ Instituto Superior de Engenharia do Porto",
                             "Luis Moutinho, ESTG Águeda/Universidade de Aveiro/IT",
@@ -26,10 +31,8 @@ export function Track6_SCF(props: any) {
                             "Nuno Macedo, University of Porto & INESC TEC",
                             "Paulo Pedreiras, IT/DETI-Universidade de Aveiro",
                             "Paulo Bartolomeu, IT/DETI-Universidade de Aveiro",
-                            "Pedro Fonseca, Universidade de Aveiro/IT",
                             "Pedro Ferreira, LASIGE/Faculdade de Ciências da Universidade de Lisboa",
                             "Pedro Lousã, Beyond Vision",
-                            "Ricardo Severino, Instituto Politécnico do Porto",
                             "Sandro Pinto, Centro ALGORITMI/Uminho",
                             "Sérgio Ivan Lopes, ESTG/Instituto Politécnico de Viana do Castelo",
                             "William Correia Xavier, Wiseware"
@@ -151,7 +154,7 @@ export function Track6_SCF(props: any) {
 
                         <h2>Comissão de programa</h2>
                         
-                        <SortedCommission people={co_pro}></SortedCommission>
+                        <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
                         
                     </div>
 
