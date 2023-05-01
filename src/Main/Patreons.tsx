@@ -18,13 +18,16 @@ export function Patreons(props: any) {
 
                 <h2>Patrocinadores:</h2>
 
-                <h3 className='GoldSponsor'>Gold sponsor:</h3>
+              
+
+                <h3 className='PlatinumSponsor'>Platinum</h3>
+
+                <img className="SponsorImage" src={critical} title={"Critical Software"}></img>
+
+                <h3 className='GoldSponsor'>Gold</h3>
 
                 <img className="SponsorImage" src={inesctec} title={"INESC TEC"}></img>
 
-                <h3 className='PlatinumSponsor'>Platinum sponsor:</h3>
-
-                <img className="SponsorImage" src={critical} title={"Critical Software"}></img>
             </div>
             
 
