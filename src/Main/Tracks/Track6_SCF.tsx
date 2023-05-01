@@ -37,11 +37,7 @@ export function Track6_SCF(props: any) {
 
     return <>
         <div className="Accommodation">
-
-            <div>
-                <Patreons/>
-            </div>
-
+            
             <div className='Tracks'>
                 <div className='TracksOne'>
 

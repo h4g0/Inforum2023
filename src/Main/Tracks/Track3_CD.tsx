@@ -31,11 +31,7 @@ export function Track3_CD(props: any) {
 
     return <>
         <div className="Accommodation">
-
-
-            <div>
-                <Patreons/>
-            </div>
+            
             <div className='Tracks'>
 
                 <div className='TracksOne'>

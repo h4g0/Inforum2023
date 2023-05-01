@@ -86,7 +86,7 @@ export function Login(this: any, props: any) {
                </Link>
 
                 <Link to="/tracks">
-                    <p>Submissões</p>
+                    <p >Submissões</p>
                 </Link>
 
                 </div>

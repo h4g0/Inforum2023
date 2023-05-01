@@ -37,10 +37,6 @@ export function Track5_ASPI(props: any) {
     return <>
         <div className="Accommodation">
 
-
-            <div>
-                <Patreons/>
-            </div>
             <div className='Tracks'>
 
                 <div className='TracksOne'>

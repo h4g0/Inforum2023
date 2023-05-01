@@ -27,10 +27,6 @@ export function Track7_CPD(props: any) {
     return <>
         <div className="Accommodation">
 
-            <div>
-                <Patreons/>
-            </div>
-
             <div className='Tracks'>
                 <div className='TracksOne'>
 

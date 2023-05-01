@@ -44,10 +44,9 @@ export function Program(props: any) {
         <div className="Program">
 
 
-            <div>
-                <Patreons/>
-            </div>
-            <div>
+            <Patreons/>
+            
+            <div className="InsideIntro">
                 <h2>Programa:</h2>
                 <div className="ProgramDay">
                     <h4>Quarta feira dia 20 de setembro de 2023</h4>

@@ -4,6 +4,9 @@ import {Patreons} from "../Patreons";
 import { SortedCommission } from '../Tracks';
 
 export function Track1_CRC(props: any) {
+    const cor_pro = [
+        
+    ]
     const co_pro = [
         "Amaro Sousa, Universidade de Aveiro",
         "Augusto Casaca, INESC-ID",
@@ -25,10 +28,6 @@ export function Track1_CRC(props: any) {
 
     return <>
         <div className="Accommodation">
-
-            <div>
-                <Patreons/>
-            </div>
 
             <div className='Tracks'>
                 <div className='TracksOne'>
@@ -164,7 +163,7 @@ export function Track1_CRC(props: any) {
 
                         </ul>
                         <h2>Comissão de programa</h2>
-                        <SortedCommission people={co_pro}></SortedCommission>
+                        <SortedCommission cor={cor_pro} people={co_pro}></SortedCommission>
                         
 
                     </div>

@@ -37,10 +37,6 @@ export function Track4_SIntel(props: any) {
     return <>
         <div className="Accommodation">
 
-
-            <div>
-                <Patreons/>
-            </div>
             <div className='Tracks'>
                 <div className='TracksOne'>
 
