@@ -16,7 +16,7 @@ export function Patreons(props: any) {
 
             <div>
 
-                <h2>Patrocinadores:</h2>
+                <h2>Patrocinadores</h2>
 
               
 

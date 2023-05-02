@@ -9,7 +9,7 @@ export function PatreonsFull(props: any) {
         <div className="PatreonsFull">
 
 
-            <h2>Patrocinadores:</h2>
+            <h2>Patrocinadores</h2>
 
            
             <h3 className='PlatinumSponsor'>Platinum</h3>
