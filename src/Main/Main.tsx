@@ -133,7 +133,7 @@ export function Login(this: any, props: any) {
 
                 <Link to="/keynote">
 
-                    {/*<button>Keynote</button>*/}
+                    <button>Palestras Convidadas</button>
 
                 </Link>
 

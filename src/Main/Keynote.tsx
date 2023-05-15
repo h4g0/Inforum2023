@@ -5,20 +5,19 @@ export function Keynote(props: any) {
     return <>
         <div className="Keynote">
 
-            <div>
+            
                 <Patreons/>
-            </div>
+            
             <div>
+                
+
+                
                 <h2>
-                    First keynote
+                <a href='https://www.ics.uci.edu/~lopes/'>Cristina Videira Lopes</a>
                 </h2>
 
-
-                <p>Bio</p>
-                <h2>
-                    Second keynote
-                </h2>
-                <p>Bio</p>
+                <h2>O Fim da Programação (como a conhecemos)</h2>
+                <p>Mais detalhes em breve.</p>
 
             </div>
         </div>

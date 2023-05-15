@@ -49,7 +49,7 @@ export function People(props: any) {
                 <Person name="Jácome Cunha" job="Presidente" picture={jacome}
                         afiliation="Faculty of Engineering of University of Porto & HASLab/INESC TEC"
                         page="https://web.fe.up.pt/~jacome/"/>
-                <Person name="João Paulo Fernandes" job="Catering" picture={jpf}
+                <Person name="João Paulo Fernandes" job="Bem Estar" picture={jpf}
                         afiliation="Faculty of Engineering of University of Porto & LIACC"
                         page="https://web.fe.up.pt/~jpaulo/Site/Home.html"/>
                 <Person name="João Saraiva" job="Patrocínios" picture={jas}
