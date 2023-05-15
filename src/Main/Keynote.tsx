@@ -8,7 +8,7 @@ export function Keynote(props: any) {
             
                 <Patreons/>
             
-            <div>
+            <div className='InsideIntro'>
                 
 
                 

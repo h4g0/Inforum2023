@@ -145,20 +145,20 @@ export function Login(this: any, props: any) {
                
                     <Link to="/location">
 
-                    <button>Como chegar</button>
+                    <p>Como chegar</p>
 
                     </Link>
 
                     <Link to="/accommodation">
 
-                        <button>Alojamento</button>
+                        <p>Alojamento</p>
 
                     </Link>
 
 
                     <Link to="/grants">
 
-                        <button>Bolsas</button>
+                        <p>Bolsas</p>
 
                     </Link>
 

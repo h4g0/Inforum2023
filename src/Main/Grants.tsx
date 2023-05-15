@@ -8,7 +8,7 @@ export function Grants(props: any) {
             
                 <Patreons/>
             
-            <div>
+            <div className='InsideIntro'>
                 
 
                 <h2>
