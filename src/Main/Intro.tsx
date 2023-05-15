@@ -17,6 +17,7 @@ import forteSaoFrancisco_lg from "../img/Porto/forteSaoFrancisco-large.jpg"
 
 import {useRef, useLayoutEffect, useState, useEffect} from 'react';
 import { Patreons } from './Patreons';
+import { Annoucements } from './Annoucements';
 
 function getWindowDimensions() {
     const {innerWidth: width, innerHeight: height} = window;
@@ -143,38 +144,49 @@ export function Initial(props: any) {
 
             <div className='IntroInternal'>
 
+            
+
             <Patreons></Patreons>
 
             <div className='InsideIntro'>
 
-            <h2>Bem-vindo ao INForum 2023</h2>
+                <h2>Bem-vindo ao INForum 2023</h2>
 
-            <p> Reunindo a comunidade nacional, o INForum é um local privilegiado para a divulgação, discussão e
-                reconhecimento de trabalhos científicos e de inovação e avanços tecnológicos em Informática. O INForum
-                oferece assim um palco especializado para promover, por um lado, o intercâmbio de conhecimento e
-                experiência entre a academia e a indústria e, por outro lado, a estreia de jovens investigadores que
-                procuram a divulgação, a crítica construtiva e o encorajamento do seu trabalho. Assim, o INForum é um
-                evento nacional de partilha e de fortalecimento do espírito de comunidade.
-            </p>
-            <p>A Informática é uma área de Investigação e Desenvolvimento consolidada em Portugal, suportada numa rede
-                de centros de investigação reconhecidos internacionalmente e na oferta de cursos de licenciatura e
-                pós-graduação por praticamente todas as instituições portuguesas de ensino superior. É igualmente uma
-                área na qual várias empresas nacionais apresentam resultados de I&D de relevância internacional.
-            </p>
-            <p>O INForum é organizado em sessões temáticas sobre tópicos propostos pela comunidade e selecionados pela
-                organização. Os tópicos têm comissões de programa (CP) próprias, que se articulam com os Presidentes da
-                Comissão de Programa nos processos de organização das sessões (apelo a submissões, revisão e seleção de
-                artigos, publicação de atas, etc.) de forma a tirar partido de uma única infraestrutura de suporte e
-                garantir a coerência do evento.
-            </p>
-            <p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto nos dias 7
-                e 8 de setembro. Contamos com a presença de todos!
-            </p>
+                <p> Reunindo a comunidade nacional, o INForum é um local privilegiado para a divulgação, discussão e
+                    reconhecimento de trabalhos científicos e de inovação e avanços tecnológicos em Informática. O INForum
+                    oferece assim um palco especializado para promover, por um lado, o intercâmbio de conhecimento e
+                    experiência entre a academia e a indústria e, por outro lado, a estreia de jovens investigadores que
+                    procuram a divulgação, a crítica construtiva e o encorajamento do seu trabalho. Assim, o INForum é um
+                    evento nacional de partilha e de fortalecimento do espírito de comunidade.
+                </p>
+                <p>A Informática é uma área de Investigação e Desenvolvimento consolidada em Portugal, suportada numa rede
+                    de centros de investigação reconhecidos internacionalmente e na oferta de cursos de licenciatura e
+                    pós-graduação por praticamente todas as instituições portuguesas de ensino superior. É igualmente uma
+                    área na qual várias empresas nacionais apresentam resultados de I&D de relevância internacional.
+                </p>
+                <p>O INForum é organizado em sessões temáticas sobre tópicos propostos pela comunidade e selecionados pela
+                    organização. Os tópicos têm comissões de programa (CP) próprias, que se articulam com os Presidentes da
+                    Comissão de Programa nos processos de organização das sessões (apelo a submissões, revisão e seleção de
+                    artigos, publicação de atas, etc.) de forma a tirar partido de uma única infraestrutura de suporte e
+                    garantir a coerência do evento.
+                </p>
+                <p>A edição de 2023, o 14º INForum, decorrerá na Faculdade de Engenharia da Universidade do Porto nos dias 7
+                    e 8 de setembro. Contamos com a presença de todos!
+                </p>
 
 
-            <p>O INForum começa em:</p>
-            <Timer time={props.time}/>
-        </div>
+                <p>O INForum começa em:</p>
+                <Timer time={props.time}/>
+
+            
+
+
+            </div>
+
+            
+
+                <Annoucements/>
+            
 
         </div>
         </div>

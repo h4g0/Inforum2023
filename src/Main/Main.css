@@ -86,6 +86,7 @@ p {
     margin-left: 20px;  
     padding-left: 10px;
     padding-right: 10px;
+    margin-top: 20px;
 }
 
 
@@ -330,6 +331,18 @@ p {
     background-image: url("../img/logo.png");
 	background-repeat: no-repeat;
 	background-position: left center;
+	background-size: 25px;  
+
+}
+
+
+.AnnoucementsShort li {
+    margin: 0;
+	padding: 0px 0 10px 35px;
+	list-style: none;
+    background-image: url("../img/logo.png");
+	background-repeat: no-repeat;
+	background-position: left top;
 	background-size: 25px;  
 
 }
