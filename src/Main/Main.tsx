@@ -20,6 +20,7 @@ import {People} from './People';
 import {Keynote} from './Keynote';
 import {Dates} from './Dates';
 import {Accommodation} from './Accommodation';
+import {Grants} from './Grants';
 import {Previous} from './Previous';
 import {Program} from './Program';
 
@@ -138,17 +139,34 @@ export function Login(this: any, props: any) {
                 </Link>
 
 
-                <Link to="/location">
+                <div className="dropdown">
+                <button>Participar</button>
+                <div className="dropdown-content">
+               
+                    <Link to="/location">
 
                     <button>Como chegar</button>
 
-                </Link>
+                    </Link>
 
-                <Link to="/accommodation">
+                    <Link to="/accommodation">
 
-                    <button>Alojamento</button>
+                        <button>Alojamento</button>
 
-                </Link>
+                    </Link>
+
+
+                    <Link to="/grants">
+
+                        <button>Bolsas</button>
+
+                    </Link>
+
+                </div>
+                </div>
+
+
+                
 
                 {/* 
                 <Link to="/Keynote">            
@@ -201,6 +219,8 @@ export function Login(this: any, props: any) {
                 <Route path="dates" element={<Dates/>}/>
 
                 <Route path="accommodation" element={<Accommodation/>}/>
+
+                <Route path="grants" element={<Grants/>}/>
 
                 <Route path="previous" element={<Previous/>}/>
 

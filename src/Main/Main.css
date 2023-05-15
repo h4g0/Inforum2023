@@ -228,6 +228,17 @@ p {
     margin-right: 100px;
 }
 
+.Grants {
+    color: #2f4f4f;
+    margin-top: 100px;
+
+    font-size: 20px;
+    display: flex;
+
+    border-style: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 .People {
     color: #2f4f4f;
