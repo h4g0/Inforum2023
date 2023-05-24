@@ -1,6 +1,6 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
-import {Patreons} from "../Patreons";
+import {Patreons, PatreonsTracks} from "../Patreons";
 import { SortedCommission } from '../Tracks';
 
 export function Track2_SOFTCRC(props: any) {
@@ -108,7 +108,7 @@ export function Track2_SOFTCRC(props: any) {
                             
                         <SortedCommission people={co_cor}></SortedCommission>
 
-
+                        <PatreonsTracks></PatreonsTracks>
 
                     </div>
 

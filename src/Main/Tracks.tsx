@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom'
 import './Main.css'
-import {Patreons} from './Patreons'
+import {Patreons, PatreonsTracks} from './Patreons'
 import {InforumDates, InforumDatesTracks} from './Dates';
 
 
@@ -168,11 +168,15 @@ Computação Paralela, Distribuída e de Larga Escala (CPDLA)
                         
 
 
-
+                        <PatreonsTracks></PatreonsTracks>
                     </div>
-
+                    
+                    
+                    
 
                 </div>
+
+                
             </div>
 
         </div>

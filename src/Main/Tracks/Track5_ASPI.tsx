@@ -1,6 +1,6 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
-import {Patreons} from "../Patreons";
+import {Patreons, PatreonsTracks} from "../Patreons";
 import { SortedCommission } from '../Tracks';
 
 export function Track5_ASPI(props: any) {
@@ -145,7 +145,9 @@ export function Track5_ASPI(props: any) {
                         <h2>Comissão de programa</h2>
 
                         <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
-
+                        
+                        <PatreonsTracks></PatreonsTracks>
+                        
                     </div>
 
                 </div>

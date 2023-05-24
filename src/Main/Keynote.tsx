@@ -34,7 +34,8 @@ export function Keynote(props: any) {
         <div className="Keynote">
 
             
-                <Patreons/>
+            <Patreons/>
+            
 
                 <div className="InsideIntro">
 
@@ -57,6 +58,7 @@ export function Keynote(props: any) {
             
             
         </div>
+    
     </>
 
 }
