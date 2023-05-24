@@ -431,6 +431,20 @@ p {
     object-fit: cover;
 }
 
+
+.KeynoteP {
+    display: flex;
+    font-size: medium;
+    margin-bottom: 70px;
+}
+
+.KeynoteP img {
+    margin-right: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
 .ImportantDates {
     margin-left: 0px;
     display: flex;
