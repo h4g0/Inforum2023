@@ -18,6 +18,8 @@ export function Annoucements(props: any) {
 
               
                 <ul>
+                <li>É com enorme prazer que anunciamos que o Pedro Bizarro, co-fundador da Feedzai, aceitou ser um dos <Link to="/keynote">palestrantes convidados</Link> no INForum 2023!</li>
+
                 <li>É com enorme prazer que anunciamos que a Professora Cristina Videira Lopes aceitou ser uma das <Link to="/keynote">palestrantes convidadas</Link> no INForum 2023!</li>
 
                 <li>Graças aos nossos patrocinadores, este temos temos 17 <Link to="/grants">bolsas</Link> para estudantes!</li>    
