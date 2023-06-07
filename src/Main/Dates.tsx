@@ -66,7 +66,7 @@ export function InforumDatesTracks(props: any) {
                 de resumos de artigos
             </li>
 
-            <li className={Date.now() > Date.parse("02 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del> 2/jun</del> <b>9/jun</b> submissão
+            <li className={Date.now() > Date.parse("09 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del> 2/jun</del> <b>9/jun</b> submissão
                 de artigos
             </li>
 
