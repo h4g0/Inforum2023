@@ -1,6 +1,8 @@
 import './Main.css'
 import inesctec from "../img/advertisers/inesctec.svg"
 import critical from "../img/advertisers/critical.svg"
+import axians from "../img/advertisers/axians.png"
+
 import { Link, Router } from 'react-router-dom'
 
 
@@ -20,9 +22,17 @@ export function PatreonsTracks(props: any){
 
           
 
+          
+
+
             <h3 className='PlatinumSponsor'>Platinum</h3>
 
             <img className="SponsorImage" src={critical} title={"Critical Software"}></img>
+
+
+            <h3 className='PlatinumSponsor'>Platinum</h3>
+
+            <img className="SponsorImage" src={axians} title={"Axians PT"}></img>
 
             <h3 className='GoldSponsor'>Gold</h3>
 
@@ -63,6 +73,11 @@ export function Patreons(props: any) {
                 <h3 className='PlatinumSponsor'>Platinum</h3>
 
                 <img className="SponsorImage" src={critical} title={"Critical Software"}></img>
+
+
+                <h3 className='PlatinumSponsor'>Platinum</h3>
+
+                <img className="SponsorImage" src={axians} title={"Axians PT"}></img>
 
                 <h3 className='GoldSponsor'>Gold</h3>
 
