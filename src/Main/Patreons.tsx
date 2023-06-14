@@ -30,13 +30,16 @@ export function PatreonsTracks(props: any){
             <img className="SponsorImage" src={critical} title={"Critical Software"}></img>
 
 
-            <h3 className='PlatinumSponsor'>Platinum</h3>
-
-            <img className="SponsorImage" src={axians} title={"Axians PT"}></img>
+         
 
             <h3 className='GoldSponsor'>Gold</h3>
 
             <img className="SponsorImage" src={inesctec} title={"INESC TEC"}></img>
+
+
+            <h3 className='SilverSponsor'>Silver</h3>
+
+            <img className="SponsorImage" src={axians} title={"Axians PT"}></img>
 
         </div>
         
@@ -75,13 +78,14 @@ export function Patreons(props: any) {
                 <img className="SponsorImage" src={critical} title={"Critical Software"}></img>
 
 
-                <h3 className='PlatinumSponsor'>Platinum</h3>
-
-                <img className="SponsorImage" src={axians} title={"Axians PT"}></img>
-
                 <h3 className='GoldSponsor'>Gold</h3>
 
                 <img className="SponsorImage" src={inesctec} title={"INESC TEC"}></img>
+
+                <h3 className='SilverSponsor'>Silver</h3>
+
+                <img className="SponsorImage" src={axians} title={"Axians PT"}></img>
+
 
             </div>
             
