@@ -16,8 +16,9 @@ export function Grants(props: any) {
                 </h2>
 
                 <p>
-                    Graças aos nossos patrocinadores, este ano temos 17 bolsas para estudantes que pretendam participar no INForum.
-                    Cada bolsa cobre a <b>inscrição</b> e <b>alojamento</b> (partilahdo) de um estudante (Lic., MSc ou PhD). Os restantes custos (desclocações, etc.) não serão suportados pelas bolsas.
+                Graças aos nossos patrocinadores, este ano temos 17 bolsas para estudantes que pretendam participar no INForum.
+                    Cada bolsa cobre a <b>inscrição</b> e <b>alojamento</b> (partilhado) de um estudante (Lic., MSc ou PhD). Os restantes custos (deslocações, etc.) não serão suportados pelas bolsas.
+
                 </p>
                 <p>
                     Mais detalhes sobre as candidaturas serão divulgados em breve.
