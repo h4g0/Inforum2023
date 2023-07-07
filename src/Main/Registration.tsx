@@ -101,7 +101,7 @@ export function Registration(props: any) {
                 </tr>
                 <tr>
                     <td><b>Inscrição durante a conferência</b></td>
-                    <td>01/09/2023 a 06/09/2023</td>
+                    <td>01/09/2023 a 08/09/2023</td>
                     <td>300€</td>
                     <td>250€</td>
                     <td>120€</td>
