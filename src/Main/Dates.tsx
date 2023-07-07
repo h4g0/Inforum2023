@@ -28,21 +28,23 @@ export function InforumDates(props: any) {
                 de artigos (atualizáveis até 11/jun)
             </li>
 
-            <li className={Date.now() > Date.parse("30 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>30/jun
+            <li className={Date.now() > Date.parse("10 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>30/jun</del> <b>10/jul </b> 
                 notificação aos autores dos artigos
             </li>
 
 
-            <li className={Date.now() > Date.parse("07 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>7/jul submissão
+            <li className={Date.now() > Date.parse("17 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>7/jul</del> <b>17/jul </b> submissão
                 de comunicações, pósteres e demonstrações
             </li>
 
-            <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>14/jul submissão
-                de artigos camera-ready
+
+            <li className={Date.now() > Date.parse("24 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>14/jul</del> <b>24/jul </b>
+                notificação aos autores das comunicações, pósteres e demonstrações
             </li>
 
-            <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>14/jul
-                notificação aos autores das comunicações, pósteres e demonstrações
+
+            <li className={Date.now() > Date.parse("28 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>14/jul</del> <b>28/jul </b> submissão
+                de artigos camera-ready
             </li>
 
             <li className={Date.now() > Date.parse("8 Sep 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>7-8/set evento no
@@ -70,23 +72,24 @@ export function InforumDatesTracks(props: any) {
                 de artigos (atualizáveis até 11/jun)
             </li>
 
-            <li className={Date.now() > Date.parse("30 Jun 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>30/jun
+            <li className={Date.now() > Date.parse("10 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>30/jun</del> <b>10/jul </b> 
                 notificação aos autores dos artigos
             </li>
 
 
-            <li className={Date.now() > Date.parse("07 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>7/jul submissão
+            <li className={Date.now() > Date.parse("17 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>7/jul</del> <b>17/jul </b> submissão
                 de comunicações, pósteres e demonstrações
             </li>
 
-            <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>14/jul submissão
-                de artigos camera-ready
-            </li>
 
-            <li className={Date.now() > Date.parse("14 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>14/jul
+            <li className={Date.now() > Date.parse("24 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>14/jul</del> <b>24/jul </b>
                 notificação aos autores das comunicações, pósteres e demonstrações
             </li>
 
+
+            <li className={Date.now() > Date.parse("28 Jul 2023 23:59:00 GMT") ? "oldDate" : "newDate"}><del>14/jul</del> <b>28/jul </b> submissão
+                de artigos camera-ready
+            </li>
 
             <li className={Date.now() > Date.parse("8 Sep 2023 23:59:00 GMT") ? "oldDate" : "newDate"}>7-8/set evento no
                 Porto
