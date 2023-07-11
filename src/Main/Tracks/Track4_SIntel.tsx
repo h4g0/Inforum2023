@@ -1,13 +1,13 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons, PatreonsTracks} from "../Patreons";
-import { SortedCommission } from '../Tracks';
+import { SortedCommission, SortedCommissionHead } from '../Tracks';
 
 export function Track4_SIntel(props: any) {
     
     const cor_pro = [
-        "Henrique Lopes Cardoso, Faculdade de Engenharia da Universidade do Porto (coord.)",
-        "Luís Filipe Teixeira, Faculdade de Engenharia da Universidade do Porto (coord.)"
+        "Henrique Lopes Cardoso, Faculdade de Engenharia da Universidade do Porto",
+        "Luís Filipe Teixeira, Faculdade de Engenharia da Universidade do Porto"
     ]
 
     const co_pro = [ 
@@ -110,10 +110,7 @@ export function Track4_SIntel(props: any) {
                         
                         <h2>Comissão coordenadora</h2>
 
-                        <ul>
-                            <li>Henrique Lopes Cardoso, Faculdade de Engenharia da Universidade do Porto</li>
-                            <li>Luís Filipe Teixeira, Faculdade de Engenharia da Universidade do Porto</li>
-                        </ul>
+                        <SortedCommissionHead cord={cor_pro} people={co_pro}></SortedCommissionHead>
 
                         <h2>Comissão de programa</h2>
 

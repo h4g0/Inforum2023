@@ -1,7 +1,7 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons, PatreonsTracks} from "../Patreons";
-import { SortedCommission } from '../Tracks';
+import { SortedCommission, SortedCommissionHead } from '../Tracks';
 
 export function Track2_SOFTCRC(props: any) {
     const co_cor = [
@@ -16,7 +16,7 @@ export function Track2_SOFTCRC(props: any) {
     ]
 
     const cor_pro = [
-        "Jorge Sousa Pinto, Universidade do Minho (coord.)"
+        "Jorge Sousa Pinto, Universidade do Minho"
     ]
 
     const co_pro = [
@@ -96,14 +96,16 @@ export function Track2_SOFTCRC(props: any) {
                         <InforumDatesTracks></InforumDatesTracks>
 
 
-                       
+                        <h2>Comissão coordenadora</h2>
+                        <SortedCommissionHead cord={cor_pro} people={co_pro}></SortedCommissionHead>
+
 
                         <h2>Comissão de programa</h2>
 
                         <SortedCommission cord={cor_pro} people={co_pro}></SortedCommission>
 
 
-                        <h2>Comissão coordenadora</h2>
+                        <h2>Comissão de "steering"</h2>
 
                             
                         <SortedCommission people={co_cor}></SortedCommission>

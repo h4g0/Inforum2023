@@ -1,14 +1,15 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons, PatreonsTracks} from "../Patreons";
-import { SortedCommission } from '../Tracks';
+import { SortedCommission, SortedCommissionHead } from '../Tracks';
 
 export function Track6_SCF(props: any) {
 
     const cor_pro = [
-        "José Cecílio, LASIGE/Faculdade de Ciências da Universidade de Lisboa (coord.)",
-        "Pedro Fonseca, Universidade de Aveiro/IT (coord.)",
-        "Ricardo Severino, Instituto Politécnico do Porto (coord.)"
+        "José Cecílio, LASIGE/Faculdade de Ciências da Universidade de Lisboa",
+        "Pedro Fonseca, Universidade de Aveiro/IT",
+        "Ricardo Severino, Instituto Politécnico do Porto",
+        "Luis Lino Ferreira, INESC-TEC/ISEP"
     ]
 
     const co_pro = [
@@ -151,6 +152,9 @@ export function Track6_SCF(props: any) {
 
                         <InforumDatesTracks></InforumDatesTracks>
                        
+                        <h2>Comissão coordenadora</h2>
+                        
+                        <SortedCommissionHead cord={cor_pro} people={co_pro}></SortedCommissionHead>
 
                         <h2>Comissão de programa</h2>
                         
