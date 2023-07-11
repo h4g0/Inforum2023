@@ -30,7 +30,7 @@ export function Registration(props: any) {
 
 
                     <p>
-                        Os alunos que tenham um artigo aceite na conferência podem candidatar-se a uma bolsa. Para tal, devem enviar um email para jacome@fe.up.pt, identificando o artigo aceite, e contendo um documento, com no máximo uma página, onde apresentam a motivação para o pedido da bolsa e participação no INForum, evidenciando de que forma esta participação poderá ser importante nas respectivas carreiras. Devem ainda enviar um comprovativo de como são estudantes. No caso de terem um orientador, quer de MSc, PhD ou outra situação, os orientadores devem também enviar um documento justificando e explicando o pedido de bolsa. Só serão aceites candidaturas completas até ao dia 16 de julho. Apenas após a notificação do resultado desta candidatura os candidatos se podem inscrever.
+                        Os alunos que tenham um artigo aceite na conferência podem candidatar-se a uma bolsa. Para tal, devem enviar um email para jacome@fe.up.pt, identificando o artigo aceite, e contendo um documento, com no máximo uma página, onde apresentam a motivação para o pedido da bolsa e participação no INForum, evidenciando de que forma esta participação poderá ser importante nas respectivas carreiras. Devem ainda enviar um comprovativo de como são estudantes. No caso de terem um orientador, quer de MSc, PhD ou outra situação, os orientadores devem também enviar um documento justificando e explicando o pedido de bolsa. Só serão aceites candidaturas completas até ao dia 25 de julho. Apenas após a notificação do resultado desta candidatura os candidatos se podem inscrever.
                     </p>
 
 
