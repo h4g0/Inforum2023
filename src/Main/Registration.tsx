@@ -82,18 +82,18 @@ export function Registration(props: any) {
 
                 </tr>
                 <tr>
-                    <td><b>Inscrição atempada</b></td>
-                    <td>01/07/2023 a 01/08/2023</td>
-                    <td>200€</td>
-                    <td>150€</td>
-                    <td>80€</td>
-                    <td>50€</td>
+                    <td width={120}><b>Inscrição atempada</b></td>
+                    <td width={120}>10/07/2023 a 10/08/2023</td>
+                    <td width={120}>200€</td>
+                    <td width={120}>150€</td>
+                    <td width={120}>80€</td>
+                    <td width={120}>50€</td>
 
 
                 </tr>
                 <tr>
                     <td><b>Inscrição tardia</b></td>
-                    <td>02/08/2023 a 31/08/2023</td>
+                    <td>11/08/2023 a 31/08/2023</td>
                     <td>250€</td>
                     <td>200€</td>
                     <td>100€</td>
