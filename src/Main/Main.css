@@ -94,6 +94,11 @@ p {
     text-decoration: none;
 }
 
+.HiddenMenu{
+    height: 0px;
+    visibility: hidden;
+}
+
 .Menu {
 
     display: inline;
