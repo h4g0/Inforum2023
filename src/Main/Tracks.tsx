@@ -4,6 +4,21 @@ import {Patreons, PatreonsTracks} from './Patreons'
 import {InforumDates, InforumDatesTracks} from './Dates';
 
 
+export function SortedCommissionHead(props: any){
+    
+    const cord = ( props.cord || []).sort() 
+
+    return <>
+    <ul>
+    
+    {cord.map(element => {
+            return <li className='coord'><b>{element}</b></li>
+    })}
+    </ul>
+       
+    </>
+}
+
 
 export function SortedCommission(props: any){
     
@@ -14,9 +29,6 @@ export function SortedCommission(props: any){
     return <>
     <ul>
     
-    {cord.map(element => {
-            return <li className='coord'><b>{element}</b></li>
-    })}
 
     {people.map(element => {
             return <li>{element}</li>
@@ -55,8 +67,9 @@ export function Tracks(props: any) {
                     </ul>
 
     Artigos e comunicações serão apresentados oralmente durante as sessões, tendo as comunicações um tempo de apresentação mais curto do que os artigos. Todos os artigos e comunicações aceites terão também direito a espaço de exposição para afixação de póster e/ou demonstração de ferramentas.
-    Os artigos e as comunicações deverão ser submetidos no formato Springer LNCS, estando os artigos limitados a 12 páginas (excluindo referências), e as comunicações um tamanho recomendado de 4 páginas, podendo ir até um limite de 12 páginas. As propostas de pósteres e de demonstrações devem ser realizadas no mesmo formato com um máximo de 2 páginas.
+    Os artigos e as comunicações deverão ser submetidos no formato Springer LNCS, estando os artigos limitados a 12 páginas, e as comunicações um tamanho recomendado de 4 páginas, podendo ir até um limite de 12 páginas. As propostas de pósteres e de demonstrações devem ser realizadas no mesmo formato com um máximo de 2 páginas.
     Nas atas para efeitos de arquivo constarão os artigos e as comunicações (sendo que os autores podem optar, após a submissão ser aceite, pela publicação integral com respetivamente 12 e 4 páginas, ou apenas sob a forma de sumário de 2 páginas). Também serão incluídos os sumários de pósteres e demonstrações. Assim, todas as submissões aceites no INForum 2023, independentemente da presença, formato e dimensão nas atas, serão listadas no programa final.
+    Em todos os tipos de submissões, as referências podem estar fora do limite de páginas.
     </p>
 
     <h2>Sessões</h2>

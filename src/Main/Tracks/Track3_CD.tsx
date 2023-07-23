@@ -1,12 +1,12 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons, PatreonsTracks} from "../Patreons";
-import { SortedCommission } from '../Tracks';
+import { SortedCommission, SortedCommissionHead } from '../Tracks';
 
 export function Track3_CD(props: any) {
 
     const cor_pro = [
-        "Sebastião Pais, NOVA-LINCS and Universidade da Beira Interior (coord.)"
+        "Sebastião Pais, NOVA-LINCS and Universidade da Beira Interior"
     ]
 
     const co_pro = [
@@ -22,7 +22,8 @@ export function Track3_CD(props: any) {
         "Irene Rodrigues, Universidade de Evora",
         "João Cordeiro, Universidade da Beira Interior",
         "João Carlos Neves, NOVA-LINCS and Universidade da Beira Interior",
-        "Luís A. Alexandre, Departamento de Informatica, Universidade da Beira Interior",
+        "Luís A. Alexandre, Departamento de Informática, Universidade da Beira Interior",
+        "Matilde Pós-de-Mina Pato, ISEL",
         "Natália Souza, INESCD-ID Lisboa",
         "Nuno Pombo, Universidade da Beira Interior",
         "Pedro G. Ferreira, Ipatimup - Institute of Molecular Pathology and Immunology of the University of Porto",
@@ -114,6 +115,9 @@ export function Track3_CD(props: any) {
 
                         <InforumDatesTracks></InforumDatesTracks>
 
+                        <h2>Comissão coordenadora</h2>
+
+                        <SortedCommissionHead cord={cor_pro} people={co_pro}></SortedCommissionHead>
                        
                         <h2>Comissão de programa</h2>
 

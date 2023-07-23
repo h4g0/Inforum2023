@@ -1,13 +1,13 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons, PatreonsTracks} from "../Patreons";
-import { SortedCommission } from '../Tracks';
+import { SortedCommission, SortedCommissionHead } from '../Tracks';
 
 export function Track7_CPD(props: any) {
     
     const cor_pro = [
-        "Rolando Martins, Faculdade de Ciências da Universidade do Porto - Universidade do Porto (coord.)",
-        "Nuno Laranjeiro, Universidade de Coimbra (coord.)"
+        "Rolando Martins, Faculdade de Ciências da Universidade do Porto - Universidade do Porto",
+        "Nuno Laranjeiro, Universidade de Coimbra"
     ]
 
     const co_pro = [ "Ricardo Vilaça, Universidade of Minho",
@@ -92,6 +92,9 @@ export function Track7_CPD(props: any) {
 
                         <InforumDatesTracks></InforumDatesTracks>
                         
+                        <h2>Comissão coordenadora</h2>
+                        
+                        <SortedCommissionHead cord={cor_pro} people={co_pro}></SortedCommissionHead>
 
                         <h2>Comissão de programa</h2>
                         

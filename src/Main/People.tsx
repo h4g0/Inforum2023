@@ -1,6 +1,7 @@
 import './Main.css'
 import {Patreons} from './Patreons'
 import hugo from "../img/Organization/hugo.jpg"
+import mariana from "../img/Organization/mariana.jpg"
 import lazaro from "../img/Organization/lazaro.jpg"
 import jacome from "../img/Organization/jacome.jpg"
 import jas from "../img/Organization/jas.jpg"
@@ -20,7 +21,11 @@ function Person(props: any) {
                 <div>
                     <p>{props.job}</p>
                     <p>{props.afiliation}</p>
-                    <p><a target="_blank" rel="noopener noreferrer" href={props.page}>Homepage</a></p>
+                    {props.page ? (
+                        <p><a target="_blank" rel="noopener noreferrer" href={props.page}>Homepage</a></p>
+                    ) : (
+                        <></>
+                    )}
 
                 </div>
             </div>
@@ -32,7 +37,7 @@ export function People(props: any) {
     return <>
         <div className="People">
 
-            
+
             <Patreons/>
 
             <div className="InsideIntro">
@@ -55,7 +60,8 @@ export function People(props: any) {
                 <Person name="João Saraiva" job="Patrocínios" picture={jas}
                         afiliation="University of Minho & HASLab/INESC TEC"
                         page="https://haslab.uminho.pt/jas/"/>
-                <Person name="João Pascoal Faria" job="Patrocínios" picture={pascoal} afiliation="University of Porto & HumanISE/INESC TEC"
+                <Person name="João Pascoal Faria" job="Patrocínios" picture={pascoal}
+                        afiliation="University of Porto & HumanISE/INESC TEC"
                         page="https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=210006"/>
                 <Person name="Rui Maranhão" job="Registos" picture={maranhao} afiliation="University of Porto"
                         page="https://ruimaranhao.com/"/>
@@ -69,6 +75,10 @@ export function People(props: any) {
                 <Person name="Lázaro Costa" picture={lazaro}
                         afiliation="Faculty of Engineering of University of Porto & HASLab/INESC TEC"
                         page="https://lazarocosta.github.io/"/>
+
+                <h2>Marketing e Design</h2>
+                <Person name="Mariana Amorim" picture={mariana}
+                        afiliation="University of Fernando Pessoa"/>
             </div>
 
 

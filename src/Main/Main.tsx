@@ -66,11 +66,19 @@ export function Login(this: any, props: any) {
         <Router>
             <div className="Menu">
 
+            
+
                 <Link to="/">
 
                     <img className="logo" src={inforum}></img>
 
                 </Link>
+
+                <Link to="/registration">
+
+                {<button>Registo</button>}
+
+            </Link>
 
                 <Link to="/program">
 
@@ -115,11 +123,7 @@ export function Login(this: any, props: any) {
                 </Link>*/}
 
 
-                <Link to="/registration">
-
-                    {/*<button>Inscrições</button>*/}
-
-                </Link>
+                
 
                 {/*<a target="_blank" rel="noopener noreferrer" href="https://inforum.org.pt/sites/default/files/2022-09/Actas_INForum.pdf">
                 <button>Atas Inforum</button>

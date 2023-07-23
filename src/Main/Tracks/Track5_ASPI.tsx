@@ -1,13 +1,13 @@
 import {InforumDates, InforumDatesTracks} from '../Dates';
 import '../Main.css'
 import {Patreons, PatreonsTracks} from "../Patreons";
-import { SortedCommission } from '../Tracks';
+import { SortedCommission, SortedCommissionHead } from '../Tracks';
 
 export function Track5_ASPI(props: any) {
 
     const cor_pro = [
-        "Vasco Amaral, Ordem dos Engenheiros, FCT NOVA (coord.)",
-        "Jorge Barbosa, Instituto Politécnico de Coimbra (coord.)"
+        "Vasco Amaral, Ordem dos Engenheiros, FCT NOVA",
+        "Jorge Barbosa, Instituto Politécnico de Coimbra"
     ]
 
     const co_pro = [
@@ -140,7 +140,9 @@ export function Track5_ASPI(props: any) {
                         <InforumDatesTracks></InforumDatesTracks>
 
 
+                        <h2>Comissão coordenadora</h2>
 
+<SortedCommissionHead cord={cor_pro} people={co_pro}></SortedCommissionHead>
 
                         <h2>Comissão de programa</h2>
 

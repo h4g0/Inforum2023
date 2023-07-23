@@ -1,5 +1,5 @@
 import './Main.css'
-import inesctec from "../img/advertisers/inesctec.svg"
+import inesctec from "../img/advertisers/inesctec.png"
 import critical from "../img/advertisers/critical.svg"
 import axians from "../img/advertisers/axians.png"
 
