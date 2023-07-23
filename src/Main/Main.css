@@ -897,7 +897,7 @@ p {
 
 @media only screen and (max-width: 1072px) {
     /* For mobile phones: */
-    .IntroInternal, .Keynote, .People, .Previous, .Grants, .Accommodation, .Location{
+    .IntroInternal, .Keynote, .People, .Previous, .Dates, .Grants, .Accommodation, .Location{
         display: flex;
         flex-direction: column-reverse;
     }
