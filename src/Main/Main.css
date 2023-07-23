@@ -432,15 +432,16 @@ p {
 
 
 .KeynoteP {
-    display: flex;
+    float: left;
     font-size: medium;
-    margin-bottom: 70px;
+    margin-bottom: 25px;
 }
 
 .KeynoteP img {
     margin-right: 50px;
     border-radius: 50%;
     object-fit: cover;
+    margin-bottom: 25px;
 }
 
 
@@ -891,7 +892,7 @@ p {
 
 @media only screen and (max-width: 1072px) {
     /* For mobile phones: */
-    .IntroInternal, .People, .Previous, .Accommodation, .Location{
+    .IntroInternal, .Keynote, .People, .Previous, .Grants, .Accommodation, .Location{
         display: flex;
         flex-direction: column-reverse;
     }
@@ -929,7 +930,7 @@ p {
 
 @media only screen and (max-width: 955px) {
     /* For mobile phones: */
-    .Intro, .Location, .Keynote, .People, .Dates, .Accommodation, .Previous, .PatreonsFull {
+    .Intro, .Location, .Keynote, .Grants, .People, .Dates, .Accommodation, .Previous, .PatreonsFull {
         margin-top: 150px;
     }
 
@@ -955,7 +956,7 @@ p {
 
 @media only screen and (max-width: 650px) {
     /* For mobile phones: */
-    .Intro, .Location, .Keynote, .People, .Dates, .Accommodation, .Previous, .PatreonsFull {
+    .Intro, .Location, .Keynote, .Grants, .People, .Dates, .Accommodation, .Previous, .PatreonsFull {
         margin-top: 220px;
         margin-right: 50px;
         margin-left: 50px;
@@ -970,7 +971,7 @@ p {
 
 @media only screen and (max-width: 377px) {
     /* For mobile phones: */
-    .Intro, .Location, .Keynote, .People, .Dates, .Accommodation, .Previous, .PatreonsFull {
+    .Intro, .Location, .Keynote, .Grants, .People, .Dates, .Accommodation, .Previous, .PatreonsFull {
         margin-top: 270px;
         margin-right: 20px;
         margin-left: 20px;

@@ -126,17 +126,7 @@ export function Login(this: any, props: any) {
                 </a>*/}
 
 
-                <Link to="/people">
-
-                    <button>Organização</button>
-
-                </Link>
-
-                <Link to="/keynote">
-
-                    <button>Palestras Convidadas</button>
-
-                </Link>
+              
 
 
                 <div className="dropdown">
@@ -166,6 +156,31 @@ export function Login(this: any, props: any) {
                 </div>
 
 
+                <div className="dropdown">
+                <button>Sobre</button>
+                <div className="dropdown-content">
+               
+                    <Link to="/people">
+
+                    <p>Organização</p>
+
+                    </Link>
+
+                    <Link to="/keynote">
+
+                    <p>Palestras Convidadas</p>
+
+                    </Link>
+
+                    <Link to="/previous">
+
+                    <p>Edições Anteriores</p>
+
+                    </Link>
+
+                </div>
+                </div>
+
                 
 
                 {/* 
@@ -176,12 +191,7 @@ export function Login(this: any, props: any) {
                 </Link>
                 */}
 
-                <Link to="/previous">
-
-                    <button>Edições Anteriores</button>
-
-                </Link>
-
+           
 
                 <Footer/>
 

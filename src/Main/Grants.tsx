@@ -6,7 +6,7 @@ export function Grants(props: any) {
         <div className="Grants">
 
             
-                <Patreons/>
+            <Patreons/>
             
             <div className='InsideIntro'>
                 
