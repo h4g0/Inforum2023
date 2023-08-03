@@ -188,7 +188,7 @@ export function Login(this: any, props: any) {
 
 
                 <div className="dropdown">
-                <button>Acerce</button>
+                <button>Sobre</button>
                 <div className="dropdown-content">
                
 
