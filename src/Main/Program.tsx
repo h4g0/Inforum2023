@@ -1,3 +1,7 @@
+import { getArticles } from './Data/GetArticles'
+import { getCommunications } from './Data/GetCommunications'
+import { getDemos } from './Data/GetDemos'
+import { getPoster } from './Data/GetPoster'
 import './Main.css'
 import {Patreons} from './Patreons'
 
@@ -27,21 +31,38 @@ function ProgramItem(props: any) {
     return <>
         <div className={itemClass}>
             <div className="itemInfo">
-                <Now start={props.start} end={props.end}></Now>
 
                 <p><b>{props.title}</b></p>
-                <p className="itemAuthor">{props.author}</p>
             </div>
             <div className="itemAbstract">
-                <p>{props.abstract}</p>
+                <p><b>Authors: </b>{props.author}</p>
+                <p><b>Track: </b>{props.track}</p>
             </div>
         </div>
     </>
 }
 
+function Articles(props: any) {
+
+    const articles = props.articles
+
+    console.log(articles)
+
+    return <>
+                {articles.map((article: any,index) => {
+                    return (<ProgramItem  title={article[0]}
+                    author={article[1]}
+                   track={article[2]}/>)
+                })}            
+    </>
+}
+
+
+
+
 export function Program(props: any) {
     return <>
-        <div className="Program">
+        <div className="People">
 
 
             <Patreons/>
@@ -49,21 +70,51 @@ export function Program(props: any) {
             <div className="InsideIntro">
                 <h2>Programa:</h2>
                 <div className="ProgramDay">
-                    <h4>Quarta feira dia 20 de setembro de 2023</h4>
 
-                    <ProgramItem start='20 Sep 2023 00:00:00 GMT' end='20 Sep 2023 00:30:00 GMT' title="Item1"
-                                 author="Author number 1" abstract="Machine Learning"/>
-                    <ProgramItem title="Item1" author="Author number 1" abstract="Machine Learning"/>
+                    <div className='now'>
+
+                    <div className="itemInfo">
+
+                    
+                        <p><b><a href="#Articles">Artigos</a> | <a href="#Communications">Comunicações</a> | <a href="#Demos">Demos</a> | <a href="#Posters">Posters</a></b></p>
+
+                        </div>
+
+                    </div>
+                
                 </div>
 
-                <div className="ProgramDay">
-                    <h4>Quinta feira dia 21 de setembro de 2023</h4>
+                <div id="Articles" className="ProgramDay">
+                    <h4>Artigos:</h4>
 
-                    <ProgramItem title="Item1" author="Author number 1" abstract="Machine Learning"/>
-                    <ProgramItem title="Item1" author="Author number 1" abstract="Machine Learning"/>
+                    <Articles articles={getArticles()}></Articles>
 
                 </div>
 
+                <div id="Communications" className="ProgramDay">
+                    <h4>Comunicações:</h4>
+
+                    <Articles articles={getCommunications()}></Articles>
+
+
+                </div>
+
+
+                <div id="Demos" className="ProgramDay">
+                    <h4>Demos:</h4>
+
+                    <Articles articles={getDemos()}></Articles>
+
+
+                </div>
+
+                <div id="Posters" className="ProgramDay">
+                    <h4>Posters:</h4>
+
+                    <Articles articles={getPoster()}></Articles>
+
+
+                </div>
 
             </div>
 

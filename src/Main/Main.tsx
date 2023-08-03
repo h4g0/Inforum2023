@@ -191,6 +191,14 @@ export function Login(this: any, props: any) {
                 <button>Sobre</button>
                 <div className="dropdown-content">
                
+
+               
+                    <Link to="/program">
+
+                    <p>Programa</p>
+
+                    </Link>
+                    
                     <Link to="/people">
 
                     <p>Organização</p>
@@ -248,10 +256,6 @@ export function Login(this: any, props: any) {
                 <Route path="tracks" element={<Tracks/>}/>
 
                 <Route path="location" element={<Location/>}/>
-
-                <Route path="publications" element={<Initial time={inforumTime}/>}/>
-
-                <Route path="education" element={<Initial time={inforumTime}/>}/>
 
                 <Route path="people" element={<People/>}/>
 
