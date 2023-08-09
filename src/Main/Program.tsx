@@ -58,13 +58,17 @@ function Articles(props: any) {
 
 function Papers(props: any) {
 
-    const articles = props.articles.map(a => {return [a, "Artigo"]})
-    const demos = props.demos.map(a => {return [a, "Demo"]})
-    const comm = props.comm.map(a => {return [a, "Comunicação"]})
-    const poster = props.poster.map(a => {return [a, "Póster"]})
+    const articles = props.articles.map(a => {return [a, "Artigo" , 0]})
+    const demos = props.demos.map(a => {return [a, "Demo", 3]})
+    const comm = props.comm.map(a => {return [a, "Comunicação", 1]})
+    const poster = props.poster.map(a => {return [a, "Póster", 2]})
 
     var allps = [...articles, ...demos,  ...comm, ...poster]
-    var allpubs = allps.filter(x => x[0][2] === props.track ).sort((x, y) => x[0][0] > y[0][0] ? 1 : -1)
+
+
+
+    var allpubs = allps.filter(x => x[0][2] === props.track )
+                                        .sort((x, y) => x[0][0] > y[0][0] ? 1 : -1).sort((x,y) => x[2] > y[2] ? 1 : -1)
 
     console.log(allps)
 

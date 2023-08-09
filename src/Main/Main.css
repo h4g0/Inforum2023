@@ -556,7 +556,6 @@ p {
 }
 
 .itemInfo p {
-    display: flex;
     margin-bottom: 0px;
 }
 

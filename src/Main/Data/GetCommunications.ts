@@ -10,7 +10,7 @@ ISPs’ discriminatory practices and their regulation in Andean America
 Towards cost estimation of DRL for task scheduling and placement
 Aprendizagem Automática para Deteção de Embarcações
 Cache Aplicacional Consistente e Eficiente
-Homotopy Types and Formal Program Specification
+Homotopy Types and Formal Program Spe\cification
 The Case for Generic Edge Based Services
 NETEDGE Proxy: A Multi-access Edge Computing System Level Proposal
 Towards a Solider Solidity
