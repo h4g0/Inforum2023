@@ -195,7 +195,7 @@ export function Login(this: any, props: any) {
                
                     <Link to="/program">
 
-                    <p>Programa</p>
+                    <p>Artigos Aceites</p>
 
                     </Link>
                     

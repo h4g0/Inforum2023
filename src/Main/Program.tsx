@@ -1,3 +1,4 @@
+import { isConstructorDeclaration } from 'typescript'
 import { getArticles } from './Data/GetArticles'
 import { getCommunications } from './Data/GetCommunications'
 import { getDemos } from './Data/GetDemos'
@@ -32,11 +33,10 @@ function ProgramItem(props: any) {
         <div className={itemClass}>
             <div className="itemInfo">
 
-                <p><b>{props.title}</b></p>
+                <p><b>{props.title} </b>&nbsp; ({props.type})</p>
             </div>
             <div className="itemAbstract">
-                <p><b>Authors: </b>{props.author}</p>
-                <p><b>Track: </b>{props.track}</p>
+                <p><b></b>{props.author}</p>
             </div>
         </div>
     </>
@@ -45,8 +45,6 @@ function ProgramItem(props: any) {
 function Articles(props: any) {
 
     const articles = props.articles
-
-    console.log(articles)
 
     return <>
                 {articles.map((article: any,index) => {
@@ -58,6 +56,26 @@ function Articles(props: any) {
 }
 
 
+function Papers(props: any) {
+
+    const articles = props.articles.map(a => {return [a, "Artigo"]})
+    const demos = props.demos.map(a => {return [a, "Demo"]})
+    const comm = props.comm.map(a => {return [a, "Comunicação"]})
+    const poster = props.poster.map(a => {return [a, "Póster"]})
+
+    var allps = [...articles, ...demos,  ...comm, ...poster]
+    var allpubs = allps.filter(x => x[0][2] === props.track ).sort((x, y) => x[0][0] > y[0][0] ? 1 : -1)
+
+    console.log(allps)
+
+    return <>
+                {allpubs.map((article: any,index) => {
+                    return (<ProgramItem  title={article[0][0]}
+                    author={article[0][1]}
+                   track={article[0][2]} type={article[1]} key={article[0]}/>)
+                })}            
+    </>
+}
 
 
 export function Program(props: any) {
@@ -68,7 +86,7 @@ export function Program(props: any) {
             <Patreons/>
             
             <div className="InsideIntro">
-                <h2>Programa:</h2>
+                <h2>Programa</h2>
                 <div className="ProgramDay">
 
                     <div className='now'>
@@ -76,45 +94,55 @@ export function Program(props: any) {
                     <div className="itemInfo">
 
                     
-                        <p><b><a href="#Articles">Artigos</a> | <a href="#Communications">Comunicações</a> | <a href="#Demos">Demos</a> | <a href="#Posters">Posters</a></b></p>
+                        <p><b><a href="#cd">CD</a> | <a href="#soft">SOFT-PT</a> | 
+                        <a href="#cplda">CPDLA</a> | <a href="#crc">CRC</a>
+                        | <a href="#cps">CPS&Apps</a></b></p>
 
                         </div>
 
                     </div>
                 
                 </div>
+                
+                
 
-                <div id="Articles" className="ProgramDay">
-                    <h4>Artigos:</h4>
+                
 
-                    <Articles articles={getArticles()}></Articles>
+                <div id="cd" className="ProgramDay">
+                    <h4>Ciência de Dados (CD)</h4>
 
-                </div>
-
-                <div id="Communications" className="ProgramDay">
-                    <h4>Comunicações:</h4>
-
-                    <Articles articles={getCommunications()}></Articles>
-
+                    <Papers track={"CD 2023"} poster={getPoster()} articles={getArticles()} demos={getDemos()} comm={getCommunications()} ></Papers>
 
                 </div>
 
+                <div id="soft" className="ProgramDay">
+                    <h4>Ciência e Engenharia de Software (SOFT-PT)</h4>
 
-                <div id="Demos" className="ProgramDay">
-                    <h4>Demos:</h4>
-
-                    <Articles articles={getDemos()}></Articles>
-
+                    <Papers track={"SOFT-PT 2023"} poster={getPoster()} articles={getArticles()} demos={getDemos()} comm={getCommunications()} ></Papers>
 
                 </div>
 
-                <div id="Posters" className="ProgramDay">
-                    <h4>Posters:</h4>
+                <div id="cpdla" className="ProgramDay">
+                    <h4>Computação Paralela, Distribuída e de Larga Escala (CPDLA)</h4>
 
-                    <Articles articles={getPoster()}></Articles>
-
+                    <Papers track={"CPDLA 2023"} poster={getPoster()} articles={getArticles()} demos={getDemos()} comm={getCommunications()} ></Papers>
 
                 </div>
+
+                <div id="crc" className="ProgramDay">
+                    <h4>Comunicações e Redes de Computadores (CRC)</h4>
+
+                    <Papers track={"CRC 2023"} poster={getPoster()} articles={getArticles()} demos={getDemos()} comm={getCommunications()} ></Papers>
+
+                </div>
+
+                <div id="cps" className="ProgramDay">
+                    <h4>Sistemas Ciber-Físicos Confiáveis e Aplicações (CPS&Apps)</h4>
+
+                    <Papers track={"SCF-CA 2023"} poster={getPoster()} articles={getArticles()} demos={getDemos()} comm={getCommunications()} ></Papers>
+
+                </div>
+                
 
             </div>
 
