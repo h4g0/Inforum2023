@@ -23,7 +23,8 @@ Kaiyo: Testagem Automática de Aplicações de Memória Persistente
 On the use of machine learning techniques to detect malware in mobile applications
 Deteção Automática de Anomalias em Arquiteturas de Microsserviços
 MRV*: Uma biblioteca de tipos de dados para aplicações concorrentes
-On the Automation of Software Vulnerability Collection of a Database with Static Information`.split("\n")
+On the Automation of Software Vulnerability Collection of a Database with Static Information
+A modular and scalable web platform for computational phylogenetics`.split("\n")
 
 
 const authors = `Daniel Silva, Carmen Morgado and Fernanda Barbosa
@@ -50,7 +51,8 @@ Henrique Fernandes, João Gonçalves and Miguel Matos
 Catarina Palma and Artur Ferreira
 Valentim Romão, Rafael Soares, Vasco Manquinho and Luís Rodrigues
 Adriano Maior, Nuno Faria and José Pereira
-João Rafael Henriques and José D'Abruzzo Pereira`.split("\n")
+João Rafael Henriques and José D'Abruzzo Pereira
+Nyckollas Brandão, André Jesus, André Páscoa, Alexandre P Francisco, Mario Ramirez and Cátia Vaz`.split("\n")
 
 const tracks = `SCF-CA 2023
 CRC 2023
@@ -76,7 +78,8 @@ CPDLA 2023
 CD 2023
 SOFT-PT 2023
 CPDLA 2023
-CPDLA 2023`.split("\n")
+CPDLA 2023
+CD 2023`.split("\n")
 
 export function getArticles() {
        

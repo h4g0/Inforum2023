@@ -91,22 +91,17 @@ export function Program(props: any) {
             
             <div className="InsideIntro">
                 <h2>Programa</h2>
-                <div className="ProgramDay">
-
-                    <div className='now'>
-
-                    <div className="itemInfo">
-
+                
+                    
+                    
                     
                         <p><b><a href="#cd">CD</a> | <a href="#soft">SOFT-PT</a> | 
-                        <a href="#cplda">CPDLA</a> | <a href="#crc">CRC</a>
-                        | <a href="#cps">CPS&Apps</a></b></p>
+                        &nbsp;<a href="#cplda">CPDLA</a> | &nbsp;<a href="#crc">CRC</a>
+                        &nbsp;| <a href="#cps">CPS&Apps</a> | <a href='#taaemi'>TAAEMI</a></b></p>
 
-                        </div>
-
-                    </div>
+                        
+                   
                 
-                </div>
                 
                 
 
@@ -146,8 +141,15 @@ export function Program(props: any) {
                     <Papers track={"SCF-CA 2023"} poster={getPoster()} articles={getArticles()} demos={getDemos()} comm={getCommunications()} ></Papers>
 
                 </div>
-                
 
+                <div id="taaemi" className="ProgramDay">
+                    <h4>Tópico Aberto em Áreas Emergentes, Multidisciplinares e Interdisciplinares (TAAEMI)</h4>
+
+                    <Papers track={"TAAEMI"} poster={getPoster()} articles={getArticles()} demos={getDemos()} comm={getCommunications()} ></Papers>
+
+                </div>
+                
+                
             </div>
 
         </div>
