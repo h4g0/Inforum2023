@@ -31,7 +31,7 @@
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider & react-scripts start",
     "build": "SET NODE_OPTIONS=--openssl-legacy-provider & react-scripts build",
-    "serve": "set PORT=80 & serve -s build",
+    "serve": "set PORT=3000 & serve -s build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
