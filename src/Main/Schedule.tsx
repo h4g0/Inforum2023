@@ -29,12 +29,18 @@ export function Schedule(props: any) {
 
                 </tr>
                 
-                
                 <tr>
-                    <td width={80}><b>12:00</b></td>
-                    <td width={150}>Almoço</td>
-                    <td width={80}><b>12:00</b></td>
-                    <td width={150}>Almoço</td>
+                    <td width={80}><b>11:00</b></td>
+                    <td width={150}>Intervalo</td>
+                    <td width={80}><b>11:00</b></td>
+                    <td width={150}>Intervalo</td>
+                </tr>
+
+                <tr>
+                    <td ><b>12:00</b></td>
+                    <td>Almoço</td>
+                    <td><b>12:00</b></td>
+                    <td>Almoço</td>
                 </tr>
 
                 <tr>
@@ -61,12 +67,11 @@ export function Schedule(props: any) {
                 </tr>
 
 
-                
                 <tr>
                     <td ><b>15:00</b></td>
-                    <td >Keynote: Cristina Videira Lopes</td>
+                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Cristina Videira Lopes</a></b></td>
                     <td ><b>15:00</b></td>
-                    <td >Keynote: Cristina Videira Lopes</td>
+                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Cristina Videira Lopes</a></b></td>
                 </tr>
 
                 <tr>
@@ -134,9 +139,9 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>10:00</b></td>
-                    <td >Keynote: Pedro Bizarro</td>
+                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Pedro Bizarro</a></b></td>
                     <td ><b>10:00</b></td>
-                    <td >Keynote: Pedro Bizarro</td>
+                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Pedro Bizarro</a></b></td>
                 </tr>
 
                 

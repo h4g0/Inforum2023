@@ -121,6 +121,12 @@ export function Login(this: any, props: any) {
                     <p >Submissões</p>
                 </Link>
 
+                <Link to="/program">
+
+                <p>Artigos Aceites</p>
+
+                </Link>
+
                 </div>
                 </div>
 
@@ -218,9 +224,9 @@ export function Login(this: any, props: any) {
                 </div>
                 </div>
 
-                <Link to="/program">
+                <Link to="/schedule">
 
-                    <button>Artigos Aceites</button>
+                    <button>Horários</button>
 
                 </Link>
                     
