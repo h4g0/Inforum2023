@@ -15,6 +15,11 @@ export function Schedule(props: any) {
 
             <h1>Horários</h1>
 
+            <p>
+                As apresentações dos artigos completos não devem ultrapassar os 20 minutos e as das comunicações
+                não devem ultrapassar os 10 minutos, tempos que devem incluir Q&A.
+            </p>
+
             <h2>7 de setembro</h2>
 
             <table className='RegistrationTable'>
