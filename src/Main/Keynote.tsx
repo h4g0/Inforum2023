@@ -13,7 +13,7 @@ function KeynoteP(props: any) {
             <div className="KeynoteP">
                 <img className="PersonImage" width="150" height="150" src={props.picture} alt="{props.name}'s photo"/>
                 <div>
-                <h4><a href={props.page}>{props.name}</a></h4>
+                <h4><a  style={{ textDecoration: 'none' }} href={props.page}>{props.name}</a></h4>
                     <p>{props.afiliation}</p>
 
                     <p>Apresentação: <h4>{props.title}</h4></p>
@@ -39,7 +39,7 @@ export function Keynote(props: any) {
 
                 <div className="InsideIntro">
 
-                    <KeynoteP name="Cristina Videira Lopes" picture={crista} afiliation="University of California, Irvine"
+                    <KeynoteP id="CristinaVideiraLopes" name="Cristina Videira Lopes" picture={crista} afiliation="University of California, Irvine"
                             page="https://www.ics.uci.edu/~lopes/"
                             bio="Cristina (Crista) Lopes é Chancellor's Professor na School of Information and Computer Sciences at University of California, Irvine, com interesses de investigação em Linguagens de Programação, Engenharia de Software e Ambientes Virtuais Distribuídos. É IEEE Fellow e ACM Distinguished Scientist. Ela é a vencedora do Prêmio Pizzigati de 2016 para Software de Interesse Público pelo seu trabalho na plataforma de mundo virtual OpenSimulator. O seu livro 'Exercises in Programming Style' recebeu críticas excelentes, incluindo ter sido escolhido como 'Livro Notável' pelas revisões do ACM Best of Computing."
                             title="O Fim da Programação (como a conhecemos)"

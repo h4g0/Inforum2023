@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Main.css'
 import { Patreons } from './Patreons'
 
@@ -31,9 +32,9 @@ export function Schedule(props: any) {
                 
                 <tr>
                     <td width={80}><b>11:00</b></td>
-                    <td width={150}>Intervalo</td>
+                    <td width={150}>Registo</td>
                     <td width={80}><b>11:00</b></td>
-                    <td width={150}>Intervalo</td>
+                    <td width={150}>Registo</td>
                 </tr>
 
                 <tr>
@@ -69,9 +70,9 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>15:00</b></td>
-                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Cristina Videira Lopes</a></b></td>
+                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Cristina Videira Lopes</b></Link></td>
                     <td ><b>15:00</b></td>
-                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Cristina Videira Lopes</a></b></td>
+                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Cristina Videira Lopes</b></Link></td>
                 </tr>
 
                 <tr>
@@ -139,9 +140,9 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>10:00</b></td>
-                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Pedro Bizarro</a></b></td>
+                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Bizarro</b></Link></td>
                     <td ><b>10:00</b></td>
-                    <td ><b><a style={{ textDecoration: 'none' }} href="/keynote">Keynote: Pedro Bizarro</a></b></td>
+                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Bizarro</b></Link></td>
                 </tr>
 
                 
