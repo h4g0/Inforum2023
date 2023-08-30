@@ -3,8 +3,8 @@ const articles =
 Demonstrating Edge-based IoT Intrusion Detection`.split("\n")
 
 
-const authors = `João Rafael Henriques and José D'Abruzzo Pereira
-Filipe Recharte, Hugo Pacheco and Carlos Baquero`.split("\n")
+const authors = `Diogo Almeida, Luís Pinto, Luís Oliveira, Pedro d'Orey and Luis Almeida
+Yimin Zhang, Barikisu Asulba, Nuno Schumacher, Mario Sousa, Pedro Souto, Luis Almeida, Pedro Santos, Joana Sousa, Nuno Martins and Luis Gomes`.split("\n")
 
 const tracks = `CPDLA 2023
 CPDLA 2023`.split("\n")
