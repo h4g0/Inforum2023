@@ -248,7 +248,7 @@ export function Schedule(props: any) {
 </li>
                 <li>André Martins and Ricardo Vilaça. PerfEnerPy - Uma ferramenta para a avaliação da performance e eficiência energética de ferramentas dataframes
 </li>   
-             
+                <li>João Bonacho, Carlos Gonçalves and Luís Osório. Agnostic Cloud Services with Kubernetes</li>            
             
             </ul>
 
