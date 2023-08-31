@@ -20,6 +20,10 @@ export function Schedule(props: any) {
                 não devem ultrapassar os 10 minutos, tempos que devem incluir Q&A.
             </p>
 
+            <p>
+                Neste evento ocorrerão duas sessões a <b>sessão A</b> será realizada no Auditório e a <b>sessão B</b> na sala B033.
+            </p>
+
             <h2>7 de setembro</h2>
 
             <table className='RegistrationTable'>
@@ -77,7 +81,7 @@ export function Schedule(props: any) {
                     <td ><b>15:00</b></td>
                     <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Cristina Videira Lopes</b></Link></td>
                     <td ><b>15:00</b></td>
-                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Cristina Videira Lopes</b></Link></td>
+                    <td ></td>
                 </tr>
 
                 <tr>
@@ -147,7 +151,7 @@ export function Schedule(props: any) {
                     <td ><b>10:00</b></td>
                     <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Bizarro</b></Link></td>
                     <td ><b>10:00</b></td>
-                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Bizarro</b></Link></td>
+                    <td></td>
                 </tr>
 
                 
@@ -232,6 +236,8 @@ export function Schedule(props: any) {
             <br/>
 
             <h3 id="CPDLA1">CPDLA sessão 1 - dia 7 de setembro</h3>
+            
+            <p><b>Localização:</b> Auditório</p>
 
             <ul>
                 <li>Francisco Vale, João Leitão, Pedro Costa and Yiannis Psaras. Atribuição de Nomes Descentralizada: Estudo de Desempenho e Proposta de Otimização do IPNS
@@ -247,6 +253,7 @@ export function Schedule(props: any) {
             </ul>
 
             <h3 id="CSAPPS1">CPS&Apps sessão 1 - dia 7 de setembro</h3>
+            <p><b>Localização:</b> sala B033</p>
 
             <ul>
             <li>Ricardo Severino and João Alves. Towards Leveraging Timing Cover-Channels for IoT Authentication
@@ -270,6 +277,9 @@ export function Schedule(props: any) {
             </ul>
 
             <h3 id="softpt1">SOFT-PT sessão 1 - dia 7 de setembro</h3>
+            
+            <p><b>Chair:</b> Jorge Sousa Pinto</p>
+            <p><b>Localização:</b> Auditório</p>
 
             <ul>
 
@@ -302,6 +312,7 @@ export function Schedule(props: any) {
 
 
             <h3 id="cd1">CD sessão 1  - dia 7 de setembro</h3>
+            <p><b>Localização:</b> sala B033</p>
 
 
             <ul>
@@ -330,6 +341,7 @@ export function Schedule(props: any) {
 
 
             <h3 id="cpdla2">CPDLA sessão 2 - dia 8 de setembro</h3>
+            <p><b>Localização:</b> Auditório</p>
 
             <ul>
                 <li>André Costa, Nuno Preguiça and João Lourenço. FLeeC: a Fast Lock-Free Cache
@@ -344,6 +356,9 @@ export function Schedule(props: any) {
 
 
             <h3 id="softpt2">SOFT-PT sessão 2 - dia 8 de setembro</h3>
+            
+            <p><b>Chair:</b> Simão Melo de Sousa</p>
+            <p><b>Localização:</b> sala B033</p>
 
             <ul>
 
@@ -359,6 +374,7 @@ export function Schedule(props: any) {
 
 
             <h3 id="cpdla3">CPDLA sessão 3 - dia 8 de setembro</h3>
+            <p><b>Localização:</b> Auditório</p>
 
             <ul>
                 <li>Rui Ribeiro, José Pereira and Nuno Faria. An Experimental Evaluation of Value Splitting in Transactional Memory Systems
@@ -377,6 +393,9 @@ export function Schedule(props: any) {
 
 
             <h3 id="crc1">CRC sessão 1 - dia 8 de setembro</h3>
+            
+            <p><b>Chair:</b> João Vilela</p>
+            <p><b>Localização:</b> sala B033</p>
 
             <ul>
                 <li>Luís Guerra and Luís Gonçalves. Proactive Cybersecurity tailoring through deception techniques
@@ -397,6 +416,7 @@ export function Schedule(props: any) {
             </ul>
 
             <h3 id="cpdla4">CPDLA sesão 4  - dia 8 de setembro </h3>
+            <p><b>Localização:</b> Auditório</p>
 
             <ul>
                 <li>João Queirós, Rafael Soares and Luís Rodrigues. Suporte para Coerência Causal Transacional em Sistemas de Microsserviços
@@ -417,6 +437,7 @@ export function Schedule(props: any) {
 
 
             <h3 id="taami1">TAAEMI sessão 1 - dia 8 de setembro</h3>
+            <p><b>Localização:</b> sala B033</p>
 
             <ul>
                 <li>Hermann Silva and Manuel Ricardo. ISPs’ discriminatory practices and their regulation in Andean America
@@ -427,6 +448,8 @@ export function Schedule(props: any) {
             </ul>
 
             <h3 id="crc2">CRC sessão 2 - dia 8 de setembro</h3>
+            <p><b>Chair:</b> João Vilela</p>
+            <p><b>Localização:</b> sala B033</p>
 
             <ul>
                 <li>David Morais, André Zúquete and António Mendes. Multi-factor Authentication as a Service for Web Applications with User-based Risk Profiles

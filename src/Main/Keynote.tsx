@@ -16,6 +16,8 @@ function KeynoteP(props: any) {
                 <h4><a  style={{ textDecoration: 'none' }} href={props.page}>{props.name}</a></h4>
                     <p>{props.afiliation}</p>
 
+                    <p><b>Localização:</b> Auditório</p>
+                    
                     <p>Apresentação: <h4>{props.title}</h4></p>
 
                     <p>{props.bio}</p>
