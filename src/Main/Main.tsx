@@ -225,7 +225,7 @@ export function Login(this: any, props: any) {
                 </Link>
                 <Link to="/schedule">
 
-                    <button>Horários</button>
+                    <button>Programa</button>
 
                 </Link>
                     
