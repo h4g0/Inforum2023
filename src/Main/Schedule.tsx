@@ -31,64 +31,58 @@ export function Schedule(props: any) {
 
 
                     <th></th>
-                    <th>Sessão A</th>
+                    <th>Sessão A (Auditório)</th>
                     <th></th>
-                    <th>Sessão B</th>
+                    <th>Sessão B (B033)</th>
                    
 
 
                 </tr>
                 
                 <tr>
-                    <td width={80}><b>11:00</b></td>
-                    <td width={150}>Registo</td>
-                    <td width={80}><b>11:00</b></td>
-                    <td width={150}>Registo</td>
+                    <td><b>11:00</b></td>
+                    <td colSpan={3}>Registo</td>
+                  
                 </tr>
 
                 <tr>
                     <td ><b>12:00</b></td>
-                    <td>Almoço</td>
-                    <td><b>12:00</b></td>
-                    <td>Almoço</td>
+                    <td colSpan={3}>Almoço</td>
+                   
                 </tr>
 
                 <tr>
                     <td ><b>13:20</b></td>
-                    <td >Abertura</td>
-                    <td ><b>13:20</b></td>
-                    <td >Abertura</td>
+                    <td colSpan={3}>Abertura</td>
+                 
                 </tr>
 
 
                 <tr>
-                    <td ><b>13:30</b></td>
-                    <td ><b><a style={{ textDecoration: 'none' }} href="#CPDLA1">CPDLA</a></b></td>
-                    <td ><b>13:30</b></td>
-                    <td ><b><a style={{ textDecoration: 'none' }} href="#CSAPPS1">CPS&Apps</a></b></td>
+                    <td  width={80} ><b>13:30</b></td>
+                    <td  width={150}><b><a style={{ textDecoration: 'none' }} href="#CPDLA1">CPDLA</a></b></td>
+                    <td  width={80}><b>13:30</b></td>
+                    <td width={150}><b><a style={{ textDecoration: 'none' }} href="#CSAPPS1">CPS&Apps</a></b></td>
                 </tr>
 
                 
                 <tr>
                     <td ><b>14:55</b></td>
-                    <td >Intervalo</td>
-                    <td ><b>14:55</b></td>
-                    <td >Intervalo</td>
+                    <td colSpan={3}>Intervalo</td>
+                   
                 </tr>
 
 
                 <tr>
                     <td ><b>15:00</b></td>
-                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Cristina Videira Lopes</b></Link></td>
-                    <td ><b>15:00</b></td>
-                    <td ></td>
+                    <td colSpan={3}><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Cristina Videira Lopes</b></Link></td>
+                  
                 </tr>
 
                 <tr>
                     <td ><b>16:00</b></td>
-                    <td >Coffee break</td>
-                    <td ><b>16:00</b></td>
-                    <td >Coffee break</td>
+                    <td colSpan={3}>Coffee break</td>
+                  
                 </tr>
 
 
@@ -101,16 +95,14 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>18:10</b></td>
-                    <td ></td>
-                    <td ><b>18:10</b></td>
-                    <td ></td>
+                    <td colSpan={3}></td>
+                  
                 </tr>
 
                 <tr>
                     <td ><b>19:30</b></td>
-                    <td >Jantar</td>
-                    <td ><b>19:30</b></td>
-                    <td >Jantar</td>
+                    <td colSpan={3}>Jantar</td>
+                   
                 </tr>
             </table>
 
@@ -122,10 +114,11 @@ export function Schedule(props: any) {
                 <tr>
 
 
+                
                     <th></th>
-                    <th>Sessão A</th>
+                    <th>Sessão A (Auditório)</th>
                     <th></th>
-                    <th>Sessão B</th>
+                    <th>Sessão B (B033)</th>
                    
 
 
@@ -141,49 +134,43 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>09:50</b></td>
-                    <td >Intervalo</td>
-                    <td ><b>09:50</b></td>
-                    <td >Intervalo</td>
+                    <td colSpan={3}>Intervalo</td>
+                  
                 </tr>
 
 
                 <tr>
                     <td ><b>10:00</b></td>
-                    <td ><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Bizarro</b></Link></td>
-                    <td ><b>10:00</b></td>
-                    <td></td>
+                    <td colSpan={3}><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Bizarro</b></Link></td>
+                 
                 </tr>
 
                 
                 <tr>
                     <td ><b>11:00</b></td>
-                    <td >Coffee break</td>
-                    <td ><b>11:00</b></td>
-                    <td >Coffee break</td>
+                    <td colSpan={3}>Coffee break</td>
+
                 </tr>
 
 
                 
                 <tr>
                     <td ><b>11:30</b></td>
-                    <td >Sponsor talk</td>
-                    <td ><b>11:30</b></td>
-                    <td >Sponsor talk</td>
+                    <td colSpan={3}>Sponsor talk</td>
+                    
                 </tr>
 
                 <tr>
                     <td ><b>11:40</b></td>
-                    <td >Business Meeting</td>
-                    <td ><b>11:40</b></td>
-                    <td >Business Meeting</td>
+                    <td colSpan={3}>Business Meeting</td>
+                 
                 </tr>
 
 
                 <tr>
                     <td ><b>12:20</b></td>
-                    <td >Almoço</td>
-                    <td ><b>12:20</b></td>
-                    <td >Almoço</td>
+                    <td colSpan={3}>Almoço</td>
+                
                 </tr>
 
                 <tr>
@@ -195,9 +182,8 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>15:00</b></td>
-                    <td >Coffee break</td>
-                    <td ><b>15:00</b></td>
-                    <td >Coffee break</td>
+                    <td colSpan={3}>Coffee break</td>
+                
                 </tr>
 
                
@@ -225,9 +211,8 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>17:00</b></td>
-                    <td >Encerramento</td>
-                    <td ><b>17:00</b></td>
-                    <td >Encerramento</td>
+                    <td colSpan={3}>Encerramento</td>
+                  
                 </tr>
                 
             </table>
