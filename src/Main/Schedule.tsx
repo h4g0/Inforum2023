@@ -70,9 +70,9 @@ export function Schedule(props: any) {
 
                 
                 <tr>
-                    <td ><b>14:50</b></td>
+                    <td ><b>14:55</b></td>
                     <td >Intervalo</td>
-                    <td ><b>14:50</b></td>
+                    <td ><b>14:55</b></td>
                     <td >Intervalo</td>
                 </tr>
 
@@ -249,6 +249,9 @@ export function Schedule(props: any) {
                 <li>André Martins and Ricardo Vilaça. PerfEnerPy - Uma ferramenta para a avaliação da performance e eficiência energética de ferramentas dataframes
 </li>   
                 <li>João Bonacho, Carlos Gonçalves and Luís Osório. Agnostic Cloud Services with Kubernetes</li>            
+
+                <li>Juliane Marubayashi and Carlos Baquero. ROSES: Renaming Operations for Scalable Eventually-Consistent Sets
+</li>
             
             </ul>
 
@@ -273,6 +276,10 @@ export function Schedule(props: any) {
             
             <li>Luis Ferreira, Tiago Fonseca, Luis Miguel Pinho, Bernardo Cabral and Ricardo Severino. The Cluster-based Architecture of Ferrovia 4.0
 </li>
+
+            <li>Yimin Zhang, Barikisu Asulba, Nuno Schumacher, Mario Sousa, Pedro Souto, Luis Almeida, Pedro Santos, Joana Sousa, Nuno Martins and Luis Gomes. Demonstrating Edge-based IoT Intrusion Detection</li>
+
+            <li>Diogo Almeida, Luís Pinto, Luís Oliveira, Pedro d'Orey and Luis Almeida. Demonstrating Pulse-Coupled Synchronization in Dynamic Meshes of Cooperating Agents</li>
 
             </ul>
 
@@ -431,8 +438,7 @@ export function Schedule(props: any) {
                 <li>Diogo Jesus, Nuno Preguiça and João Leitão. The Case for Generic Edge Based Services
 </li>
 
-                <li>Juliane Marubayashi and Carlos Baquero. ROSES: Renaming Operations for Scalable Eventually-Consistent Sets
-</li>
+                
             </ul>
 
 
