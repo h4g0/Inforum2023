@@ -13,7 +13,7 @@ export function Schedule(props: any) {
 
                 <div>
 
-            <h1>Horários</h1>
+            <h1>Programa</h1>
 
             <p>
                 As apresentações dos artigos completos não devem ultrapassar os 20 minutos, as das comunicações
