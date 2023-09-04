@@ -141,7 +141,7 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>10:00</b></td>
-                    <td colSpan={3}><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Bizarro</b></Link></td>
+                    <td colSpan={3}><Link style={{ textDecoration: 'none' }} to="/keynote"><b>Keynote: Pedro Saleiro</b></Link></td>
                  
                 </tr>
 

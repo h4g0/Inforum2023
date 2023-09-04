@@ -2,7 +2,7 @@ import './Main.css'
 import {Patreons} from './Patreons'
 
 import crista from "../img/crista.jpeg"
-import pedro from "../img/Pedro Bizarro.png"
+import pedro from "../img/pedrosaleiro.jpeg"
 
 
 function KeynoteP(props: any) {
@@ -49,8 +49,8 @@ export function Keynote(props: any) {
                             />
 
 
-                    <KeynoteP name="Pedro Bizarro" picture={pedro} afiliation="Co-fundador e Diretor de Ciência da Feedzai"
-                            page="https://feedzai.com/leadership/pedro-bizarro/"
+                    <KeynoteP name="Pedro Saleiro" picture={pedro} afiliation="Senior Director of AI Research at Feedzai"
+                            page="https://www.linkedin.com/in/saleiro/?originalSubdomain=pt"
                             title="Mais detalhes em breve."
                             />
                             
