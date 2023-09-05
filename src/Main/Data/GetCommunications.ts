@@ -44,7 +44,7 @@ João Reis, Mário Pereira and António Ravara
 Rui Barata, Carlos Pinto and Simão Melo de Sousa
 Gonçalo Carvalho, Bruno Cabral, Jorge Bernardino and Vasco Pereira
 João Ferreira, Zygimantas Jasiunas, José Cecílio and Pedro Ferreira
-Tomás Marques, Miguel Gonçalves, Eurico Lopes, Arminda Lopes and Luis Miguel Barata
+Luis Miguel Barata, Tomás Marques, Miguel Gonçalves, Eurico Lopes and Arminda Lopes
 João Afonso and António Ravara
 Luis Ferreira, Tiago Fonseca, Luis Miguel Pinho, Bernardo Cabral and Ricardo Severino
 Bruno Dias, Ana Matos and Miguel Souto

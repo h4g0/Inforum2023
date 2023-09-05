@@ -174,12 +174,24 @@ export function Initial(props: any) {
                     e 8 de setembro. Contamos com a presença de todos!
                 </p>
 
-
+               
                 <p>O INForum começa em:</p>
                 <Timer time={props.time}/>
 
+                
+                <div className='Patreons'>
             
+                <p style={{paddingBottom: 10}}></p>
 
+                <h2>Rede Wifi</h2>
+
+                <p><b>Username: </b>INForum</p>
+                <p><b>Password: </b>INForum23</p>
+                <p><b>Network: </b>UPorto</p>
+
+                <p style={{paddingBottom: 10}}></p>
+
+                </div>
 
             </div>
 
