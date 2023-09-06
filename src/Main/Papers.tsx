@@ -7,7 +7,6 @@ export function Papers(props: any) {
         <div className="Dates">
 
 
-            <Patreons />
 
             <div className="InsideIntro">
             <h1>Atas</h1>

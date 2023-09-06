@@ -231,7 +231,7 @@ export function Login(this: any, props: any) {
                 </Link>
 
 
-                <Link to="/papers">
+                <Link to="/proceedings">
 
                 <button>Atas</button>
 
@@ -291,7 +291,7 @@ export function Login(this: any, props: any) {
                 
                 <Route path="schedule" element={<Schedule/>}/>
                
-                <Route path="papers" element={<Papers/>}/>
+                <Route path="proceedings" element={<Papers/>}/>
 
             </Routes>
 
