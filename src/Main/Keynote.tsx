@@ -55,7 +55,7 @@ export function Keynote(props: any) {
                     <KeynoteP name="Pedro Saleiro" picture={pedro} afiliation="Senior Director of AI Research at Feedzai"
                             page="https://www.linkedin.com/in/saleiro/?originalSubdomain=pt"
                             title="Mais detalhes em breve."
-                            time="8 de setembro 11:00"
+                            time="8 de setembro 10:00"
 
                             />
                             
