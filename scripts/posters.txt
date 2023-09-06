@@ -1,0 +1,27 @@
+Atribuição de Nomes Descentralizada: Estudo de Desempenho e Proposta de Otimização do IPNS|Francisco Vale, João Leitão, Pedro Costa and Yiannis Psaras|7 tarde
+Predictive Maintenance based on Log Analysis: A Systematic Review|Luis Miguel Barata, Sérgio Sequeira and Eurico Lopes|8 manhã
+Análise de Big Data aplicada à indústria automóvel: melhoria do design e segurança dos veículos|Tomás Marques, Miguel Gonçalves, Eurico Lopes, Arminda Lopes and Luis Miguel Barata|8 manhã
+Suporte para Coerência Causal Transacional em Sistemas de Microsserviços|João Queirós, Rafael Soares and Luís Rodrigues|8 tarde
+PerfEnerPy - Uma ferramenta para a avaliação da performance e eficiência energética de ferramentas dataframes|André Martins and Ricardo Vilaça|7 tarde
+Reliability and Security in Wellbeing Monitoring Embedded Systems|José Santos, André Lourenço and Tiago Dias|7 tarde
+Deteção Automática de Anomalias em Arquiteturas de Microsserviços|Valentim Romão, Rafael Soares, Vasco Manquinho and Luís Rodrigues|8 manhã
+The Case for Generic Edge Based Services|Diogo Jesus, Nuno Preguiça and João Leitão|8 tarde
+Functional Program Synthesis from Linear Types|Rodrigo Mesquita and Bernardo Toninho|8 manhã
+Real-life assessment of household appliances|João Ferreira, Zygimantas Jasiunas, José Cecílio and Pedro Ferreira|7 tarde
+Proactive Cybersecurity tailoring through deception techniques|Luís Guerra and Luís Gonçalves|8 tarde
+Evolução de um sistema de gestão de alarmes|Adriano Oliveira, Filipe Meneses and Bruno Rebelo|8 tarde
+Kaiyo: Testagem Automática de Aplicações de Memória Persistente|Henrique Fernandes, João Gonçalves and Miguel Matos|8 tarde
+ROSES: Renaming Operations for Scalable Eventually-Consistent Sets|Juliane Marubayashi and Carlos Baquero|8 manhã
+The Cluster-based Architecture of Ferrovia 4.0|Luis Ferreira, Tiago Fonseca, Luis Miguel Pinho, Bernardo Cabral and Ricardo Severino|7 tarde
+Agnostic Cloud Services with Kubernetes|João Bonacho, Carlos Gonçalves and Luís Osório|7 tarde
+Deteção de Erros de Concorrência em Programas de Memória Persistente Utilizando Análise de Locksets|João Oliveira, Miguel Matos and João Gonçalves|7 tarde
+Uma extensão de Raft com propagação epidémica|André Gonçalves, Ana Nunes Alonso, José Pereira and Rui Oliveira|7 tarde
+Multi-factor Authentication as a Service for Web Applications with User-based Risk Profiles|David Morais, André Zúquete and António Mendes|8 tarde
+A Taxonomy for Data Reduction Techniques|Vítor Fernandes, Jorge Bernardino, Vasco Pereira and Bruno Cabral|8 manhã
+Aprendizagem Automática para Deteção de Embarcações|Tomás Pedro, Alan Oliveira, João Cintra and Nuno Garcia|7 tarde
+Subtyping Context-Free Session Types|Gil Silva, Andreia Mordido and Vasco T. Vasconcelos|8 manhã
+FLeeC: a Fast Lock-Free Cache|André Costa, Nuno Preguiça and João Lourenço|8 manhã
+Sistema para Monitorizar Exercícios de Fisioterapia|Daniel Silva, Carmen Morgado and Fernanda Barbosa|8 tarde
+MRV*: Uma biblioteca de tipos de dados para aplicações concorrentes|Adriano Maior, Nuno Faria and José Pereira|8 tarde
+An Experimental Evaluation of Value Splitting in Transactional Memory Systems|Rui Ribeiro, José Pereira and Nuno Faria|8 tarde
+On the use of machine learning techniques to detect malware in mobile applications|Catarina Palma and Artur Ferreira|8 manhã

@@ -81,7 +81,7 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>16:00</b></td>
-                    <td colSpan={3}>Coffee break</td>
+                    <td colSpan={3}>Coffee break / <b><a style={{ textDecoration: 'none' }} href="#posters1">Primeira sessão de posters</a></b></td>
                   
                 </tr>
 
@@ -148,7 +148,7 @@ export function Schedule(props: any) {
                 
                 <tr>
                     <td ><b>11:00</b></td>
-                    <td colSpan={3}>Coffee break</td>
+                    <td colSpan={3}>Coffee break / <b><a style={{ textDecoration: 'none' }} href="#posters2">Segunda sessão de posters</a></b></td>
 
                 </tr>
 
@@ -182,7 +182,7 @@ export function Schedule(props: any) {
 
                 <tr>
                     <td ><b>15:00</b></td>
-                    <td colSpan={3}>Coffee break</td>
+                    <td colSpan={3}>Coffee break / <b><a style={{ textDecoration: 'none' }} href="#posters3">Terceira sessão de posters</a></b></td>
                 
                 </tr>
 
@@ -220,7 +220,7 @@ export function Schedule(props: any) {
 
             <br/>
 
-            <h3 id="CPDLA1">CPDLA sessão 1 - dia 7 de setembro</h3>
+            <h3 id="CPDLA1">CPDLA sessão 1 - dia 7 de setembro 13:30</h3>
             
             <p><b>Localização:</b> Auditório</p>
 
@@ -240,7 +240,7 @@ export function Schedule(props: any) {
             
             </ul>
 
-            <h3 id="CSAPPS1">CPS&Apps sessão 1 - dia 7 de setembro</h3>
+            <h3 id="CSAPPS1">CPS&Apps sessão 1 - dia 7 de setembro 13:30</h3>
             <p><b>Localização:</b> sala B033</p>
 
             <ul>
@@ -268,7 +268,7 @@ export function Schedule(props: any) {
 
             </ul>
 
-            <h3 id="softpt1">SOFT-PT sessão 1 - dia 7 de setembro</h3>
+            <h3 id="softpt1">SOFT-PT sessão 1 - dia 7 de setembro 16:30</h3>
             
             <p><b>Chair:</b> Jorge Sousa Pinto</p>
             <p><b>Localização:</b> Auditório</p>
@@ -303,7 +303,7 @@ export function Schedule(props: any) {
 
 
 
-            <h3 id="cd1">CD sessão 1  - dia 7 de setembro</h3>
+            <h3 id="cd1">CD sessão 1  - dia 7 de setembro 16:30</h3>
             <p><b>Localização:</b> sala B033</p>
 
 
@@ -332,7 +332,7 @@ export function Schedule(props: any) {
             </ul>
 
 
-            <h3 id="cpdla2">CPDLA sessão 2 - dia 8 de setembro</h3>
+            <h3 id="cpdla2">CPDLA sessão 2 - dia 8 de setembro 09:00</h3>
             <p><b>Localização:</b> Auditório</p>
 
             <ul>
@@ -347,7 +347,7 @@ export function Schedule(props: any) {
             </ul>
 
 
-            <h3 id="softpt2">SOFT-PT sessão 2 - dia 8 de setembro</h3>
+            <h3 id="softpt2">SOFT-PT sessão 2 - dia 8 de setembro 09:00</h3>
             
             <p><b>Chair:</b> Simão Melo de Sousa</p>
             <p><b>Localização:</b> sala B033</p>
@@ -365,7 +365,7 @@ export function Schedule(props: any) {
             </ul>
 
 
-            <h3 id="cpdla3">CPDLA sessão 3 - dia 8 de setembro</h3>
+            <h3 id="cpdla3">CPDLA sessão 3 - dia 8 de setembro 13:40</h3>
             <p><b>Localização:</b> Auditório</p>
 
             <ul>
@@ -384,7 +384,7 @@ export function Schedule(props: any) {
 
 
 
-            <h3 id="crc1">CRC sessão 1 - dia 8 de setembro</h3>
+            <h3 id="crc1">CRC sessão 1 - dia 8 de setembro 13:40</h3>
             
             <p><b>Chair:</b> João Vilela</p>
             <p><b>Localização:</b> sala B033</p>
@@ -407,7 +407,7 @@ export function Schedule(props: any) {
 
             </ul>
 
-            <h3 id="cpdla4">CPDLA sesão 4  - dia 8 de setembro </h3>
+            <h3 id="cpdla4">CPDLA sesão 4  - dia 8 de setembro 15:30</h3>
             <p><b>Localização:</b> Auditório</p>
 
             <ul>
@@ -427,7 +427,7 @@ export function Schedule(props: any) {
             </ul>
 
 
-            <h3 id="taami1">TAAEMI sessão 1 - dia 8 de setembro</h3>
+            <h3 id="taami1">TAAEMI sessão 1 - dia 8 de setembro 15:30</h3>
             <p><b>Localização:</b> sala B033</p>
 
             <ul>
@@ -438,7 +438,7 @@ export function Schedule(props: any) {
 </li>
             </ul>
 
-            <h3 id="crc2">CRC sessão 2 - dia 8 de setembro</h3>
+            <h3 id="crc2">CRC sessão 2 - dia 8 de setembro 15:50</h3>
             <p><b>Chair:</b> João Vilela</p>
             <p><b>Localização:</b> sala B033</p>
 
@@ -450,8 +450,47 @@ export function Schedule(props: any) {
 </li>
             </ul>
 
+            <h3  id="posters1"> Posters sessão 1 - dia 7 de setembro 16:00 </h3>
 
+            <ul>
+                <li> Francisco Vale, João Leitão, Pedro Costa and Yiannis Psaras.Atribuição de Nomes Descentralizada: Estudo de Desempenho e Proposta de Otimização do IPNS</li>
+                <li> André Martins and Ricardo Vilaça.PerfEnerPy - Uma ferramenta para a avaliação da performance e eficiência energética de ferramentas dataframes</li>
+                <li> José Santos, André Lourenço and Tiago Dias.Reliability and Security in Wellbeing Monitoring Embedded Systems</li>
+                <li> João Ferreira, Zygimantas Jasiunas, José Cecílio and Pedro Ferreira.Real-life assessment of household appliances</li>
+                <li> Luis Ferreira, Tiago Fonseca, Luis Miguel Pinho, Bernardo Cabral and Ricardo Severino.The Cluster-based Architecture of Ferrovia 4.0</li>
+                <li> João Bonacho, Carlos Gonçalves and Luís Osório.Agnostic Cloud Services with Kubernetes</li>
+                <li> João Oliveira, Miguel Matos and João Gonçalves.Deteção de Erros de Concorrência em Programas de Memória Persistente Utilizando Análise de Locksets</li>
+                <li> André Gonçalves, Ana Nunes Alonso, José Pereira and Rui Oliveira.Uma extensão de Raft com propagação epidémica</li>
+                <li> Tomás Pedro, Alan Oliveira, João Cintra and Nuno Garcia.Aprendizagem Automática para Deteção de Embarcações</li>
+            </ul>
 
+            <h3 id="posters2"> Posters sessão 2 - dia 8 de setembro 11:00</h3>
+
+            <ul>
+                <li> Luis Miguel Barata, Sérgio Sequeira and Eurico Lopes.Predictive Maintenance based on Log Analysis: A Systematic Review</li>
+                <li> Tomás Marques, Miguel Gonçalves, Eurico Lopes, Arminda Lopes and Luis Miguel Barata.Análise de Big Data aplicada à indústria automóvel: melhoria do design e segurança dos veículos</li>
+                <li> Valentim Romão, Rafael Soares, Vasco Manquinho and Luís Rodrigues.Deteção Automática de Anomalias em Arquiteturas de Microsserviços</li>
+                <li> Rodrigo Mesquita and Bernardo Toninho.Functional Program Synthesis from Linear Types</li>
+                <li> Juliane Marubayashi and Carlos Baquero.ROSES: Renaming Operations for Scalable Eventually-Consistent Sets</li>
+                <li> Vítor Fernandes, Jorge Bernardino, Vasco Pereira and Bruno Cabral.A Taxonomy for Data Reduction Techniques</li>
+                <li> Gil Silva, Andreia Mordido and Vasco T. Vasconcelos.Subtyping Context-Free Session Types</li>
+                <li> André Costa, Nuno Preguiça and João Lourenço.FLeeC: a Fast Lock-Free Cache</li>
+                <li> Catarina Palma and Artur Ferreira.On the use of machine learning techniques to detect malware in mobile applications</li>
+            </ul>
+
+            <h3 id="posters3"> Posters sessão 3 - dia 8 de setembro 15:00</h3>
+
+            <ul>
+                <li> João Queirós, Rafael Soares and Luís Rodrigues.Suporte para Coerência Causal Transacional em Sistemas de Microsserviços</li>
+                <li> Diogo Jesus, Nuno Preguiça and João Leitão.The Case for Generic Edge Based Services</li>
+                <li> Luís Guerra and Luís Gonçalves.Proactive Cybersecurity tailoring through deception techniques</li>
+                <li> Adriano Oliveira, Filipe Meneses and Bruno Rebelo.Evolução de um sistema de gestão de alarmes</li>
+                <li> Henrique Fernandes, João Gonçalves and Miguel Matos.Kaiyo: Testagem Automática de Aplicações de Memória Persistente</li>
+                <li> David Morais, André Zúquete and António Mendes.Multi-factor Authentication as a Service for Web Applications with User-based Risk Profiles</li>
+                <li> Daniel Silva, Carmen Morgado and Fernanda Barbosa.Sistema para Monitorizar Exercícios de Fisioterapia</li>
+                <li> Adriano Maior, Nuno Faria and José Pereira.MRV*: Uma biblioteca de tipos de dados para aplicações concorrentes</li>
+                <li> Rui Ribeiro, José Pereira and Nuno Faria.An Experimental Evaluation of Value Splitting in Transactional Memory Systems</li>
+            </ul>
      </div>
     </div >
         </div >
