@@ -415,7 +415,9 @@ export function Schedule(props: any) {
 
             </ul>
 
-            <h3 id="cpdla4">CPDLA sesão 4  - dia 8 de setembro 15:30</h3>
+            <h3 id="cpdla4">CPDLA sessão 4  - dia 8 de setembro 15:30</h3>
+
+            <p><b>Chair:</b> João Soares</p>
             <p><b>Localização:</b> Auditório</p>
 
             <ul>

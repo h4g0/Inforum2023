@@ -13,7 +13,9 @@ export function Papers(props: any) {
             <h1>Atas</h1>
             <p>Segue-se uma versão preliminar das Atas do décimo quarto INForum. A versão final das Atas iram sofrer alterações (a paginação poderá mudar), correções (alguns dos ficheiros submetidos no zip impedem a geração da versão final), e para os autores que não indicaram o contrário, as mesmas vão ser submetidas no arxiv (existem indicações nas que não vão ser submetidas nesta página).</p>
             <p>Caso deterem erros ou impresões devem contacar João Leitão por e-mail.</p>
-            <h3 id="CPDLA1">CPDLA sessão 1 - dia 7 de setembro</h3>
+            <h3 id="CPDLA1">CPDLA sessão 1 - dia 7 de setembro 13:30</h3>
+            <p><b>Chair:</b> Carlos Baquero</p>
+
             <p><b>Localização:</b> Auditório</p>
             <ul>
                 <li>Francisco Vale, João Leitão, Pedro Costa and Yiannis Psaras. Atribuição de Nomes Descentralizada: Estudo de Desempenho e Proposta de Otimização do IPNS <a href="/Atas/paper_431/431-CR.pdf" target="_blank">[Artigo]</a></li>
@@ -23,7 +25,9 @@ export function Papers(props: any) {
                 <li>João Bonacho, Carlos Gonçalves and Luís Osório. Agnostic Cloud Services with Kubernetes <a href="/Atas/paper_3559/3559-CM.pdf" target="_blank">[Comunicação]</a></li>
                 <li>Juliane Marubayashi and Carlos Baquero. ROSES: Renaming Operations for Scalable Eventually-Consistent Sets <a href="/Atas/paper_366/366-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="CSAPPS1">CPS&amp;Apps sessão 1 - dia 7 de setembro</h3>
+            <h3 id="CSAPPS1">CPS&Apps sessão 1 - dia 7 de setembro 13:30
+            </h3>
+
             <p><b>Localização:</b> sala B033</p>
             <ul>
                 <li>Ricardo Severino and João Alves. Towards Leveraging Timing Cover-Channels for IoT Authentication <a href="/Atas/paper_2678/2678-CR.pdf" target="_blank">[Artigo]</a></li>
@@ -35,7 +39,7 @@ export function Papers(props: any) {
                 <li>Yimin Zhang, Barikisu Asulba, Nuno Schumacher, Mario Sousa, Pedro Souto, Luis Almeida, Pedro Santos, Joana Sousa, Nuno Martins and Luis Gomes. Demonstrating Edge-based IoT Intrusion Detection <a href="/Atas/paper_7644/7644-DM.pdf" target="_blank">[Demo]</a></li>
                 <li>Diogo Almeida, Luís Pinto, Luís Oliveira, Pedro d'Orey and Luis Almeida. Demonstrating Pulse-Coupled Synchronization in Dynamic Meshes of Cooperating Agents <a href="/Atas/paper_4983/4983-DM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="softpt1">SOFT-PT sessão 1 - dia 7 de setembro</h3>
+            <h3 id="softpt1">SOFT-PT sessão 1 - dia 7 de setembro 16:30</h3>
             <p><b>Chair:</b> Jorge Sousa Pinto</p>
             <p><b>Localização:</b> Auditório</p>
             <ul>
@@ -48,7 +52,7 @@ export function Papers(props: any) {
                 <li>Bruno Dias, Ana Matos and Miguel Souto. Algorithm to aid the definition of Portugal's continental shelf delineation <a href="/Atas/paper_5482/5482-CM.pdf" target="_blank">[Comunicação]</a></li>
                 <li>Rui Barata, Carlos Pinto and Simão Melo de Sousa. Programação com contractos no Learn-OCaml <a href="/Atas/paper_3108/3108-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="cd1">CD sessão 1  - dia 7 de setembro</h3>
+            <h3 id="cd1">CD sessão 1 - dia 7 de setembro 16:30</h3>
             <p><b>Localização:</b> sala B033</p>
             <ul>
                 <li>Vasco Cabral, Ana Matos, Paulo Borges, Luís Borda de Água and Eduardo Azevedo. Modeling the distribution of invasive species in small islands under future climates <a href="/Atas/paper_4268/4268-SA.pdf" target="_blank">[Sumário Alargado do Artigo]</a></li>
@@ -59,14 +63,15 @@ export function Papers(props: any) {
                 <li>Luis Miguel Barata, Sérgio Sequeira and Eurico Lopes. Predictive Maintenance based on Log Analysis: A Systematic Review <a href="/Atas/paper_5665/5665-CM.pdf" target="_blank">[Comunicação]</a></li>
                 <li>Tomás Marques, Miguel Gonçalves, Eurico Lopes, Arminda Lopes and Luis Miguel Barata. Análise de Big Data aplicada à indústria automóvel: melhoria do design e segurança dos veículos <a href="/Atas/paper_4597/4597-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="cpdla2">CPDLA sessão 2 - dia 8 de setembro</h3>
+            <h3 id="cpdla2">CPDLA sessão 2 - dia 8 de setembro 09:00</h3>
+            <p><b>Chair:</b> José D'Abruzzo Pereira</p>
             <p><b>Localização:</b> Auditório</p>
             <ul>
                 <li>André Costa, Nuno Preguiça and João Lourenço. FLeeC: a Fast Lock-Free Cache <a href="/Atas/paper_5247/5247-SA.pdf" target="_blank">[Sumário Alargado do Artigo]</a><a href="/Atas/private/5247-EV.pdf" target="_blank">[Artigo (requer password)]</a></li>
                 <li>Mónica Jin, Miguel Matos and João Barreto. Pudim de Pão e Chia <a href="/Atas/paper_5993/5993-CR.pdf" target="_blank">[Artigo]</a></li>
                 <li>Francisco Mendes, Nuno Preguiça and João Leitão. Cache Aplicacional Consistente e Eficiente <a href="/Atas/paper_5746/5746-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="softpt2">SOFT-PT sessão 2 - dia 8 de setembro</h3>
+            <h3 id="softpt2">SOFT-PT sessão 2 - dia 8 de setembro 09:00</h3>
             <p><b>Chair:</b> Simão Melo de Sousa</p>
             <p><b>Localização:</b> sala B033</p>
             <ul>
@@ -74,7 +79,8 @@ export function Papers(props: any) {
                 <li>David Miranda, Ana Matos and Jan Cederquist. Information Flow Security For a Concurrent Language With Lock-based Synchronization <a href="/Atas/paper_1322/1322-SA.pdf" target="_blank">[Sumário Alargado do Artigo]</a></li>
                 <li>João Reis, Mário Pereira and António Ravara. Towards a Solider Solidity <a href="/Atas/paper_1647/1647-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="cpdla3">CPDLA sessão 3 - dia 8 de setembro</h3>
+            <h3 id="cpdla3">CPDLA sessão 3 - dia 8 de setembro 13:40</h3>
+            <p><b>Chair:</b> João Leitão</p>
             <p><b>Localização:</b> Auditório</p>
             <ul>
                 <li>Rui Ribeiro, José Pereira and Nuno Faria. An Experimental Evaluation of Value Splitting in Transactional Memory Systems <a href="/Atas/paper_3535/3535-CR.pdf" target="_blank">[Artigo]</a></li>
@@ -82,7 +88,7 @@ export function Papers(props: any) {
                 <li>João Rafael Henriques and José D'Abruzzo Pereira. On the Automation of Software Vulnerability Collection of a Database with Static Information <a href="/Atas/paper_9420/9420-CR.pdf" target="_blank">[Artigo]</a></li>
                 <li>Paulo Sousa, José Pereira and Ricardo Vilaça. SAGeo: Simulador para Sistemas de Bases de Dados Geo-Replicadas <a href="/Atas/paper_2982/2982-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="crc1">CRC sessão 1 - dia 8 de setembro</h3>
+            <h3 id="crc1">CRC sessão 1 - dia 8 de setembro 13:40</h3>
             <p><b>Chair:</b> João Vilela</p>
             <p><b>Localização:</b> sala B033</p>
             <ul>
@@ -92,7 +98,9 @@ export function Papers(props: any) {
                 <li>André Martins, Marina Albuquerque, Vinicius C. Ferreira, João Bastos, Nicolás Lori, António Costa, Helena Fernández López and José Carlos Bacelar. NETEDGE Proxy: A Multi-access Edge Computing System Level Proposal <a href="/Atas/paper_9651/9651-CM.pdf" target="_blank">[Comunicação]</a></li>
                 <li>Julio Corona, Mário Antunes, José Quevedo and Rui L. Aguiar. Towards cost estimation of DRL for task scheduling and placement <a href="/Atas/paper_5537/5537-CM.pdf" target="_blank">[Comunicação] </a><a href="/Atas/private/5537-EV.pdf" target="_blank">[Artigo (requer password)]</a></li>
             </ul>
-            <h3 id="cpdla4">CPDLA sesão 4  - dia 8 de setembro </h3>
+            <h3 id="cpdla4">CPDLA sessão 4 - dia 8 de setembro 15:30 </h3>
+
+            <p><b>Chair:</b> João Soares</p>
             <p><b>Localização:</b> Auditório</p>
             <ul>
                 <li>João Queirós, Rafael Soares and Luís Rodrigues. Suporte para Coerência Causal Transacional em Sistemas de Microsserviços <a href="/Atas/paper_4770/4770-CR.pdf" target="_blank">[Artigo]</a></li>
@@ -100,13 +108,13 @@ export function Papers(props: any) {
                 <li>Adriano Maior, Nuno Faria and José Pereira. MRV*: Uma biblioteca de tipos de dados para aplicações concorrentes <a href="/Atas/paper_8055/8055-CR.pdf" target="_blank">[Artigp]</a></li>
                 <li>Diogo Jesus, Nuno Preguiça and João Leitão. The Case for Generic Edge Based Services <a href="/Atas/paper_9068/9068-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="taami1">TAAEMI sessão 1 - dia 8 de setembro</h3>
+            <h3 id="taami1">TAAEMI sessão 1 - dia 8 de setembro 15:30</h3>
             <p><b>Localização:</b> sala B033</p>
             <ul>
                 <li>Hermann Silva and Manuel Ricardo. ISPs’ discriminatory practices and their regulation in Andean America <a href="/Atas/paper_5428/5428-CM.pdf" target="_blank">[Comunicação]</a></li>
                 <li>Tiago Mamouros, Ana Matos, Silvia Salvatore and António Silva. Platform for Collaborative Waste Management in an Academic Campus <a href="/Atas/paper_6781/6781-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
-            <h3 id="crc2">CRC sessão 2 - dia 8 de setembro</h3>
+            <h3 id="crc2">CRC sessão 2 - dia 8 de setembro 15:50</h3>
             <p><b>Chair:</b> João Vilela</p>
             <p><b>Localização:</b> sala B033</p>
             <ul>

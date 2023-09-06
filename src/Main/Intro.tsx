@@ -44,14 +44,21 @@ function Timer(props: any) {
     const oneMinute = 1000 * 60
     const oneSecond = 1000
 
-    const days = Math.floor((inforumDate - now) / oneDay)
+    let days = Math.floor((inforumDate - now) / oneDay) 
     const milDays = days * oneDay
-    const hours = Math.floor((inforumDate - now - milDays) / oneHour)
+    let hours = Math.floor((inforumDate - now - milDays) / oneHour)
     const milHours = milDays + hours * oneHour
-    const minutes = Math.floor((inforumDate - now - milHours) / oneMinute)
+    let minutes = Math.floor((inforumDate - now - milHours) / oneMinute)
     const milMinutes = milHours + minutes * oneMinute
-    const seconds = Math.floor((inforumDate - now - milMinutes) / oneSecond)
+    let seconds = Math.floor((inforumDate - now - milMinutes) / oneSecond)
 
+
+    if(now > inforumDate){
+        days = 0
+        hours = 0
+        minutes = 0
+        seconds = 0
+    }
 
     return <>
         <div className="Timer">
