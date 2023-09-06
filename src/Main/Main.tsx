@@ -38,7 +38,7 @@ import { Schedule } from './Schedule';
 import { Papers } from './Papers';
 
 
-const inforumTime = '7 Sep 2023 08:00:00 GMT'
+const inforumTime = '7 Sep 2023 10:00:00 GMT'
 
 function Footer(props: any) {
     return <div className='footer'></div>
