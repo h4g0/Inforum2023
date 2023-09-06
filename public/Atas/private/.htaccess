@@ -1,0 +1,4 @@
+AuthType Basic 
+AuthName "Extended Private Versions of INForum 2023" 
+AuthUserFile ../.htpasswd 
+require valid-user
