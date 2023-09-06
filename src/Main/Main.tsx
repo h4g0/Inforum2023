@@ -35,6 +35,7 @@ import {Track6_SCF} from './Tracks/Track6_SCF';
 import {Track7_CPD} from './Tracks/Track7_CPD';
 import { PatreonsFull } from './PatreonsFull';
 import { Schedule } from './Schedule';
+import { Papers } from './Papers';
 
 
 const inforumTime = '7 Sep 2023 08:00:00 GMT'
@@ -228,7 +229,14 @@ export function Login(this: any, props: any) {
                     <button>Programa</button>
 
                 </Link>
-                    
+
+
+                <Link to="/papers">
+
+                <button>Atas</button>
+
+                </Link>
+ 
 
                 {/* 
                 <Link to="/Keynote">            
@@ -282,6 +290,8 @@ export function Login(this: any, props: any) {
                 <Route path="patreons" element={<PatreonsFull/>}/>
                 
                 <Route path="schedule" element={<Schedule/>}/>
+               
+                <Route path="papers" element={<Papers/>}/>
 
             </Routes>
 

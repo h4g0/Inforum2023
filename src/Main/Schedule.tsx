@@ -222,6 +222,8 @@ export function Schedule(props: any) {
 
             <h3 id="CPDLA1">CPDLA sessão 1 - dia 7 de setembro 13:30</h3>
             
+            <p><b>Chair:</b> Carlos Baquero</p>
+
             <p><b>Localização:</b> Auditório</p>
 
             <ul>
@@ -333,6 +335,9 @@ export function Schedule(props: any) {
 
 
             <h3 id="cpdla2">CPDLA sessão 2 - dia 8 de setembro 09:00</h3>
+
+            <p><b>Chair:</b> José D'Abruzzo Pereira</p>
+
             <p><b>Localização:</b> Auditório</p>
 
             <ul>
@@ -366,6 +371,9 @@ export function Schedule(props: any) {
 
 
             <h3 id="cpdla3">CPDLA sessão 3 - dia 8 de setembro 13:40</h3>
+
+            <p><b>Chair:</b> João Leitão</p>
+            
             <p><b>Localização:</b> Auditório</p>
 
             <ul>
