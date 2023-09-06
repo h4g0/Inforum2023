@@ -100,7 +100,7 @@ export function Schedule(props: any) {
                 </tr>
 
                 <tr>
-                    <td ><b>19:30</b></td>
+                    <td ><b>20:00</b></td>
                     <td colSpan={3}>Jantar</td>
                    
                 </tr>
