@@ -295,6 +295,15 @@ p {
     margin-bottom: 50px;
 }
 
+.Papers {
+    color: #2f4f4f;
+    margin-top: 100px;
+    font-size: 20px;
+    border-style: hidden;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
 .Previous {
     color: #2f4f4f;
     font-size: 20px;

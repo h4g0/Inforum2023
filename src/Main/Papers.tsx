@@ -4,11 +4,10 @@ import { Patreons } from './Patreons'
 
 export function Papers(props: any) {
     return <>
-        <div className="Dates">
+        <div className="Papers">
 
 
 
-            <div className="InsideIntro">
             <h1>Atas</h1>
             <p>Segue-se uma versão preliminar das Atas do décimo quarto INForum. A versão final das Atas iram sofrer alterações (a paginação poderá mudar), correções (alguns dos ficheiros submetidos no zip impedem a geração da versão final), e para os autores que não indicaram o contrário, as mesmas vão ser submetidas no arxiv (existem indicações nas que não vão ser submetidas nesta página).</p>
             <p>Caso deterem erros ou impresões devem contacar João Leitão por e-mail.</p>
@@ -129,7 +128,6 @@ export function Papers(props: any) {
           
         </div >
 
-        </div>
 
     </>
 
