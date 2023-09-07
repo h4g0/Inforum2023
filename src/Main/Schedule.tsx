@@ -332,9 +332,6 @@ export function Schedule(props: any) {
                 <li>David Morais, André Zúquete and António Mendes. Exploring the Journey from Sequential Specifications to Pure Operation-based CRDTs (sessão CPDLA) <a href="/Atas/paper_563/563-SA.pdf" target="_blank">[Sumário Alargado do Poster]</a></li>
                 <li>Adriano Oliveira, Filipe Meneses and Bruno Rebelo. Evolução de um sistema de gestão de alarmes <a href="/Atas/paper_2354/2354-CR.pdf" target="_blank">[Artigo]</a></li>
             </ul>
-            <h3 id="crc1">Pósters (sem artigo ou comunicação associada)</h3>
-            <li>Filipe Recharte, Hugo Pacheco and Carlos Baquero. Proactive Cybersecurity tailoring through deception techniques <a href="/Atas/paper_5425/5425-PT.pdf" target="_blank">[Poster]</a></li>
-            <li>Leonardo Almeida, Diogo Magalhães, Rafael Gonçalves, Emanuel Marques, Pedro Rodrigues and Mario Antunes. Model Evaluation Plataform ML/AI <a href="/Atas/paper_8679/8679-PT.pdf" target="_blank">[Poster]</a></li>
       
           
         
