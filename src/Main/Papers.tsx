@@ -51,6 +51,7 @@ export function Papers(props: any) {
                 <li>Rui Barata, Carlos Pinto and Simão Melo de Sousa. Programação com contractos no Learn-OCaml <a href="/Atas/paper_3108/3108-CM.pdf" target="_blank">[Comunicação]</a></li>
             </ul>
             <h3 id="cd1">CD sessão 1 - dia 7 de setembro 16:30</h3>
+            <p><b>Chair:</b>  João Paulo Cordeiro</p>
             <p><b>Localização:</b> sala B033</p>
             <ul>
                 <li>Vasco Cabral, Ana Matos, Paulo Borges, Luís Borda de Água and Eduardo Azevedo. Modeling the distribution of invasive species in small islands under future climates <a href="/Atas/paper_4268/4268-SA.pdf" target="_blank">[Sumário Alargado do Artigo]</a></li>

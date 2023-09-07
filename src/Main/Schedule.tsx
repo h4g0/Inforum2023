@@ -306,6 +306,7 @@ export function Schedule(props: any) {
 
 
             <h3 id="cd1">CD sessão 1  - dia 7 de setembro 16:30</h3>
+            <p><b>Chair:</b>  João Paulo Cordeiro</p>
             <p><b>Localização:</b> sala B033</p>
 
 
