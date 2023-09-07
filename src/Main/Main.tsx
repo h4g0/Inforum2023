@@ -219,11 +219,13 @@ export function Login(this: any, props: any) {
                 </div>
                 </div>
 
-                <Link to="/program">
+                {/*<Link to="/program">
 
                 <button>Artigos aceites</button>
-
+            
                 </Link>
+                */}
+                
                 <Link to="/schedule">
 
                     <button>Programa</button>
