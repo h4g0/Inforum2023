@@ -350,45 +350,46 @@ export function Schedule(props: any) {
 
 
             <h3  id="posters1"> Posters sessão 1 - dia 7 de setembro 16:00 </h3>
-
             <ul>
                 <li> Francisco Vale, João Leitão, Pedro Costa and Yiannis Psaras.Atribuição de Nomes Descentralizada: Estudo de Desempenho e Proposta de Otimização do IPNS</li>
                 <li> André Martins and Ricardo Vilaça.PerfEnerPy - Uma ferramenta para a avaliação da performance e eficiência energética de ferramentas dataframes</li>
-                <li> José Santos, André Lourenço and Tiago Dias.Reliability and Security in Wellbeing Monitoring Embedded Systems</li>
-                <li> João Ferreira, Zygimantas Jasiunas, José Cecílio and Pedro Ferreira.Real-life assessment of household appliances</li>
+                <li> José Santos, André Lourenço and Tiago Dias.Reliability and Security in Wellbeing Monitoring Embedded Systems <a href="/Posters/Reliability and Security in Wellbeing Monitoring Embedded Systems.pdf" target="_blank">[Poster]</a></li>
+                <li> João Ferreira, Zygimantas Jasiunas, José Cecílio and Pedro Ferreira.Real-life assessment of household appliances <a href="/Posters/Real-life assessment of household appliances.pdf" target="_blank">[Poster]</a></li>
                 <li> Luis Ferreira, Tiago Fonseca, Luis Miguel Pinho, Bernardo Cabral and Ricardo Severino.The Cluster-based Architecture of Ferrovia 4.0</li>
                 <li> João Bonacho, Carlos Gonçalves and Luís Osório.Agnostic Cloud Services with Kubernetes</li>
-                <li> João Oliveira, Miguel Matos and João Gonçalves.Deteção de Erros de Concorrência em Programas de Memória Persistente Utilizando Análise de Locksets</li>
+                <li> João Oliveira, Miguel Matos and João Gonçalves.Deteção de Erros de Concorrência em Programas de Memória Persistente Utilizando Análise de Locksets <a href="/Posters/Deteção de Erros de Concorrência em Programas de Memória Persistente Utilizando Análise de Locksets.pdf
+" target="_blank">[Poster]</a></li>
                 <li> André Gonçalves, Ana Nunes Alonso, José Pereira and Rui Oliveira.Uma extensão de Raft com propagação epidémica</li>
                 <li> Tomás Pedro, Alan Oliveira, João Cintra and Nuno Garcia.Aprendizagem Automática para Deteção de Embarcações</li>
             </ul>
 
             <h3 id="posters2"> Posters sessão 2 - dia 8 de setembro 11:00</h3>
-
             <ul>
                 <li> Luis Miguel Barata, Sérgio Sequeira and Eurico Lopes.Predictive Maintenance based on Log Analysis: A Systematic Review</li>
                 <li> Tomás Marques, Miguel Gonçalves, Eurico Lopes, Arminda Lopes and Luis Miguel Barata.Análise de Big Data aplicada à indústria automóvel: melhoria do design e segurança dos veículos</li>
-                <li> Valentim Romão, Rafael Soares, Vasco Manquinho and Luís Rodrigues.Deteção Automática de Anomalias em Arquiteturas de Microsserviços</li>
+                <li> Valentim Romão, Rafael Soares, Vasco Manquinho and Luís Rodrigues.Deteção Automática de Anomalias em Arquiteturas de Microsserviços <a href="/Posters/Deteção Automática de Anomalias em Arquiteturas de Microsserviços.pdf
+" target="_blank">[Poster]</a></li>
                 <li> Rodrigo Mesquita and Bernardo Toninho.Functional Program Synthesis from Linear Types</li>
                 <li> Juliane Marubayashi and Carlos Baquero.ROSES: Renaming Operations for Scalable Eventually-Consistent Sets</li>
                 <li> Vítor Fernandes, Jorge Bernardino, Vasco Pereira and Bruno Cabral.A Taxonomy for Data Reduction Techniques</li>
-                <li> Gil Silva, Andreia Mordido and Vasco T. Vasconcelos.Subtyping Context-Free Session Types</li>
+                <li> Gil Silva, Andreia Mordido and Vasco T. Vasconcelos.Subtyping Context-Free Session Types <a href="/Posters/Subtyping Context-Free Session Types.pdf" target="_blank">[Poster]</a></li>
                 <li> André Costa, Nuno Preguiça and João Lourenço.FLeeC: a Fast Lock-Free Cache</li>
-                <li> Catarina Palma and Artur Ferreira.On the use of machine learning techniques to detect malware in mobile applications</li>
+                <li> Catarina Palma and Artur Ferreira.On the use of machine learning techniques to detect malware in mobile applications <a href="/Posters/On the use of machine learning techniques to detect malware in mobile applications.pdf" target="_blank">[Poster]</a></li>
             </ul>
 
             <h3 id="posters3"> Posters sessão 3 - dia 8 de setembro 15:00</h3>
 
             <ul>
-                <li> João Queirós, Rafael Soares and Luís Rodrigues.Suporte para Coerência Causal Transacional em Sistemas de Microsserviços</li>
+                <li> João Queirós, Rafael Soares and Luís Rodrigues.Suporte para Coerência Causal Transacional em Sistemas de Microsserviços <a href="/Posters/Suporte para Coerência Causal Transacional em Sistemas de Microsserviços.pdf" target="_blank">[Poster]</a></li>
                 <li> Diogo Jesus, Nuno Preguiça and João Leitão.The Case for Generic Edge Based Services</li>
-                <li> Luís Guerra and Luís Gonçalves.Proactive Cybersecurity tailoring through deception techniques</li>
-                <li> Adriano Oliveira, Filipe Meneses and Bruno Rebelo.Evolução de um sistema de gestão de alarmes</li>
+                <li> Luís Guerra and Luís Gonçalves.Proactive Cybersecurity tailoring through deception techniques <a href="/Posters/Proactive Cybersecurity tailoring through deception techniques.pdf" target="_blank">[Poster]</a></li>
+                <li> Adriano Oliveira, Filipe Meneses and Bruno Rebelo.Evolução de um sistema de gestão de alarmes <a href="/Posters/Evolução de um sistema de gestão de  alarmes.pdf" target="_blank">[Poster]</a></li>
                 <li> Henrique Fernandes, João Gonçalves and Miguel Matos.Kaiyo: Testagem Automática de Aplicações de Memória Persistente</li>
                 <li> David Morais, André Zúquete and António Mendes.Multi-factor Authentication as a Service for Web Applications with User-based Risk Profiles</li>
                 <li> Daniel Silva, Carmen Morgado and Fernanda Barbosa.Sistema para Monitorizar Exercícios de Fisioterapia</li>
                 <li> Adriano Maior, Nuno Faria and José Pereira.MRV*: Uma biblioteca de tipos de dados para aplicações concorrentes</li>
-                <li> Rui Ribeiro, José Pereira and Nuno Faria.An Experimental Evaluation of Value Splitting in Transactional Memory Systems</li>
+                <li> Rui Ribeiro, José Pereira and Nuno Faria.An Experimental Evaluation of Value Splitting in Transactional Memory Systems <a href="/Posters/An Experimental Evaluation of Value-Splitting in Transactional Memory.pdf" target="_blank">[Poster]</a>
+</li>
             </ul>
      </div>
     </div >
