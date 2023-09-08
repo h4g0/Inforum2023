@@ -54,8 +54,9 @@ export function Keynote(props: any) {
 
                     <KeynoteP name="Pedro Saleiro" picture={pedro} afiliation="Senior Director of AI Research at Feedzai"
                             page="https://www.linkedin.com/in/saleiro/?originalSubdomain=pt"
-                            title="Mais detalhes em breve."
+                            title="Innovating from within: AI Research at Feedzai"
                             time="8 de setembro 10:00"
+                            bio="Pedro Saleiro is Senior Director of Research at Feedzai where he heads the AI research group.  Before joining Feedzai in 2019, Pedro did a postdoc in Fair Machine Learning at the University of Chicago and he was a research data scientist at the Center for Data Science and Public Policy working with Rayid Ghani. During his time at UChicago, he co-developed Aequitas, the first open-source library to audit bias and fairness of decision-making systems. Pedro holds a PhD in Machine Learning from University of Porto."
 
                             />
                             
