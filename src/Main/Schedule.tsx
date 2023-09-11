@@ -329,7 +329,7 @@ export function Schedule(props: any) {
             <p><b>Chair:</b> João Vilela</p>
             <p><b>Localização:</b> sala B033</p>
             <ul>
-                <li>David Morais, André Zúquete and António Mendes. Exploring the Journey from Sequential Specifications to Pure Operation-based CRDTs (sessão CPDLA) <a href="/Atas/paper_563/563-SA.pdf" target="_blank">[Sumário Alargado do Poster]</a></li>
+                <li>David Morais, André Zúquete and António Mendes.  Multi-factor Authentication as a Service for Web Applications with User-based Risk Profiles <a href="/Atas/paper_563/563-SA.pdf" target="_blank">[Sumário Alargado do Artigo]</a></li>
                 <li>Adriano Oliveira, Filipe Meneses and Bruno Rebelo. Evolução de um sistema de gestão de alarmes <a href="/Atas/paper_2354/2354-CR.pdf" target="_blank">[Artigo]</a></li>
             </ul>
       
