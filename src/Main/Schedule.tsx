@@ -356,7 +356,7 @@ export function Schedule(props: any) {
                 <li> José Santos, André Lourenço and Tiago Dias.Reliability and Security in Wellbeing Monitoring Embedded Systems <a href="/Posters/Reliability and Security in Wellbeing Monitoring Embedded Systems.pdf" target="_blank">[Poster]</a></li>
                 <li> João Ferreira, Zygimantas Jasiunas, José Cecílio and Pedro Ferreira.Real-life assessment of household appliances <a href="/Posters/Real-life assessment of household appliances.pdf" target="_blank">[Poster]</a></li>
                 <li> Luis Ferreira, Tiago Fonseca, Luis Miguel Pinho, Bernardo Cabral and Ricardo Severino.The Cluster-based Architecture of Ferrovia 4.0</li>
-                <li> João Bonacho, Carlos Gonçalves and Luís Osório.Agnostic Cloud Services with Kubernetes</li>
+                <li> João Bonacho, Carlos Gonçalves and Luís Osório.Agnostic Cloud Services with Kubernetes <a href="/Posters/Agnostic Cloud Services with Kubernetes.pdf" target="_blank">[Poster]</a></li>
                 <li> João Oliveira, Miguel Matos and João Gonçalves.Deteção de Erros de Concorrência em Programas de Memória Persistente Utilizando Análise de Locksets <a href="/Posters/Deteção de Erros de Concorrência em Programas de Memória Persistente Utilizando Análise de Locksets.pdf
 " target="_blank">[Poster]</a></li>
                 <li> André Gonçalves, Ana Nunes Alonso, José Pereira and Rui Oliveira.Uma extensão de Raft com propagação epidémica</li>
@@ -384,9 +384,11 @@ export function Schedule(props: any) {
                 <li> Diogo Jesus, Nuno Preguiça and João Leitão.The Case for Generic Edge Based Services</li>
                 <li> Luís Guerra and Luís Gonçalves.Proactive Cybersecurity tailoring through deception techniques <a href="/Posters/Proactive Cybersecurity tailoring through deception techniques.pdf" target="_blank">[Poster]</a></li>
                 <li> Adriano Oliveira, Filipe Meneses and Bruno Rebelo.Evolução de um sistema de gestão de alarmes <a href="/Posters/Evolução de um sistema de gestão de  alarmes.pdf" target="_blank">[Poster]</a></li>
-                <li> Henrique Fernandes, João Gonçalves and Miguel Matos.Kaiyo: Testagem Automática de Aplicações de Memória Persistente</li>
-                <li> David Morais, André Zúquete and António Mendes.Multi-factor Authentication as a Service for Web Applications with User-based Risk Profiles</li>
-                <li> Daniel Silva, Carmen Morgado and Fernanda Barbosa.Sistema para Monitorizar Exercícios de Fisioterapia</li>
+                <li> Henrique Fernandes, João Gonçalves and Miguel Matos.Kaiyo: Testagem Automática de Aplicações de Memória Persistente <a href="/Posters/Kaiyo Testagem Automática de Aplicações de Memória Persistente.pdf" target="_blank">[Poster]</a></li>
+                <li> David Morais, André Zúquete and António Mendes.Multi-factor Authentication as a Service for Web Applications with User-based Risk Profiles <a href="/Posters/Multi-Factor Authentication as a Service for Web applications with User-based Risk Profiles.pdf" target="_blank">[Poster]</a>
+</li>
+                <li> Daniel Silva, Carmen Morgado and Fernanda Barbosa.Sistema para Monitorizar Exercícios de Fisioterapia <a href="/Posters/Sistema de Monitorização de Exercícios de Fisioterapia para o Pulso.pdf
+" target="_blank">[Poster]</a></li>
                 <li> Adriano Maior, Nuno Faria and José Pereira.MRV*: Uma biblioteca de tipos de dados para aplicações concorrentes</li>
                 <li> Rui Ribeiro, José Pereira and Nuno Faria.An Experimental Evaluation of Value Splitting in Transactional Memory Systems <a href="/Posters/An Experimental Evaluation of Value-Splitting in Transactional Memory.pdf" target="_blank">[Poster]</a>
 </li>
